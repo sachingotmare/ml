@@ -69,7 +69,8 @@ function Get-AndroidSdkState {
         SdkRoot = $SdkRoot
         CmdlineTools = (& $p 'cmdline-tools\latest\bin\sdkmanager.bat')
         PlatformTools = (& $p 'platform-tools\adb.exe')
-        Platform = (& $p "platforms\android-$($Requirements.CompileSdk)")
+        Platform = ((& $p "platforms\android-$($Requirements.CompileSdk)\android.jar") -or
+            (& $p "platforms\android-$($Requirements.CompileSdk).0\android.jar"))
         BuildTools = (& $p "build-tools\$($Requirements.BuildTools)\apksigner.bat")
         Ndk = (& $p "ndk\$($Requirements.Ndk)")
         LicensesAccepted = (& $p 'licenses\android-sdk-license')
@@ -153,7 +154,9 @@ function Install-AndroidSdkPackages {
     [CmdletBinding(SupportsShouldProcess)]
     param([Parameter(Mandatory)][string]$SdkRoot, [Parameter(Mandatory)]$Requirements, [Parameter(Mandatory)][string]$JavaHome)
     $sdkmanager = Join-Path $SdkRoot 'cmdline-tools\latest\bin\sdkmanager.bat'
-    $packages = @('platform-tools', "platforms;android-$($Requirements.CompileSdk)", "build-tools;$($Requirements.BuildTools)", "ndk;$($Requirements.Ndk)")
+    $platformVersion = [string]$Requirements.CompileSdk
+    if ($Requirements.CompileSdk -ge 37) { $platformVersion += '.0' }
+    $packages = @('platform-tools', "platforms;android-$platformVersion", "build-tools;$($Requirements.BuildTools)", "ndk;$($Requirements.Ndk)")
     if (-not (Request-Approval -Action 'Install Android SDK packages' -Target $SdkRoot -Detail "Packages: $($packages -join ', '). sdkmanager will display licenses; you must answer each prompt yourself.")) { return $false }
     Invoke-WithSecretEnv -Variables @{ JAVA_HOME = $JavaHome } -ScriptBlock {
         $quotedPackages = @($packages | ForEach-Object { '"' + $_ + '"' })

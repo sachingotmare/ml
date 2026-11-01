@@ -185,14 +185,18 @@ try {
     $requirements = [pscustomobject]@{ CompileSdk = 37; BuildTools = '37.0.0'; Ndk = '27.1.12297006' }
     try { Install-AndroidSdkPackages -SdkRoot $sdkFixture -Requirements $requirements -JavaHome 'fixture'; Assert-That $false 'Incomplete SDK blocks release despite successful CLI exit and existing license' }
     catch { Assert-That ($_.Exception.Message -match 'did not provide required components') 'Incomplete SDK blocks release despite successful CLI exit and existing license' }
-    Assert-That ($script:sdkArguments -contains '"platforms;android-37"' -and $script:sdkArguments -contains '"build-tools;37.0.0"' -and $script:sdkArguments -contains '"ndk;27.1.12297006"') 'SDK semicolon package IDs retain explicit batch quotes'
+    Assert-That ($script:sdkArguments -contains '"platforms;android-37.0"' -and $script:sdkArguments -contains '"build-tools;37.0.0"' -and $script:sdkArguments -contains '"ndk;27.1.12297006"') 'SDK semicolon package IDs retain explicit batch quotes and API 37 uses its published .0 package'
     foreach ($directory in @('platform-tools', 'platforms\android-37', 'build-tools\37.0.0', 'ndk\27.1.12297006')) {
         $null = New-Item -ItemType Directory -Path (Join-Path $sdkFixture $directory) -Force
     }
-    foreach ($file in @('platform-tools\adb.exe', 'build-tools\37.0.0\apksigner.bat')) {
+    foreach ($file in @('platform-tools\adb.exe', 'build-tools\37.0.0\apksigner.bat', 'platforms\android-37\android.jar')) {
         $null = New-Item -ItemType File -Path (Join-Path $sdkFixture $file)
     }
     Assert-That (Install-AndroidSdkPackages -SdkRoot $sdkFixture -Requirements $requirements -JavaHome 'fixture') 'SDK completion requires all configured components'
+    Move-Item -LiteralPath (Join-Path $sdkFixture 'platforms\android-37') -Destination (Join-Path $sdkFixture 'platforms\android-37.0')
+    Assert-That (Get-AndroidSdkState -SdkRoot $sdkFixture -Requirements $requirements).Platform 'API 37.0 installed platform satisfies integer compileSdk 37'
+    Remove-Item -LiteralPath (Join-Path $sdkFixture 'platforms\android-37.0\android.jar')
+    Assert-That (-not (Get-AndroidSdkState -SdkRoot $sdkFixture -Requirements $requirements).Platform) 'Empty platform directory is not treated as installed'
 } finally {
     Set-Item Function:\Request-Approval -Value $savedApproval
     Set-Item Function:\Invoke-Native -Value $savedNative
