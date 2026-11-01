@@ -156,12 +156,18 @@ function Install-AndroidSdkPackages {
     $packages = @('platform-tools', "platforms;android-$($Requirements.CompileSdk)", "build-tools;$($Requirements.BuildTools)", "ndk;$($Requirements.Ndk)")
     if (-not (Request-Approval -Action 'Install Android SDK packages' -Target $SdkRoot -Detail "Packages: $($packages -join ', '). sdkmanager will display licenses; you must answer each prompt yourself.")) { return $false }
     Invoke-WithSecretEnv -Variables @{ JAVA_HOME = $JavaHome } -ScriptBlock {
-        Invoke-Native -FilePath $sdkmanager -Arguments (@("--sdk_root=$SdkRoot", '--install') + $packages) -Passthru | Out-Null
+        $quotedPackages = @($packages | ForEach-Object { '"' + $_ + '"' })
+        Invoke-Native -FilePath $sdkmanager -Arguments (@("--sdk_root=$SdkRoot", '--install') + $quotedPackages) -Passthru | Out-Null
         if (-not (Test-Path -LiteralPath (Join-Path $SdkRoot 'licenses\android-sdk-license'))) {
             Invoke-Native -FilePath $sdkmanager -Arguments @("--sdk_root=$SdkRoot", '--licenses') -Passthru | Out-Null
         }
     }
     if (-not (Test-Path -LiteralPath (Join-Path $SdkRoot 'licenses\android-sdk-license'))) { throw 'Android SDK license was not accepted; the release build cannot proceed.' }
+    $state = Get-AndroidSdkState -SdkRoot $SdkRoot -Requirements $Requirements
+    $missing = @('PlatformTools', 'Platform', 'BuildTools', 'Ndk' | Where-Object { -not $state.$_ })
+    if ($missing.Count) {
+        throw "SDK installation did not provide required components: $($missing -join ', '). Do not start the release build; inspect sdkmanager output."
+    }
     return $true
 }
 
