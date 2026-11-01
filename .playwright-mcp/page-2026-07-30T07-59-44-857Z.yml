@@ -1,0 +1,104 @@
+- generic [ref=f18e8]:
+  - complementary [ref=f18e9]:
+    - generic [ref=f18e10]:
+      - link [ref=f18e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f18e12]
+        - generic [ref=f18e13]:
+          - heading "MLab" [level=1] [ref=f18e14]
+          - paragraph [ref=f18e15]: Lab Management
+      - button "Collapse sidebar" [ref=f18e16]
+    - navigation [ref=f18e19]:
+      - link "Dashboard" [ref=f18e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f18e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f18e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f18e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f18e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f18e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f18e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f18e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f18e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f18e70] [cursor=pointer]
+      - button "System" [ref=f18e74] [cursor=pointer]
+    - paragraph [ref=f18e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f18e80]:
+    - banner [ref=f18e81]:
+      - textbox "Search patients, tests, entries..." [ref=f18e86]
+      - generic [ref=f18e87]:
+        - button [ref=f18e88]
+        - button "AU Admin User Demo Lab" [ref=f18e94]:
+          - generic [ref=f18e95]: AU
+          - generic [ref=f18e96]:
+            - paragraph [ref=f18e97]: Admin User
+            - paragraph [ref=f18e98]: Demo Lab
+    - main [ref=f18e101]:
+      - generic [ref=f18e102]:
+        - generic [ref=f18e104]:
+          - heading "Patient Entry" [level=1] [ref=f18e105]
+          - paragraph [ref=f18e106]: Search, view and manage lab registrations
+        - generic [ref=f18e109]:
+          - generic [ref=f18e110]: Search Patient Entry
+          - generic [ref=f18e113]:
+            - combobox "Search entries by voucher, patient name, code..." [ref=f18e117]
+            - button "Show all items" [ref=f18e119]
+          - button "Export" [ref=f18e233] [cursor=pointer]
+          - button "New Entry" [ref=f18e237] [cursor=pointer]
+        - generic [ref=f18e122]:
+          - generic [ref=f18e123]:
+            - heading "New Lab Entry" [level=3] [ref=f18e126]
+            - generic [ref=f18e127]:
+              - button "Cancel" [ref=f18e128] [cursor=pointer]
+              - button "Save" [ref=f18e132] [cursor=pointer]
+          - generic [ref=f18e138]:
+            - generic [ref=f18e139]:
+              - generic [ref=f18e140]: Patient *
+              - generic [ref=f18e241]:
+                - generic [ref=f18e242]:
+                  - text: Rajesh Kumar202607300001
+                  - generic [ref=f18e243]: · 35Y
+                - button [ref=f18e244]
+            - generic [ref=f18e156]:
+              - generic [ref=f18e157]: Referred By Doctor
+              - generic [ref=f18e262]:
+                - generic [ref=f18e263]: Anil Sharma
+                - button [ref=f18e264]
+            - generic [ref=f18e168]:
+              - generic [ref=f18e169]: Company Account *
+              - generic [ref=f18e170]:
+                - generic [ref=f18e171]:
+                  - combobox "Search company by name, code..." [expanded] [ref=f18e175]
+                  - button "Show all items" [active] [ref=f18e177]
+                - listbox [ref=f18e268]:
+                  - generic [ref=f18e269]:
+                    - generic [ref=f18e270]:
+                      - generic [ref=f18e271]: Code
+                      - generic [ref=f18e272]: Name
+                      - generic [ref=f18e273]: Phone
+                    - option "ZZZZZZ General Patient -" [ref=f18e274]:
+                      - generic [ref=f18e275]: ZZZZZZ
+                      - generic [ref=f18e276]: General Patient
+                      - generic [ref=f18e277]: "-"
+            - generic [ref=f18e180]:
+              - generic [ref=f18e181]:
+                - generic [ref=f18e182]: Quick Add — Health Packages
+                - generic [ref=f18e184]:
+                  - combobox "Search health packages by name or code..." [ref=f18e188]
+                  - button "Show all items" [ref=f18e190]
+              - generic [ref=f18e193]: Add Tests
+              - generic [ref=f18e195]:
+                - combobox "Search test by name, code, type..." [ref=f18e199]
+                - button "Show all items" [ref=f18e201]
+            - generic [ref=f18e204]:
+              - generic [ref=f18e205]: Overall Discount %
+              - spinbutton [ref=f18e206]: "0"
+          - generic [ref=f18e207]:
+            - button "Cancel" [ref=f18e208] [cursor=pointer]
+            - button "Save" [ref=f18e212] [cursor=pointer]

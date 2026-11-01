@@ -1,0 +1,95 @@
+- generic [active] [ref=f36e1]:
+  - generic [ref=f36e75]:
+    - complementary [ref=f36e76]:
+      - generic [ref=f36e77]:
+        - link [ref=f36e78] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MLab" [ref=f36e79]
+          - generic [ref=f36e80]:
+            - heading "MLab" [level=1] [ref=f36e81]
+            - paragraph [ref=f36e82]: Lab Management
+        - button "Collapse sidebar" [ref=f36e83]
+      - navigation [ref=f36e86]:
+        - link "Dashboard" [ref=f36e87] [cursor=pointer]:
+          - /url: /dashboard
+        - button "Main" [ref=f36e94] [cursor=pointer]
+        - link "Patient Entry" [ref=f36e98] [cursor=pointer]:
+          - /url: /lab-entries
+        - link "Sample Collections" [ref=f36e103] [cursor=pointer]:
+          - /url: /samples
+        - link "Readings" [ref=f36e108] [cursor=pointer]:
+          - /url: /readings
+        - link "Receipt Entry" [ref=f36e112] [cursor=pointer]:
+          - /url: /receipt-entry
+        - link "Payment Entry" [ref=f36e117] [cursor=pointer]:
+          - /url: /payment-entry
+        - link "Journal Entry" [ref=f36e121] [cursor=pointer]:
+          - /url: /journal-entry
+        - link "Inventory" [ref=f36e125] [cursor=pointer]:
+          - /url: /inventory
+        - button "Masters" [ref=f36e137] [cursor=pointer]
+        - button "System" [ref=f36e141] [cursor=pointer]
+      - paragraph [ref=f36e146]: v1.0.0 · .NET 8 + React
+    - generic [ref=f36e147]:
+      - banner [ref=f36e148]:
+        - textbox "Search patients, tests, entries..." [ref=f36e153]
+        - generic [ref=f36e154]:
+          - button [ref=f36e155]
+          - button "AU Admin User Demo Lab" [ref=f36e161]:
+            - generic [ref=f36e162]: AU
+            - generic [ref=f36e163]:
+              - paragraph [ref=f36e164]: Admin User
+              - paragraph [ref=f36e165]: Demo Lab
+      - main [ref=f36e168]:
+        - generic [ref=f36e169]:
+          - generic [ref=f36e170]:
+            - generic [ref=f36e171]:
+              - heading "Good Afternoon, Admin" [level=1] [ref=f36e172]
+              - paragraph [ref=f36e173]: Here's what's happening in your lab today
+            - generic [ref=f36e174]:
+              - paragraph [ref=f36e175]: Thursday, 30 July 2026
+              - paragraph [ref=f36e176]: Demo Lab
+          - generic [ref=f36e177]:
+            - generic [ref=f36e178]:
+              - paragraph [ref=f36e187]: Today's Entries
+              - paragraph [ref=f36e188]: "0"
+            - generic [ref=f36e189]:
+              - paragraph [ref=f36e199]: Today's Revenue
+              - paragraph [ref=f36e200]: ₹0
+            - generic [ref=f36e201]:
+              - paragraph [ref=f36e211]: Pending Readings
+              - paragraph [ref=f36e212]: "0"
+            - generic [ref=f36e213]:
+              - paragraph [ref=f36e225]: Total Patients Today
+              - paragraph [ref=f36e226]: "0"
+          - generic [ref=f36e227]:
+            - generic [ref=f36e228]:
+              - generic [ref=f36e230]:
+                - heading "Top Tests" [level=3] [ref=f36e231]
+                - paragraph [ref=f36e232]: Most performed this month
+              - generic [ref=f36e236]: No test data available yet
+            - generic [ref=f36e238]:
+              - generic [ref=f36e240]:
+                - heading "Revenue Split" [level=3] [ref=f36e241]
+                - paragraph [ref=f36e242]: Top tests by revenue
+              - generic [ref=f36e245]: No revenue data yet
+          - generic [ref=f36e247]:
+            - generic [ref=f36e249]:
+              - heading "Recent Entries" [level=3] [ref=f36e250]
+              - paragraph [ref=f36e251]: Latest lab registrations
+            - table [ref=f36e257]:
+              - rowgroup [ref=f36e258]:
+                - row [ref=f36e259]:
+                  - columnheader "Voucher No" [ref=f36e260]
+                  - columnheader "Patient" [ref=f36e261]
+                  - columnheader "Date" [ref=f36e262]
+                  - columnheader "Amount" [ref=f36e263]
+                  - columnheader "Status" [ref=f36e264]
+                  - columnheader "Actions" [ref=f36e265]
+              - rowgroup [ref=f36e266]:
+                - row [ref=f36e267]:
+                  - cell "No entries found. Start by creating a new lab entry." [ref=f36e268]
+  - iframe [ref=f36e73]:
+    - generic [ref=f37e6]:
+      - text: protected by
+      - strong [ref=f37e7]: reCAPTCHA

@@ -1,0 +1,97 @@
+- generic [ref=f29e8]:
+  - complementary [ref=f29e9]:
+    - generic [ref=f29e10]:
+      - link [ref=f29e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f29e12]
+        - generic [ref=f29e13]:
+          - heading "MLab" [level=1] [ref=f29e14]
+          - paragraph [ref=f29e15]: Lab Management
+      - button "Collapse sidebar" [ref=f29e16]
+    - navigation [ref=f29e19]:
+      - link "Dashboard" [ref=f29e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f29e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f29e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f29e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f29e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f29e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f29e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f29e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f29e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f29e70] [cursor=pointer]
+      - button "System" [ref=f29e74] [cursor=pointer]
+    - paragraph [ref=f29e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f29e80]:
+    - banner [ref=f29e81]:
+      - textbox "Search patients, tests, entries..." [ref=f29e86]: Rajesh
+      - generic [ref=f29e87]:
+        - button [ref=f29e88]
+        - generic [ref=f29e93]:
+          - button "AU Admin User Demo Lab" [active] [ref=f29e94]:
+            - generic [ref=f29e95]: AU
+            - generic [ref=f29e96]:
+              - paragraph [ref=f29e97]: Admin User
+              - paragraph [ref=f29e98]: Demo Lab
+          - generic [ref=f29e202]:
+            - generic [ref=f29e203]:
+              - paragraph [ref=f29e204]: Admin User
+              - paragraph [ref=f29e205]: Demo Lab
+            - button "Profile & Settings" [ref=f29e206]
+            - button "Sign Out" [ref=f29e210]
+    - main [ref=f29e101]:
+      - generic [ref=f29e102]:
+        - generic [ref=f29e103]:
+          - generic [ref=f29e104]:
+            - heading "Good Afternoon, Admin" [level=1] [ref=f29e105]
+            - paragraph [ref=f29e106]: Here's what's happening in your lab today
+          - generic [ref=f29e107]:
+            - paragraph [ref=f29e108]: Thursday, 30 July 2026
+            - paragraph [ref=f29e109]: Demo Lab
+        - generic [ref=f29e110]:
+          - generic [ref=f29e111]:
+            - paragraph [ref=f29e120]: Today's Entries
+            - paragraph [ref=f29e121]: "0"
+          - generic [ref=f29e122]:
+            - paragraph [ref=f29e132]: Today's Revenue
+            - paragraph [ref=f29e133]: ₹0
+          - generic [ref=f29e134]:
+            - paragraph [ref=f29e144]: Pending Readings
+            - paragraph [ref=f29e145]: "0"
+          - generic [ref=f29e146]:
+            - paragraph [ref=f29e158]: Total Patients Today
+            - paragraph [ref=f29e159]: "0"
+        - generic [ref=f29e160]:
+          - generic [ref=f29e161]:
+            - generic [ref=f29e163]:
+              - heading "Top Tests" [level=3] [ref=f29e164]
+              - paragraph [ref=f29e165]: Most performed this month
+            - generic [ref=f29e169]: No test data available yet
+          - generic [ref=f29e171]:
+            - generic [ref=f29e173]:
+              - heading "Revenue Split" [level=3] [ref=f29e174]
+              - paragraph [ref=f29e175]: Top tests by revenue
+            - generic [ref=f29e178]: No revenue data yet
+        - generic [ref=f29e180]:
+          - generic [ref=f29e182]:
+            - heading "Recent Entries" [level=3] [ref=f29e183]
+            - paragraph [ref=f29e184]: Latest lab registrations
+          - table [ref=f29e190]:
+            - rowgroup [ref=f29e191]:
+              - row [ref=f29e192]:
+                - columnheader "Voucher No" [ref=f29e193]
+                - columnheader "Patient" [ref=f29e194]
+                - columnheader "Date" [ref=f29e195]
+                - columnheader "Amount" [ref=f29e196]
+                - columnheader "Status" [ref=f29e197]
+                - columnheader "Actions" [ref=f29e198]
+            - rowgroup [ref=f29e199]:
+              - row [ref=f29e200]:
+                - cell "No entries found. Start by creating a new lab entry." [ref=f29e201]

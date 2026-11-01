@@ -1,0 +1,75 @@
+- generic [ref=f23e8]:
+  - complementary [ref=f23e9]:
+    - generic [ref=f23e10]:
+      - link [ref=f23e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f23e12]
+        - generic [ref=f23e13]:
+          - heading "MLab" [level=1] [ref=f23e14]
+          - paragraph [ref=f23e15]: Lab Management
+      - button "Collapse sidebar" [ref=f23e16]
+    - navigation [ref=f23e19]:
+      - link "Dashboard" [ref=f23e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f23e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f23e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f23e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f23e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f23e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f23e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f23e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f23e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f23e70] [cursor=pointer]
+      - button "System" [ref=f23e74] [cursor=pointer]
+    - paragraph [ref=f23e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f23e80]:
+    - banner [ref=f23e81]:
+      - textbox "Search patients, tests, entries..." [ref=f23e86]
+      - generic [ref=f23e87]:
+        - button [ref=f23e88]
+        - button "AU Admin User Demo Lab" [ref=f23e94]:
+          - generic [ref=f23e95]: AU
+          - generic [ref=f23e96]:
+            - paragraph [ref=f23e97]: Admin User
+            - paragraph [ref=f23e98]: Demo Lab
+    - main [ref=f23e101]:
+      - generic [ref=f23e102]:
+        - generic [ref=f23e104]:
+          - heading "Inventory Management" [level=1] [ref=f23e105]
+          - paragraph [ref=f23e106]: Manage items, purchases, usage, and stock levels
+        - generic [ref=f23e107]:
+          - button "Overview" [ref=f23e108]
+          - button "Items" [active] [ref=f23e111]
+          - button "Purchases" [ref=f23e116]
+          - button "Usage" [ref=f23e121]
+          - button "Stock" [ref=f23e125]
+        - generic [ref=f23e137]:
+          - generic [ref=f23e138]:
+            - heading "Item Master" [level=2] [ref=f23e139]
+            - button "Add Item" [ref=f23e140]
+          - generic [ref=f23e142]:
+            - textbox "Search items..." [ref=f23e147]
+            - combobox [ref=f23e148]:
+              - option "All Categories" [selected]
+          - table [ref=f23e150]:
+            - rowgroup [ref=f23e151]:
+              - row [ref=f23e152]:
+                - columnheader "Code" [ref=f23e153]
+                - columnheader "Name" [ref=f23e154]
+                - columnheader "Category" [ref=f23e155]
+                - columnheader "Unit" [ref=f23e156]
+                - columnheader "Rate" [ref=f23e157]
+                - columnheader "Stock" [ref=f23e158]
+                - columnheader "Min Alert" [ref=f23e159]
+                - columnheader "Status" [ref=f23e160]
+                - columnheader "Actions" [ref=f23e161]
+            - rowgroup [ref=f23e162]:
+              - row [ref=f23e163]:
+                - cell "No items found" [ref=f23e164]

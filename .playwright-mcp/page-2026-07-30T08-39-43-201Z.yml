@@ -1,0 +1,140 @@
+- generic [ref=f41e2]:
+  - generic [ref=f41e276]:
+    - generic [ref=f41e277]: ℹ️
+    - status [ref=f41e278]: No changes detected.
+  - generic [ref=f41e8]:
+    - complementary [ref=f41e9]:
+      - generic [ref=f41e10]:
+        - link [ref=f41e11] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MLab" [ref=f41e12]
+          - generic [ref=f41e13]:
+            - heading "MLab" [level=1] [ref=f41e14]
+            - paragraph [ref=f41e15]: Lab Management
+        - button "Collapse sidebar" [ref=f41e16]
+      - navigation [ref=f41e19]:
+        - link "Dashboard" [ref=f41e20] [cursor=pointer]:
+          - /url: /dashboard
+        - button "Main" [ref=f41e27] [cursor=pointer]
+        - link "Patient Entry" [ref=f41e31] [cursor=pointer]:
+          - /url: /lab-entries
+        - link "Sample Collections" [ref=f41e36] [cursor=pointer]:
+          - /url: /samples
+        - link "Readings" [ref=f41e41] [cursor=pointer]:
+          - /url: /readings
+        - link "Receipt Entry" [ref=f41e45] [cursor=pointer]:
+          - /url: /receipt-entry
+        - link "Payment Entry" [ref=f41e50] [cursor=pointer]:
+          - /url: /payment-entry
+        - link "Journal Entry" [ref=f41e54] [cursor=pointer]:
+          - /url: /journal-entry
+        - link "Inventory" [ref=f41e58] [cursor=pointer]:
+          - /url: /inventory
+        - button "Masters" [ref=f41e70] [cursor=pointer]
+        - link "Patients" [ref=f41e220] [cursor=pointer]:
+          - /url: /patients
+        - link "Accounts" [ref=f41e227] [cursor=pointer]:
+          - /url: /accounts
+        - link "Tests" [ref=f41e231] [cursor=pointer]:
+          - /url: /tests
+        - link "General Master" [ref=f41e235] [cursor=pointer]:
+          - /url: /general-master
+        - link "Rates" [ref=f41e241] [cursor=pointer]:
+          - /url: /rates
+        - link "Packages" [ref=f41e245] [cursor=pointer]:
+          - /url: /packages
+        - link "Doctors" [ref=f41e251] [cursor=pointer]:
+          - /url: /doctors
+        - link "Appointments" [ref=f41e257] [cursor=pointer]:
+          - /url: /appointments
+        - button "System" [ref=f41e74] [cursor=pointer]
+      - paragraph [ref=f41e79]: v1.0.0 · .NET 8 + React
+    - generic [ref=f41e80]:
+      - banner [ref=f41e81]:
+        - textbox "Search patients, tests, entries..." [ref=f41e86]: Priya
+        - generic [ref=f41e87]:
+          - button [ref=f41e88]
+          - button "AU Admin User Demo Lab" [ref=f41e94]:
+            - generic [ref=f41e95]: AU
+            - generic [ref=f41e96]:
+              - paragraph [ref=f41e97]: Admin User
+              - paragraph [ref=f41e98]: Demo Lab
+      - main [ref=f41e101]:
+        - generic [ref=f41e102]:
+          - generic [ref=f41e104]:
+            - heading "Patients" [level=1] [ref=f41e105]
+            - paragraph [ref=f41e106]: Search, view and manage patient records
+          - generic [ref=f41e109]:
+            - generic [ref=f41e110]: Search Patients
+            - generic [ref=f41e113]:
+              - combobox "Search patients by name, code, whatsapp, or mobile..." [ref=f41e117]
+              - button "Show all items" [ref=f41e119]
+            - button "New Patient" [ref=f41e191] [cursor=pointer]
+            - button "Export" [ref=f41e195] [cursor=pointer]
+          - generic [ref=f41e122]:
+            - generic [ref=f41e123]:
+              - heading "New Patient" [level=3] [ref=f41e126]
+              - generic [ref=f41e127]:
+                - button "Cancel" [ref=f41e128] [cursor=pointer]
+                - button "Save" [ref=f41e132] [cursor=pointer]
+            - generic [ref=f41e138]:
+              - generic [ref=f41e139]:
+                - generic [ref=f41e140]: Full Name
+                - textbox "Patient full name" [ref=f41e141]: Priya Mehta
+              - generic [ref=f41e142]:
+                - generic [ref=f41e143]: Title
+                - combobox [ref=f41e144]:
+                  - option "Mr"
+                  - option "Mrs" [selected]
+                  - option "Miss"
+                  - option "Dr"
+                  - option "Master"
+                  - option "Baby"
+                  - option "Baby of"
+              - generic [ref=f41e145]:
+                - generic [ref=f41e146]: Gender
+                - combobox [disabled] [ref=f41e147]:
+                  - option "Male"
+                  - option "Female" [selected]
+                  - option "Other"
+              - generic [ref=f41e148]:
+                - generic [ref=f41e149]: Age
+                - generic [ref=f41e150]:
+                  - spinbutton [ref=f41e151]: "32"
+                  - combobox [ref=f41e152]:
+                    - option "Years" [selected]
+                    - option "Months"
+                    - option "Days"
+              - generic [ref=f41e153]:
+                - generic [ref=f41e154]: Blood Group
+                - combobox [ref=f41e155]:
+                  - option "Select"
+                  - option "A+"
+                  - option "A-"
+                  - option "B+" [selected]
+                  - option "B-"
+                  - option "AB+"
+                  - option "AB-"
+                  - option "O+"
+                  - option "O-"
+              - generic [ref=f41e156]:
+                - generic [ref=f41e157]: Mobile
+                - textbox "Mobile number" [ref=f41e161]: "9876543210"
+              - generic [ref=f41e162]:
+                - generic [ref=f41e163]: WhatsApp
+                - textbox "WhatsApp number" [ref=f41e164]: "9876543210"
+              - generic [ref=f41e165]:
+                - generic [ref=f41e166]: Email
+                - textbox "email@example.com" [ref=f41e167]: priya.mehta@test.com
+              - generic [ref=f41e168]:
+                - generic [ref=f41e169]: Address
+                - textbox "Full address" [ref=f41e174]: 45 MG Road, Pune
+              - generic [ref=f41e175]:
+                - generic [ref=f41e176]: City
+                - textbox "City" [ref=f41e177]: Pune
+              - generic [ref=f41e178]:
+                - generic [ref=f41e179]: Medical History
+                - textbox "Any relevant medical history..." [ref=f41e180]: Diabetes Type 2
+            - generic [ref=f41e181]:
+              - button "Cancel" [ref=f41e182] [cursor=pointer]
+              - button "Save" [active] [ref=f41e186] [cursor=pointer]

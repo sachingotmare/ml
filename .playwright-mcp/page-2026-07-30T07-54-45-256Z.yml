@@ -1,0 +1,128 @@
+- generic [ref=f16e2]:
+  - status [ref=f16e239]: Doctor created
+  - generic [ref=f16e8]:
+    - complementary [ref=f16e9]:
+      - generic [ref=f16e10]:
+        - link [ref=f16e11] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MLab" [ref=f16e12]
+          - generic [ref=f16e13]:
+            - heading "MLab" [level=1] [ref=f16e14]
+            - paragraph [ref=f16e15]: Lab Management
+        - button "Collapse sidebar" [ref=f16e16]
+      - navigation [ref=f16e19]:
+        - link "Dashboard" [ref=f16e20] [cursor=pointer]:
+          - /url: /dashboard
+        - button "Main" [ref=f16e27] [cursor=pointer]
+        - link "Patient Entry" [ref=f16e31] [cursor=pointer]:
+          - /url: /lab-entries
+        - link "Sample Collections" [ref=f16e36] [cursor=pointer]:
+          - /url: /samples
+        - link "Readings" [ref=f16e41] [cursor=pointer]:
+          - /url: /readings
+        - link "Receipt Entry" [ref=f16e45] [cursor=pointer]:
+          - /url: /receipt-entry
+        - link "Payment Entry" [ref=f16e50] [cursor=pointer]:
+          - /url: /payment-entry
+        - link "Journal Entry" [ref=f16e54] [cursor=pointer]:
+          - /url: /journal-entry
+        - link "Inventory" [ref=f16e58] [cursor=pointer]:
+          - /url: /inventory
+        - button "Masters" [ref=f16e70] [cursor=pointer]
+        - link "Patients" [ref=f16e74] [cursor=pointer]:
+          - /url: /patients
+        - link "Accounts" [ref=f16e81] [cursor=pointer]:
+          - /url: /accounts
+        - link "Tests" [ref=f16e85] [cursor=pointer]:
+          - /url: /tests
+        - link "General Master" [ref=f16e89] [cursor=pointer]:
+          - /url: /general-master
+        - link "Rates" [ref=f16e95] [cursor=pointer]:
+          - /url: /rates
+        - link "Packages" [ref=f16e99] [cursor=pointer]:
+          - /url: /packages
+        - link "Doctors" [ref=f16e105] [cursor=pointer]:
+          - /url: /doctors
+        - link "Appointments" [ref=f16e111] [cursor=pointer]:
+          - /url: /appointments
+        - button "System" [ref=f16e115] [cursor=pointer]
+      - paragraph [ref=f16e120]: v1.0.0 · .NET 8 + React
+    - generic [ref=f16e121]:
+      - banner [ref=f16e122]:
+        - textbox "Search patients, tests, entries..." [ref=f16e127]
+        - generic [ref=f16e128]:
+          - button [ref=f16e129]
+          - button "AU Admin User Demo Lab" [ref=f16e135]:
+            - generic [ref=f16e136]: AU
+            - generic [ref=f16e137]:
+              - paragraph [ref=f16e138]: Admin User
+              - paragraph [ref=f16e139]: Demo Lab
+      - main [ref=f16e142]:
+        - generic [ref=f16e143]:
+          - generic [ref=f16e145]:
+            - heading "Doctors" [level=1] [ref=f16e146]
+            - paragraph [ref=f16e147]: Search, view and manage doctor profiles
+          - generic [ref=f16e150]:
+            - generic [ref=f16e151]: Search Doctors
+            - generic [ref=f16e154]:
+              - combobox "Search doctors by name, code, specialization..." [ref=f16e158]: Anil Sharma
+              - generic [ref=f16e159]:
+                - button "Clear" [ref=f16e240]
+                - button "Show all items" [ref=f16e160]
+            - button "New Doctor" [ref=f16e163] [cursor=pointer]
+          - generic [ref=f16e168]:
+            - generic [ref=f16e169]:
+              - generic [ref=f16e171]:
+                - heading "Dr Anil Sharma (ANI001)" [level=3] [ref=f16e248]
+                - paragraph [ref=f16e249]: Pathology · 9988776655
+                - paragraph [ref=f16e250]: Read-only mode
+              - generic [ref=f16e173]:
+                - button "Delete" [ref=f16e251] [cursor=pointer]
+                - button "Modify" [ref=f16e255] [cursor=pointer]
+            - generic [ref=f16e184]:
+              - generic [ref=f16e185]:
+                - generic [ref=f16e186]: Title
+                - combobox [disabled] [ref=f16e187]:
+                  - option "Dr" [selected]
+                  - option "Mr"
+                  - option "Mrs"
+                  - option "Miss"
+              - generic [ref=f16e188]:
+                - generic [ref=f16e189]: Name
+                - textbox "Doctor name" [disabled] [ref=f16e190]: Anil Sharma
+              - generic [ref=f16e191]:
+                - generic [ref=f16e192]: Type
+                - combobox [disabled] [ref=f16e193]:
+                  - option "Referral" [selected]
+                  - option "Internal"
+                  - option "Both"
+              - generic [ref=f16e194]:
+                - generic [ref=f16e195]: Department(s)
+                - generic [ref=f16e196]: Select departments...
+              - generic [ref=f16e199]:
+                - generic [ref=f16e200]: Category(s)
+                - generic [ref=f16e201]: Select departments first...
+              - generic [ref=f16e204]:
+                - generic [ref=f16e205]: Designation
+                - textbox "e.g. Sr. Consultant" [disabled] [ref=f16e206]: Sr. Consultant
+              - generic [ref=f16e207]:
+                - generic [ref=f16e208]: Specialization
+                - textbox "e.g. Cardiology" [disabled] [ref=f16e209]: Pathology
+              - generic [ref=f16e210]:
+                - generic [ref=f16e211]: Qualification *
+                - textbox "e.g. MBBS, MD" [disabled] [ref=f16e212]: MBBS, MD
+              - generic [ref=f16e213]:
+                - generic [ref=f16e214]: Mobile
+                - textbox "Mobile" [disabled] [ref=f16e218]: "9988776655"
+              - generic [ref=f16e219]:
+                - generic [ref=f16e220]: Phone
+                - textbox "Landline" [disabled] [ref=f16e221]
+              - generic [ref=f16e222]:
+                - generic [ref=f16e223]: Visit Charges
+                - spinbutton [disabled] [ref=f16e224]: "500"
+              - generic [ref=f16e225]:
+                - generic [ref=f16e226]: Commission %
+                - spinbutton [disabled] [ref=f16e227]: "10"
+              - generic [ref=f16e228]:
+                - generic [ref=f16e229]: Signature Image
+                - paragraph [ref=f16e258]: No signature uploaded

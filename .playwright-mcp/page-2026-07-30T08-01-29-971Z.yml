@@ -1,0 +1,145 @@
+- generic [ref=f18e8]:
+  - complementary [ref=f18e9]:
+    - generic [ref=f18e10]:
+      - link [ref=f18e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f18e12]
+        - generic [ref=f18e13]:
+          - heading "MLab" [level=1] [ref=f18e14]
+          - paragraph [ref=f18e15]: Lab Management
+      - button "Collapse sidebar" [ref=f18e16]
+    - navigation [ref=f18e19]:
+      - link "Dashboard" [ref=f18e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f18e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f18e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f18e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f18e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f18e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f18e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f18e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f18e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f18e70] [cursor=pointer]
+      - button "System" [ref=f18e74] [cursor=pointer]
+    - paragraph [ref=f18e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f18e80]:
+    - banner [ref=f18e81]:
+      - textbox "Search patients, tests, entries..." [ref=f18e86]
+      - generic [ref=f18e87]:
+        - button [ref=f18e88]
+        - button "AU Admin User Demo Lab" [ref=f18e94]:
+          - generic [ref=f18e95]: AU
+          - generic [ref=f18e96]:
+            - paragraph [ref=f18e97]: Admin User
+            - paragraph [ref=f18e98]: Demo Lab
+    - main [ref=f18e101]:
+      - generic [ref=f18e502]:
+        - generic [ref=f18e504]:
+          - heading "Readings" [level=1] [ref=f18e505]
+          - paragraph [ref=f18e506]: Search, view and manage test readings
+        - generic [ref=f18e509]:
+          - generic [ref=f18e510]: Search Readings
+          - generic [ref=f18e513]:
+            - combobox "Search readings by voucher, ref voucher, patient name..." [ref=f18e517]
+            - button "Show all items" [ref=f18e519]
+          - button "New Reading" [ref=f18e522] [cursor=pointer]
+        - generic [ref=f18e525]:
+          - generic [ref=f18e526]:
+            - heading "New Reading" [level=3] [ref=f18e529]
+            - generic [ref=f18e530]:
+              - button "Cancel" [ref=f18e531] [cursor=pointer]
+              - button "Save" [ref=f18e535] [cursor=pointer]
+          - generic [ref=f18e541]:
+            - generic [ref=f18e542]:
+              - generic [ref=f18e543]: Select Lab Entry *
+              - generic [ref=f18e544]:
+                - generic [ref=f18e545]:
+                  - text: PE26G300001Rajesh Kumar
+                  - generic [ref=f18e546]: 2 tests
+                - button [ref=f18e547]
+            - generic [ref=f18e551]:
+              - generic [ref=f18e552]: Reading Progress
+              - generic [ref=f18e557]:
+                - generic [ref=f18e558]: Departments
+                - generic [ref=f18e559]: "1"
+              - generic [ref=f18e561]:
+                - generic [ref=f18e562]: Total Tests
+                - generic [ref=f18e563]: "2"
+            - generic [ref=f18e567]:
+              - generic [ref=f18e569]:
+                - heading "Departments" [level=4] [ref=f18e571]
+                - button "Pathology 2" [ref=f18e572]:
+                  - generic [ref=f18e573]:
+                    - generic [ref=f18e574]: Pathology
+                    - generic [ref=f18e577]: "2"
+              - generic [ref=f18e582]:
+                - generic [ref=f18e583]:
+                  - generic [ref=f18e588]:
+                    - heading "Pathology" [level=4] [ref=f18e589]
+                    - paragraph [ref=f18e590]: 2 tests in this department
+                  - button "Save Department" [ref=f18e591]
+                - generic [ref=f18e596]:
+                  - generic [ref=f18e597]: "Signing Doctor:"
+                  - generic [ref=f18e603]: Select doctors...
+                - generic [ref=f18e607]:
+                  - generic [ref=f18e608]:
+                    - generic [ref=f18e609] [cursor=pointer]:
+                      - generic [ref=f18e610]:
+                        - generic [ref=f18e611]:
+                          - generic [ref=f18e612]: Complete Blood Count (CBC) - Hemoglobin
+                          - generic [ref=f18e613]: SDHGB01
+                          - generic [ref=f18e614]: (g/dL)
+                        - paragraph [ref=f18e615]: "Normal: 13.0 - 17.0"
+                      - generic [ref=f18e616]: Pending
+                    - generic [ref=f18e620]:
+                      - generic [ref=f18e621]:
+                        - generic [ref=f18e622]:
+                          - text: Result
+                          - generic [ref=f18e623]: (g/dL)
+                        - textbox "Enter result..." [ref=f18e624]
+                      - generic [ref=f18e625]:
+                        - generic [ref=f18e626]: Suggestion / Remark
+                        - textbox "Enter clinical suggestion..." [ref=f18e627]
+                  - generic [ref=f18e628]:
+                    - generic [ref=f18e629] [cursor=pointer]:
+                      - generic [ref=f18e630]:
+                        - generic [ref=f18e631]:
+                          - generic [ref=f18e632]: Diabetes - Blood Glucose Fasting
+                          - generic [ref=f18e633]: SDGLF01
+                          - generic [ref=f18e634]: (mg/dL)
+                        - paragraph [ref=f18e635]: "Normal: 70 - 100"
+                      - generic [ref=f18e636]: Pending
+                    - generic [ref=f18e640]:
+                      - generic [ref=f18e641]:
+                        - generic [ref=f18e642]:
+                          - text: Result
+                          - generic [ref=f18e643]: (mg/dL)
+                        - textbox "Enter result..." [active] [ref=f18e644]
+                      - generic [ref=f18e645]:
+                        - generic [ref=f18e646]: Suggestion / Remark
+                        - textbox "Enter clinical suggestion..." [ref=f18e647]
+            - generic [ref=f18e648]:
+              - generic [ref=f18e649]: Remarks
+              - textbox "Type your remarks here, or use AI suggestions below…" [ref=f18e650]
+              - generic [ref=f18e651]:
+                - generic [ref=f18e652]:
+                  - generic [ref=f18e653]:
+                    - generic [ref=f18e657]: AI Remark Suggestion
+                    - generic [ref=f18e658]: —
+                  - generic [ref=f18e659]:
+                    - button "+ Notes" [ref=f18e660]
+                    - button "Get AI Suggestion" [ref=f18e661]
+                - generic [ref=f18e667]:
+                  - text: Enter test results or click
+                  - strong [ref=f18e668]: Get AI Suggestion
+                  - text: above to generate.
+          - generic [ref=f18e669]:
+            - button "Cancel" [ref=f18e670] [cursor=pointer]
+            - button "Save" [ref=f18e674] [cursor=pointer]

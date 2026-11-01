@@ -1,0 +1,93 @@
+- generic [ref=f44e8]:
+  - complementary [ref=f44e9]:
+    - generic [ref=f44e10]:
+      - link [ref=f44e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f44e12]
+        - generic [ref=f44e13]:
+          - heading "MLab" [level=1] [ref=f44e14]
+          - paragraph [ref=f44e15]: Lab Management
+      - button "Collapse sidebar" [ref=f44e16]
+    - navigation [ref=f44e19]:
+      - link "Dashboard" [ref=f44e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f44e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f44e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f44e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f44e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f44e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f44e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f44e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f44e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f44e70] [cursor=pointer]
+      - button "System" [ref=f44e74] [cursor=pointer]
+    - paragraph [ref=f44e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f44e80]:
+    - banner [ref=f44e81]:
+      - textbox "Search patients, tests, entries..." [ref=f44e86]
+      - generic [ref=f44e87]:
+        - button [ref=f44e88]
+        - button "AU Admin User Demo Lab" [ref=f44e94]:
+          - generic [ref=f44e95]: AU
+          - generic [ref=f44e96]:
+            - paragraph [ref=f44e97]: Admin User
+            - paragraph [ref=f44e98]: Demo Lab
+    - main [ref=f44e101]:
+      - generic [ref=f44e102]:
+        - generic [ref=f44e104]:
+          - heading "Patient Entry" [level=1] [ref=f44e105]
+          - paragraph [ref=f44e106]: Search, view and manage lab registrations
+        - generic [ref=f44e109]:
+          - generic [ref=f44e110]: Search Patient Entry
+          - generic [ref=f44e113]:
+            - combobox "Search entries by voucher, patient name, code..." [ref=f44e117]
+            - button "Show all items" [ref=f44e119]
+          - button "Export" [ref=f44e233] [cursor=pointer]
+          - button "New Entry" [ref=f44e237] [cursor=pointer]
+        - generic [ref=f44e122]:
+          - generic [ref=f44e123]:
+            - heading "New Lab Entry" [level=3] [ref=f44e126]
+            - generic [ref=f44e127]:
+              - button "Cancel" [ref=f44e128] [cursor=pointer]
+              - button "Save" [ref=f44e132] [cursor=pointer]
+          - generic [ref=f44e138]:
+            - generic [ref=f44e139]:
+              - generic [ref=f44e140]: Patient *
+              - generic [ref=f44e241]:
+                - generic [ref=f44e242]:
+                  - text: Priya Mehta202607300002
+                  - generic [ref=f44e243]: · 32Y
+                - button [ref=f44e244]
+            - generic [ref=f44e156]:
+              - generic [ref=f44e157]: Referred By Doctor
+              - generic [ref=f44e252]:
+                - generic [ref=f44e253]: Sunita Rao
+                - button [ref=f44e254]
+            - generic [ref=f44e168]:
+              - generic [ref=f44e169]: Company Account *
+              - generic [ref=f44e171]:
+                - combobox "Search company by name, code..." [ref=f44e175]
+                - button "Show all items" [ref=f44e177]
+            - generic [ref=f44e180]:
+              - generic [ref=f44e181]:
+                - generic [ref=f44e182]: Quick Add — Health Packages
+                - generic [ref=f44e184]:
+                  - combobox "Search health packages by name or code..." [ref=f44e188]
+                  - button "Show all items" [ref=f44e190]
+              - generic [ref=f44e193]: Add Tests
+              - generic [ref=f44e195]:
+                - combobox "Search test by name, code, type..." [ref=f44e199]
+                - button "Show all items" [ref=f44e201]
+            - generic [ref=f44e204]:
+              - generic [ref=f44e205]: Overall Discount %
+              - spinbutton [ref=f44e206]: "0"
+          - generic [ref=f44e207]:
+            - button "Cancel" [ref=f44e208] [cursor=pointer]
+            - button "Save" [ref=f44e212] [cursor=pointer]

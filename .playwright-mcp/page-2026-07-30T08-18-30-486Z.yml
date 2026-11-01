@@ -1,0 +1,127 @@
+- generic [ref=f35e8]:
+  - complementary [ref=f35e9]:
+    - generic [ref=f35e10]:
+      - link [ref=f35e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f35e12]
+        - generic [ref=f35e13]:
+          - heading "MLab" [level=1] [ref=f35e14]
+          - paragraph [ref=f35e15]: Lab Management
+      - button "Collapse sidebar" [ref=f35e16]
+    - navigation [ref=f35e19]:
+      - link "Dashboard" [ref=f35e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f35e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f35e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f35e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f35e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f35e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f35e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f35e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f35e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f35e70] [cursor=pointer]
+      - button "System" [ref=f35e74] [cursor=pointer]
+    - paragraph [ref=f35e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f35e80]:
+    - banner [ref=f35e81]:
+      - textbox "Search patients, tests, entries..." [ref=f35e86]
+      - generic [ref=f35e87]:
+        - button [ref=f35e88]
+        - button "AU Admin User Demo Lab" [ref=f35e94]:
+          - generic [ref=f35e95]: AU
+          - generic [ref=f35e96]:
+            - paragraph [ref=f35e97]: Admin User
+            - paragraph [ref=f35e98]: Demo Lab
+    - main [ref=f35e101]:
+      - generic [ref=f35e102]:
+        - generic [ref=f35e104]:
+          - heading "Inventory Management" [level=1] [ref=f35e105]
+          - paragraph [ref=f35e106]: Manage items, purchases, usage, and stock levels
+        - generic [ref=f35e107]:
+          - button "Overview" [ref=f35e108]
+          - button "Items" [ref=f35e111]
+          - button "Purchases" [ref=f35e116]
+          - button "Usage" [ref=f35e121]
+          - button "Stock" [ref=f35e125]
+        - generic [ref=f35e137]:
+          - generic [ref=f35e138]:
+            - heading "Purchase Records" [level=2] [ref=f35e139]
+            - button "New Purchase" [active] [ref=f35e140]
+          - textbox "Search by purchase number or supplier..." [ref=f35e146]
+          - table [ref=f35e148]:
+            - rowgroup [ref=f35e149]:
+              - row [ref=f35e150]:
+                - columnheader "Purchase No" [ref=f35e151]
+                - columnheader "Date" [ref=f35e152]
+                - columnheader "Supplier" [ref=f35e153]
+                - columnheader "Total Qty" [ref=f35e154]
+                - columnheader "Total" [ref=f35e155]
+                - columnheader "Discount" [ref=f35e156]
+                - columnheader "Net" [ref=f35e157]
+                - columnheader "Paid" [ref=f35e158]
+                - columnheader "Actions" [ref=f35e159]
+            - rowgroup [ref=f35e160]:
+              - row [ref=f35e161]:
+                - cell "No purchases recorded" [ref=f35e162]
+        - generic [ref=f35e164]:
+          - generic [ref=f35e165]:
+            - heading "New Purchase" [level=3] [ref=f35e166]
+            - button [ref=f35e167]
+          - generic [ref=f35e171]:
+            - generic [ref=f35e172]:
+              - generic [ref=f35e173]:
+                - generic [ref=f35e174]: Purchase Date
+                - textbox [ref=f35e175]: 2026-07-30
+              - generic [ref=f35e176]:
+                - generic [ref=f35e177]: Supplier *
+                - combobox [ref=f35e178]:
+                  - option "Select Supplier" [selected]
+                  - option "MediSupply Pvt Ltd"
+            - generic [ref=f35e179]:
+              - generic [ref=f35e180]:
+                - generic [ref=f35e181]: Purchase Items *
+                - button "Add Item" [ref=f35e182]
+              - generic [ref=f35e184]: No items added. Click "Add Item" to begin.
+            - generic [ref=f35e185]:
+              - generic [ref=f35e186]:
+                - generic [ref=f35e187]: Invoice Number
+                - textbox [ref=f35e188]
+              - generic [ref=f35e189]:
+                - generic [ref=f35e190]: Remarks
+                - textbox [ref=f35e191]
+            - generic [ref=f35e192]:
+              - generic [ref=f35e193]:
+                - generic [ref=f35e194]: Discount (₹)
+                - spinbutton [ref=f35e195]: "0"
+              - generic [ref=f35e196]:
+                - generic [ref=f35e197]: Payment Mode
+                - combobox [ref=f35e198]:
+                  - option "Cash" [selected]
+                  - option "Cheque"
+                  - option "UPI"
+                  - option "Card"
+                  - option "RTGS"
+                  - option "NEFT"
+              - generic [ref=f35e199]:
+                - generic [ref=f35e200]: Paid Amount (₹)
+                - spinbutton [ref=f35e201]: "0"
+            - generic [ref=f35e202]:
+              - generic [ref=f35e203]:
+                - paragraph [ref=f35e204]: Total
+                - paragraph [ref=f35e205]: ₹0
+              - generic [ref=f35e206]:
+                - paragraph [ref=f35e207]: Discount
+                - paragraph [ref=f35e208]: "-₹0"
+              - generic [ref=f35e209]:
+                - paragraph [ref=f35e210]: Net Amount
+                - paragraph [ref=f35e211]: ₹0
+          - generic [ref=f35e212]:
+            - button "Cancel" [ref=f35e213]
+            - button "Save Purchase" [ref=f35e214]

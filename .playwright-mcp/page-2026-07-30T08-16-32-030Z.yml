@@ -1,0 +1,110 @@
+- generic [ref=f33e2]:
+  - status [ref=f33e349]: Account created
+  - generic [ref=f33e8]:
+    - complementary [ref=f33e9]:
+      - generic [ref=f33e10]:
+        - link [ref=f33e11] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MLab" [ref=f33e12]
+          - generic [ref=f33e13]:
+            - heading "MLab" [level=1] [ref=f33e14]
+            - paragraph [ref=f33e15]: Lab Management
+        - button "Collapse sidebar" [ref=f33e16]
+      - navigation [ref=f33e19]:
+        - link "Dashboard" [ref=f33e20] [cursor=pointer]:
+          - /url: /dashboard
+        - button "Main" [ref=f33e27] [cursor=pointer]
+        - link "Patient Entry" [ref=f33e31] [cursor=pointer]:
+          - /url: /lab-entries
+        - link "Sample Collections" [ref=f33e36] [cursor=pointer]:
+          - /url: /samples
+        - link "Readings" [ref=f33e41] [cursor=pointer]:
+          - /url: /readings
+        - link "Receipt Entry" [ref=f33e45] [cursor=pointer]:
+          - /url: /receipt-entry
+        - link "Payment Entry" [ref=f33e50] [cursor=pointer]:
+          - /url: /payment-entry
+        - link "Journal Entry" [ref=f33e54] [cursor=pointer]:
+          - /url: /journal-entry
+        - link "Inventory" [ref=f33e58] [cursor=pointer]:
+          - /url: /inventory
+        - button "Masters" [ref=f33e70] [cursor=pointer]
+        - link "Patients" [ref=f33e74] [cursor=pointer]:
+          - /url: /patients
+        - link "Accounts" [ref=f33e81] [cursor=pointer]:
+          - /url: /accounts
+        - link "Tests" [ref=f33e85] [cursor=pointer]:
+          - /url: /tests
+        - link "General Master" [ref=f33e89] [cursor=pointer]:
+          - /url: /general-master
+        - link "Rates" [ref=f33e95] [cursor=pointer]:
+          - /url: /rates
+        - link "Packages" [ref=f33e99] [cursor=pointer]:
+          - /url: /packages
+        - link "Doctors" [ref=f33e105] [cursor=pointer]:
+          - /url: /doctors
+        - link "Appointments" [ref=f33e111] [cursor=pointer]:
+          - /url: /appointments
+        - button "System" [ref=f33e115] [cursor=pointer]
+      - paragraph [ref=f33e120]: v1.0.0 · .NET 8 + React
+    - generic [ref=f33e121]:
+      - banner [ref=f33e122]:
+        - textbox "Search patients, tests, entries..." [ref=f33e127]
+        - generic [ref=f33e128]:
+          - button [ref=f33e129]
+          - button "AU Admin User Demo Lab" [ref=f33e135]:
+            - generic [ref=f33e136]: AU
+            - generic [ref=f33e137]:
+              - paragraph [ref=f33e138]: Admin User
+              - paragraph [ref=f33e139]: Demo Lab
+      - main [ref=f33e142]:
+        - generic [ref=f33e143]:
+          - generic [ref=f33e144]:
+            - generic [ref=f33e145]:
+              - heading "Account Master" [level=1] [ref=f33e146]
+              - paragraph [ref=f33e147]: Manage suppliers, customers, banks, and cash accounts
+            - button "Add Account" [ref=f33e148]
+          - generic [ref=f33e150]:
+            - button [ref=f33e151]:
+              - generic [ref=f33e159]:
+                - paragraph [ref=f33e160]: "1"
+                - paragraph [ref=f33e161]: Customers
+            - button [ref=f33e350]:
+              - generic [ref=f33e170]:
+                - paragraph [ref=f33e171]: "1"
+                - paragraph [ref=f33e172]: Suppliers
+            - button [ref=f33e173]:
+              - generic [ref=f33e179]:
+                - paragraph [ref=f33e180]: "1"
+                - paragraph [ref=f33e181]: Banks
+            - button [ref=f33e182]:
+              - generic [ref=f33e188]:
+                - paragraph [ref=f33e189]: "1"
+                - paragraph [ref=f33e190]: Cash
+          - textbox "Search by name, code, phone..." [ref=f33e195]
+          - table [ref=f33e351]:
+            - rowgroup [ref=f33e352]:
+              - row [ref=f33e353]:
+                - columnheader "Code" [ref=f33e354]
+                - columnheader "Name" [ref=f33e355]
+                - columnheader "Type" [ref=f33e356]
+                - columnheader "Contact" [ref=f33e357]
+                - columnheader "City" [ref=f33e358]
+                - columnheader "GST No." [ref=f33e359]
+                - columnheader "Balance" [ref=f33e360]
+                - columnheader "Actions" [ref=f33e361]
+            - rowgroup [ref=f33e362]:
+              - row [ref=f33e363]:
+                - cell "SUPP0001" [ref=f33e364]
+                - cell "MediSupply Pvt Ltd purchase@medisupply.com" [ref=f33e365]:
+                  - generic [ref=f33e366]: MediSupply Pvt Ltd
+                  - generic [ref=f33e367]: purchase@medisupply.com
+                - cell "Suppliers" [ref=f33e368]
+                - cell "0804455667" [ref=f33e369]
+                - cell "Bangalore" [ref=f33e370]
+                - cell "29AABCM1234F1Z5" [ref=f33e371]
+                - cell "₹0" [ref=f33e372]
+                - cell [ref=f33e373]:
+                  - generic [ref=f33e374]:
+                    - button [ref=f33e375]
+                    - button [ref=f33e378]

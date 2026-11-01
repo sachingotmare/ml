@@ -1,0 +1,115 @@
+- generic [ref=f21e8]:
+  - complementary [ref=f21e9]:
+    - generic [ref=f21e10]:
+      - link [ref=f21e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f21e12]
+        - generic [ref=f21e13]:
+          - heading "MLab" [level=1] [ref=f21e14]
+          - paragraph [ref=f21e15]: Lab Management
+      - button "Collapse sidebar" [ref=f21e16]
+    - navigation [ref=f21e19]:
+      - link "Dashboard" [ref=f21e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f21e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f21e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f21e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f21e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f21e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f21e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f21e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f21e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f21e70] [cursor=pointer]
+      - button "System" [ref=f21e74] [cursor=pointer]
+    - paragraph [ref=f21e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f21e80]:
+    - banner [ref=f21e81]:
+      - textbox "Search patients, tests, entries..." [ref=f21e86]
+      - generic [ref=f21e87]:
+        - button [ref=f21e88]
+        - button "AU Admin User Demo Lab" [ref=f21e94]:
+          - generic [ref=f21e95]: AU
+          - generic [ref=f21e96]:
+            - paragraph [ref=f21e97]: Admin User
+            - paragraph [ref=f21e98]: Demo Lab
+    - main [ref=f21e101]:
+      - generic [ref=f21e102]:
+        - generic [ref=f21e105]:
+          - generic [ref=f21e106]: Search Payment
+          - generic [ref=f21e109]:
+            - combobox "Search by voucher no, party name, narration..." [ref=f21e113]
+            - button "Show all items" [ref=f21e115]
+          - button "New" [ref=f21e118] [cursor=pointer]
+        - generic [ref=f21e120]:
+          - heading "New Payment Entry" [level=1] [ref=f21e122]
+          - button "Save" [ref=f21e123] [cursor=pointer]
+        - generic [ref=f21e128]:
+          - generic [ref=f21e129]:
+            - heading "Voucher Details" [level=3] [ref=f21e131]
+            - generic [ref=f21e132]:
+              - generic [ref=f21e133]:
+                - generic [ref=f21e134]:
+                  - generic [ref=f21e135]: Voucher No
+                  - textbox [ref=f21e136]
+                - generic [ref=f21e137]:
+                  - generic [ref=f21e138]: Date *
+                  - textbox [ref=f21e139]: 2026-07-30
+              - generic [ref=f21e140]:
+                - generic [ref=f21e141]: Reference No (Patient Entry) — optional
+                - generic [ref=f21e143]:
+                  - combobox "Search patient entry by voucher, patient name..." [ref=f21e147]
+                  - button "Show all items" [ref=f21e149]
+              - generic [ref=f21e152]:
+                - generic [ref=f21e153]: Supplier / Party *
+                - generic [ref=f21e154]:
+                  - generic [ref=f21e155]:
+                    - combobox "Search supplier by name, code..." [expanded] [ref=f21e159]
+                    - button "Show all items" [active] [ref=f21e161]
+                  - listbox [ref=f21e197]:
+                    - generic [ref=f21e198]: No results found
+              - generic [ref=f21e164]:
+                - generic [ref=f21e165]: Narration
+                - textbox "Description" [ref=f21e166]: Payment to reagent supplier
+          - generic [ref=f21e167]:
+            - heading "Account Information" [level=3] [ref=f21e169]
+            - generic [ref=f21e170]:
+              - generic [ref=f21e171]:
+                - generic [ref=f21e172]: Type *
+                - combobox [ref=f21e173]:
+                  - option "Cash" [selected]
+                  - option "Cheque"
+                  - option "DD"
+                  - option "UPI"
+                  - option "Card"
+                  - option "RTGS"
+                  - option "NEFT"
+                  - option "Other"
+              - generic [ref=f21e174]:
+                - generic [ref=f21e175]: Account *
+                - combobox [ref=f21e176]:
+                  - option "-- Select --"
+                  - option "BANK01 — BANK ACCOUNT"
+                  - option "CASH01 — CASH ACCOUNT" [selected]
+              - generic [ref=f21e177]:
+                - generic [ref=f21e178]: Amount (₹) *
+                - spinbutton [ref=f21e179]: "5000"
+              - generic [ref=f21e180]:
+                - generic [ref=f21e181]: Narration 2
+                - textbox "Additional details" [ref=f21e182]: Monthly consumables
+        - generic [ref=f21e183]:
+          - generic [ref=f21e185]:
+            - heading "Outstanding Vouchers" [level=3] [ref=f21e186]
+            - generic [ref=f21e187]:
+              - generic [ref=f21e188]: "Total: ₹5,000.00"
+              - generic [ref=f21e189]: "Allocated: ₹0.00"
+          - generic [ref=f21e190]: Select a party to see outstanding
+        - generic [ref=f21e192]:
+          - heading "Previous Payments" [level=3] [ref=f21e194]
+          - generic [ref=f21e195]: Select a party

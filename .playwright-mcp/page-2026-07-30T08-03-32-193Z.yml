@@ -1,0 +1,148 @@
+- generic [ref=f20e8]:
+  - complementary [ref=f20e9]:
+    - generic [ref=f20e10]:
+      - link [ref=f20e11] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MLab" [ref=f20e12]
+        - generic [ref=f20e13]:
+          - heading "MLab" [level=1] [ref=f20e14]
+          - paragraph [ref=f20e15]: Lab Management
+      - button "Collapse sidebar" [ref=f20e16]
+    - navigation [ref=f20e19]:
+      - link "Dashboard" [ref=f20e20] [cursor=pointer]:
+        - /url: /dashboard
+      - button "Main" [ref=f20e27] [cursor=pointer]
+      - link "Patient Entry" [ref=f20e31] [cursor=pointer]:
+        - /url: /lab-entries
+      - link "Sample Collections" [ref=f20e36] [cursor=pointer]:
+        - /url: /samples
+      - link "Readings" [ref=f20e41] [cursor=pointer]:
+        - /url: /readings
+      - link "Receipt Entry" [ref=f20e45] [cursor=pointer]:
+        - /url: /receipt-entry
+      - link "Payment Entry" [ref=f20e50] [cursor=pointer]:
+        - /url: /payment-entry
+      - link "Journal Entry" [ref=f20e54] [cursor=pointer]:
+        - /url: /journal-entry
+      - link "Inventory" [ref=f20e58] [cursor=pointer]:
+        - /url: /inventory
+      - button "Masters" [ref=f20e70] [cursor=pointer]
+      - button "System" [ref=f20e74] [cursor=pointer]
+    - paragraph [ref=f20e79]: v1.0.0 · .NET 8 + React
+  - generic [ref=f20e80]:
+    - banner [ref=f20e81]:
+      - textbox "Search patients, tests, entries..." [ref=f20e86]
+      - generic [ref=f20e87]:
+        - button [ref=f20e88]
+        - button "AU Admin User Demo Lab" [ref=f20e94]:
+          - generic [ref=f20e95]: AU
+          - generic [ref=f20e96]:
+            - paragraph [ref=f20e97]: Admin User
+            - paragraph [ref=f20e98]: Demo Lab
+    - main [ref=f20e101]:
+      - generic [ref=f20e103]:
+        - generic [ref=f20e104]:
+          - heading "Sample Collection" [level=1] [ref=f20e109]
+          - generic [ref=f20e110]:
+            - textbox "Search by Entry ID or Barcode..." [ref=f20e115]
+            - button "Search" [ref=f20e116]
+            - button [ref=f20e117]
+            - button "Stock" [ref=f20e123]
+        - generic [ref=f20e129]:
+          - button "Board" [ref=f20e130]
+          - button "Scan" [ref=f20e135]
+          - button "Pending (6)" [active] [ref=f20e141]
+          - button "Collected (0)" [ref=f20e145]
+          - button "In Testing (0)" [ref=f20e149]
+          - button "Completed (0)" [ref=f20e152]
+          - button "Rejected (0)" [ref=f20e156]
+          - button "STAT (0)" [ref=f20e161]
+          - button "Expired (0)" [ref=f20e164]
+        - generic [ref=f20e177]:
+          - button "Collapse All" [ref=f20e179]
+          - generic [ref=f20e182]:
+            - button "PE26G290001 — Test 4 sample(s) Batch Collect Labels" [ref=f20e183] [cursor=pointer]:
+              - generic [ref=f20e184]:
+                - generic [ref=f20e187]: PE26G290001
+                - generic [ref=f20e188]: — Test
+                - generic [ref=f20e189]: 4 sample(s)
+              - generic [ref=f20e190]:
+                - button "Batch Collect" [ref=f20e191]
+                - button "Labels" [ref=f20e192]
+            - generic [ref=f20e197]:
+              - generic [ref=f20e198] [cursor=pointer]:
+                - img [ref=f20e201]:
+                  - generic [ref=f20e203]: SC2607291939356A42
+                - generic [ref=f20e257]:
+                  - generic [ref=f20e258]: SC2607291939356A42
+                  - generic [ref=f20e266]: Pending
+                - generic [ref=f20e271]: Complete Blood Count (CBC) - Complete Blood Count
+                - generic [ref=f20e272]:
+                  - generic [ref=f20e273]: 👤 Test
+                  - generic [ref=f20e274]: 📋 PE26G290001
+                - button "Collect" [ref=f20e276]
+              - generic [ref=f20e277] [cursor=pointer]:
+                - img [ref=f20e280]:
+                  - generic [ref=f20e282]: SC260729193935A807
+                - generic [ref=f20e336]:
+                  - generic [ref=f20e337]: SC260729193935A807
+                  - generic [ref=f20e345]: Pending
+                - generic [ref=f20e350]: Brain - CT Brain (Plain / Contrast)
+                - generic [ref=f20e351]:
+                  - generic [ref=f20e352]: 👤 Test
+                  - generic [ref=f20e353]: 📋 PE26G290001
+                - button "Collect" [ref=f20e355]
+              - generic [ref=f20e356] [cursor=pointer]:
+                - img [ref=f20e359]:
+                  - generic [ref=f20e361]: SC2607291939355FD2
+                - generic [ref=f20e415]:
+                  - generic [ref=f20e416]: SC2607291939355FD2
+                  - generic [ref=f20e424]: Pending
+                - generic [ref=f20e429]: Kidney Function Test - Kidney Function Test
+                - generic [ref=f20e430]:
+                  - generic [ref=f20e431]: 👤 Test
+                  - generic [ref=f20e432]: 📋 PE26G290001
+                - button "Collect" [ref=f20e434]
+              - generic [ref=f20e435] [cursor=pointer]:
+                - img [ref=f20e438]:
+                  - generic [ref=f20e440]: SC260729193935C797
+                - generic [ref=f20e494]:
+                  - generic [ref=f20e495]: SC260729193935C797
+                  - generic [ref=f20e503]: Pending
+                - generic [ref=f20e508]: Kidney Function Test - Blood Urea Nitrogen (Calculated)
+                - generic [ref=f20e509]:
+                  - generic [ref=f20e510]: 👤 Test
+                  - generic [ref=f20e511]: 📋 PE26G290001
+                - button "Collect" [ref=f20e513]
+          - generic [ref=f20e514]:
+            - button "PE26G300001 — Rajesh Kumar 2 sample(s) Batch Collect Labels" [ref=f20e515] [cursor=pointer]:
+              - generic [ref=f20e516]:
+                - generic [ref=f20e519]: PE26G300001
+                - generic [ref=f20e520]: — Rajesh Kumar
+                - generic [ref=f20e521]: 2 sample(s)
+              - generic [ref=f20e522]:
+                - button "Batch Collect" [ref=f20e523]
+                - button "Labels" [ref=f20e524]
+            - generic [ref=f20e529]:
+              - generic [ref=f20e530] [cursor=pointer]:
+                - img [ref=f20e533]:
+                  - generic [ref=f20e535]: SC260730080113425D
+                - generic [ref=f20e586]:
+                  - generic [ref=f20e587]: SC260730080113425D
+                  - generic [ref=f20e595]: Pending
+                - generic [ref=f20e600]: Complete Blood Count (CBC) - Hemoglobin
+                - generic [ref=f20e601]:
+                  - generic [ref=f20e602]: 👤 Rajesh Kumar
+                  - generic [ref=f20e603]: 📋 PE26G300001
+                - button "Collect" [ref=f20e605]
+              - generic [ref=f20e606] [cursor=pointer]:
+                - img [ref=f20e609]:
+                  - generic [ref=f20e611]: SC260730080113EECE
+                - generic [ref=f20e665]:
+                  - generic [ref=f20e666]: SC260730080113EECE
+                  - generic [ref=f20e674]: Pending
+                - generic [ref=f20e679]: Diabetes - Blood Glucose Fasting
+                - generic [ref=f20e680]:
+                  - generic [ref=f20e681]: 👤 Rajesh Kumar
+                  - generic [ref=f20e682]: 📋 PE26G300001
+                - button "Collect" [ref=f20e684]

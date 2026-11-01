@@ -1,0 +1,9 @@
+[     289ms] [ERROR] Loading the script 'https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496' violates the following Content Security Policy directive: "script-src 'self' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://mlab.sgsoftech.in/lab-entries:0
+[     289ms] [ERROR] Executing inline script violates the following Content Security Policy directive 'script-src 'self' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/'. Either the 'unsafe-inline' keyword, a hash ('sha256-SE0rc54fzDXLCBltvohNeeuuRaWCgWRZYldNs3qbnQk='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked. @ https://mlab.sgsoftech.in/lab-entries:15
+[   29812ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mlab.sgsoftech.in/api/lab-entries?limit=2:0
+[   35430ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mlab.sgsoftech.in/api/lab-entry?limit=2:0
+[   50986ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mlab.sgsoftech.in/api/entries?limit=3:0
+[   56541ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mlab.sgsoftech.in/api/patient-entries:0
+[   56790ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mlab.sgsoftech.in/api/lab-entry:0
+[   57061ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mlab.sgsoftech.in/api/patiententry:0
+[   57320ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mlab.sgsoftech.in/api/entry:0
