@@ -1,0 +1,13 @@
+{
+  "name": "garage-manager",
+  "private": true,
+  "workspaces": ["shared", "server", "mobile"],
+  "engines": {"node": ">=24.13.0"},
+  "scripts": {
+    "build": "npm run build -w @garage/shared && npm run build -w @garage/server",
+    "check": "npm run build -w @garage/shared && npm run check -w @garage/server && npm run check -w @garage/mobile",
+    "test": "npm run build -w @garage/shared && npm test -w @garage/server",
+    "server": "npm run dev -w @garage/server",
+    "android": "npm run start -w @garage/mobile -- --android"
+  }
+}

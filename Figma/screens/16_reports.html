@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reports — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .report-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+    .report-card {
+      background: white; border: 1px solid var(--border); border-radius: var(--radius-md);
+      padding: 20px; cursor: pointer; transition: all 0.15s; text-align: center;
+    }
+    .report-card:hover { border-color: var(--primary); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .report-card .rc-icon { font-size: 36px; margin-bottom: 10px; }
+    .report-card .rc-title { font-size: 14px; font-weight: 600; }
+    .report-card .rc-desc  { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+    .report-card .rc-badge { margin-top: 10px; }
+  </style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">W</div><div class="logo-text">IWM Portal <span>Warehouse Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item" onclick="location='04_products.html'"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item" onclick="location='08_orders.html'"><span class="nav-icon">🛒</span> Orders</div>
+      <div class="nav-item" onclick="location='11_prescriptions.html'"><span class="nav-icon">💊</span> Prescriptions</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item active"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item" onclick="location='15_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">SG</div><div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div></div></div>
+  </aside>
+  <header class="topnav">
+    <div class="topnav-left"><div class="breadcrumb"><a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span> <span class="current">Reports</span></div></div>
+    <div class="topnav-right"><button class="icon-btn">🔔 <span class="badge"></span></button><div class="topnav-avatar">SG</div></div>
+  </header>
+  <main class="main-content">
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Reports</div><div class="page-subtitle">View and export operational reports</div></div>
+        <div class="flex gap-8">
+          <input type="date" style="height:36px;padding:0 10px;border:1px solid var(--border);border-radius:4px;font-size:13px;" value="2026-08-01"/>
+          <span style="line-height:36px;color:var(--text-secondary);">to</span>
+          <input type="date" style="height:36px;padding:0 10px;border:1px solid var(--border);border-radius:4px;font-size:13px;" value="2026-08-12"/>
+        </div>
+      </div>
+
+      <div class="report-grid">
+        <div class="report-card" onclick="document.getElementById('reportDetail').style.display='block'">
+          <div class="rc-icon">📋</div>
+          <div class="rc-title">Order Summary Report</div>
+          <div class="rc-desc">Total orders, status breakdown, revenue</div>
+          <div class="rc-badge"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+        <div class="report-card" onclick="document.getElementById('reportDetail').style.display='block'">
+          <div class="rc-icon">👤</div>
+          <div class="rc-title">Customer Order History</div>
+          <div class="rc-desc">All orders per customer with details</div>
+          <div class="rc-badge"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+        <div class="report-card" onclick="document.getElementById('reportDetail').style.display='block'">
+          <div class="rc-icon">📦</div>
+          <div class="rc-title">Product Sales Report</div>
+          <div class="rc-desc">Top selling products, qty and revenue</div>
+          <div class="rc-badge"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+        <div class="report-card" onclick="document.getElementById('reportDetail').style.display='block'">
+          <div class="rc-icon">📅</div>
+          <div class="rc-title">Daily / Weekly Summary</div>
+          <div class="rc-desc">Orders and revenue day-by-day</div>
+          <div class="rc-badge"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+        <div class="report-card" onclick="document.getElementById('reportDetail').style.display='block'">
+          <div class="rc-icon">💊</div>
+          <div class="rc-title">Prescription Orders Report</div>
+          <div class="rc-desc">Rx orders, approval rates, medicines</div>
+          <div class="rc-badge"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+        <div class="report-card" onclick="document.getElementById('reportDetail').style.display='block'">
+          <div class="rc-icon">❌</div>
+          <div class="rc-title">Rejected Orders Report</div>
+          <div class="rc-desc">Rejected orders with reasons</div>
+          <div class="rc-badge"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+        <div class="report-card" style="opacity:0.6;cursor:default;">
+          <div class="rc-icon">🏭</div>
+          <div class="rc-title">Stock Movement Report</div>
+          <div class="rc-desc">Inventory in/out tracking</div>
+          <div class="rc-badge"><span class="badge badge-inactive">Phase 2</span></div>
+        </div>
+        <div class="report-card" style="opacity:0.6;cursor:default;">
+          <div class="rc-icon">💰</div>
+          <div class="rc-title">Profit & Loss Report</div>
+          <div class="rc-desc">Financial P&L statement</div>
+          <div class="rc-badge"><span class="badge badge-inactive">Phase 2</span></div>
+        </div>
+        <div class="report-card" style="opacity:0.6;cursor:default;">
+          <div class="rc-icon">🚚</div>
+          <div class="rc-title">Delivery Report</div>
+          <div class="rc-desc">Delivery boy performance</div>
+          <div class="rc-badge"><span class="badge badge-inactive">Phase 2</span></div>
+        </div>
+      </div>
+
+      <!-- Report Detail Sample -->
+      <div id="reportDetail" style="display:none;">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">📋 Order Summary Report — 01 Aug to 12 Aug 2026</span>
+            <div class="flex gap-8">
+              <button class="btn btn-outline btn-sm">📥 CSV</button>
+              <button class="btn btn-outline btn-sm">📄 PDF</button>
+              <button class="btn btn-secondary btn-sm">🖨️ Print</button>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:20px;border-bottom:1px solid var(--border);">
+            <div style="text-align:center;"><div style="font-size:24px;font-weight:700;color:var(--primary);">178</div><div style="font-size:12px;color:var(--text-secondary);">Total Orders</div></div>
+            <div style="text-align:center;"><div style="font-size:24px;font-weight:700;color:var(--success);">143</div><div style="font-size:12px;color:var(--text-secondary);">Completed</div></div>
+            <div style="text-align:center;"><div style="font-size:24px;font-weight:700;color:var(--danger);">3</div><div style="font-size:12px;color:var(--text-secondary);">Rejected</div></div>
+            <div style="text-align:center;"><div style="font-size:24px;font-weight:700;color:#0F9B8E;">₹ 68,440</div><div style="font-size:12px;color:var(--text-secondary);">Total Revenue</div></div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Date</th><th>Total Orders</th><th>Completed</th><th>Rejected</th><th>Rx Orders</th><th>Revenue</th></tr></thead>
+              <tbody>
+                <tr><td>12 Aug 2026</td><td>18</td><td>12</td><td>1</td><td>5</td><td class="font-600">₹ 7,200</td></tr>
+                <tr><td>11 Aug 2026</td><td>21</td><td>18</td><td>0</td><td>6</td><td class="font-600">₹ 8,400</td></tr>
+                <tr><td>10 Aug 2026</td><td>15</td><td>13</td><td>1</td><td>4</td><td class="font-600">₹ 5,200</td></tr>
+                <tr><td>09 Aug 2026</td><td>24</td><td>20</td><td>1</td><td>7</td><td class="font-600">₹ 9,600</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

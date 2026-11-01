@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Settings — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .settings-layout { display:grid; grid-template-columns:220px 1fr; gap:20px; }
+    .settings-nav { background:white; border:1px solid var(--border); border-radius:var(--radius-md); padding:8px 0; height:fit-content; }
+    .settings-nav-item { padding:10px 18px; font-size:13.5px; cursor:pointer; display:flex; align-items:center; gap:10px; color:var(--text-secondary); transition:all 0.15s; border-left:3px solid transparent; }
+    .settings-nav-item:hover { background:var(--bg); color:var(--text-primary); }
+    .settings-nav-item.active { background:#EFF6FF; color:var(--primary); border-left-color:var(--primary); font-weight:600; }
+  </style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">W</div><div class="logo-text">IWM Portal <span>Warehouse Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item" onclick="location='04_products.html'"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item" onclick="location='08_orders.html'"><span class="nav-icon">🛒</span> Orders</div>
+      <div class="nav-item" onclick="location='11_prescriptions.html'"><span class="nav-icon">💊</span> Prescriptions</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='16_reports.html'"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item active"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">SG</div><div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div></div></div>
+  </aside>
+  <header class="topnav">
+    <div class="topnav-left"><div class="breadcrumb"><a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span> <span class="current">Settings</span></div></div>
+    <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">SG</div></div>
+  </header>
+  <main class="main-content">
+    <div class="page-body">
+      <div class="page-header"><div><div class="page-title">System Settings</div><div class="page-subtitle">Configure core business and system settings</div></div></div>
+      <div class="settings-layout">
+        <div class="settings-nav">
+          <div class="settings-nav-item active">🏢 Business Config</div>
+          <div class="settings-nav-item">🏭 Warehouse Config</div>
+          <div class="settings-nav-item">💊 Product Config</div>
+          <div class="settings-nav-item">🏷️ Discount Settings</div>
+          <div class="settings-nav-item">💰 MRP Management</div>
+          <div class="settings-nav-item">📦 Product Availability</div>
+          <div class="settings-nav-item">🛒 Order Settings</div>
+          <div class="settings-nav-item">🔔 Notifications</div>
+          <div class="settings-nav-item">🖥️ System Status</div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-header"><span class="card-title">🏢 Business Configuration</span><button class="btn btn-primary btn-sm">💾 Save Changes</button></div>
+            <div class="card-body">
+              <div class="form-row">
+                <div class="form-group"><label class="form-label">Business / Warehouse Name <span class="req">*</span></label><input type="text" class="form-control" value="Shridhar Warehouse"/></div>
+                <div class="form-group"><label class="form-label">Owner Name</label><input type="text" class="form-control" value="Mr. Shridhar"/></div>
+              </div>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label">Email</label><input type="email" class="form-control" value="shridhar@warehouse.com"/></div>
+                <div class="form-group"><label class="form-label">Phone</label><input type="tel" class="form-control" value="+91-7004310455"/></div>
+              </div>
+              <div class="form-group"><label class="form-label">Address</label><textarea class="form-control" rows="2">Jamshedpur, Jharkhand — 831001</textarea></div>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label">GST Number</label><input type="text" class="form-control" placeholder="GSTIN"/></div>
+                <div class="form-group"><label class="form-label">License Number</label><input type="text" class="form-control" placeholder="Drug License No."/></div>
+              </div>
+              <hr style="border:none;border-top:1px solid var(--border);margin:20px 0;"/>
+              <div class="section-divider">Discount Configuration</div>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label">Global Discount %</label><input type="number" class="form-control" value="20"/><div class="form-hint">Applied automatically to all cart totals</div></div>
+                <div class="form-group"><label class="form-label">Discount Enabled</label><div style="margin-top:10px;"><div class="toggle-wrap"><div class="toggle on"></div><span style="font-size:13px;">Discount is Active (20% on all orders)</span></div></div></div>
+              </div>
+              <div class="section-divider">Order Settings</div>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label">Order ID Prefix</label><input type="text" class="form-control" value="ORD-"/></div>
+                <div class="form-group"><label class="form-label">Order Notifications</label><div style="margin-top:10px;"><div class="toggle-wrap"><div class="toggle on"></div><span style="font-size:13px;">Email + In-App</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

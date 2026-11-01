@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Categories — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">W</div><div class="logo-text">IWM Portal <span>Warehouse Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item" onclick="location='04_products.html'"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-item active"><span class="nav-icon">🗂️</span> Categories</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item" onclick="location='08_orders.html'"><span class="nav-icon">🛒</span> Orders</div>
+      <div class="nav-item" onclick="location='11_prescriptions.html'"><span class="nav-icon">💊</span> Prescriptions</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='16_reports.html'"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item" onclick="location='15_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">SG</div><div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div></div></div>
+  </aside>
+  <header class="topnav">
+    <div class="topnav-left"><div class="breadcrumb"><a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span> <span class="current">Product Categories</span></div></div>
+    <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">SG</div></div>
+  </header>
+  <main class="main-content">
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Product Categories</div><div class="page-subtitle">Manage medicine and product categories</div></div>
+        <button class="btn btn-primary">+ Add Category</button>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+        <div class="card">
+          <div class="card-header"><span class="card-title">🗂️ All Categories</span></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Category</th><th>Products</th><th>Status</th><th>Actions</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Antibiotics</strong></td><td>42</td><td><span class="badge badge-active">Active</span></td><td><div class="table-actions"><button class="action-btn edit">✏️</button><button class="action-btn delete">🗑️</button></div></td></tr>
+                <tr><td><strong>Analgesics</strong></td><td>28</td><td><span class="badge badge-active">Active</span></td><td><div class="table-actions"><button class="action-btn edit">✏️</button><button class="action-btn delete">🗑️</button></div></td></tr>
+                <tr><td><strong>Vitamins & Supplements</strong></td><td>35</td><td><span class="badge badge-active">Active</span></td><td><div class="table-actions"><button class="action-btn edit">✏️</button><button class="action-btn delete">🗑️</button></div></td></tr>
+                <tr><td><strong>Diabetic Care</strong></td><td>19</td><td><span class="badge badge-active">Active</span></td><td><div class="table-actions"><button class="action-btn edit">✏️</button><button class="action-btn delete">🗑️</button></div></td></tr>
+                <tr><td><strong>Antacids</strong></td><td>15</td><td><span class="badge badge-active">Active</span></td><td><div class="table-actions"><button class="action-btn edit">✏️</button><button class="action-btn delete">🗑️</button></div></td></tr>
+                <tr><td><strong>Cardiovascular</strong></td><td>22</td><td><span class="badge badge-inactive">Inactive</span></td><td><div class="table-actions"><button class="action-btn edit">✏️</button><button class="action-btn delete">🗑️</button></div></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-title">➕ Add / Edit Category</span></div>
+          <div class="card-body">
+            <div class="form-group"><label class="form-label">Category Name <span class="req">*</span></label><input type="text" class="form-control" placeholder="e.g., Antibiotics"/></div>
+            <div class="form-group"><label class="form-label">Parent Category</label><select class="form-control"><option value="">— None (Main Category) —</option><option>Antibiotics</option><option>Analgesics</option></select></div>
+            <div class="form-group"><label class="form-label">Description</label><textarea class="form-control" rows="3" placeholder="Category description..."></textarea></div>
+            <div class="form-group"><div class="toggle-wrap"><div class="toggle on"></div><span style="font-size:13px;">Active — visible to customers</span></div></div>
+            <div style="display:flex;gap:10px;"><button class="btn btn-secondary">Cancel</button><button class="btn btn-primary w-100">Save Category</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

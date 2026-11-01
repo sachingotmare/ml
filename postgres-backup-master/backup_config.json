@@ -1,0 +1,7 @@
+{
+  "pg_dump_path": "auto",
+  "pg_restore_path": "auto",
+  "psql_path": "auto",
+  "jobs": [],
+  "history": []
+}

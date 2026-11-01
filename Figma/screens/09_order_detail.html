@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Detail — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .detail-layout { display: flex; gap: 20px; align-items: flex-start; }
+    .detail-left  { flex: 0 0 65%; }
+    .detail-right { flex: 0 0 calc(35% - 20px); display: flex; flex-direction: column; gap: 16px; }
+    .info-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13.5px; }
+    .info-row:last-child { border-bottom: none; }
+    .info-label { color: var(--text-secondary); }
+    .info-value { font-weight: 500; }
+    .bill-row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 13.5px; }
+    .bill-total { display: flex; justify-content: space-between; padding: 12px 0 0; border-top: 2px solid var(--primary); font-size: 15px; font-weight: 700; margin-top: 4px; }
+    .order-header-card {
+      background: linear-gradient(135deg, #1A3C6E, #0F9B8E);
+      border-radius: var(--radius-md); padding: 20px 24px;
+      color: white; margin-bottom: 20px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .order-header-card .order-id-big { font-size: 22px; font-weight: 700; }
+    .order-header-card .order-meta { font-size: 13px; opacity: 0.85; margin-top: 4px; }
+    .order-header-card .header-actions { display: flex; gap: 8px; }
+    .btn-white { background: white; color: var(--primary); border: none; border-radius: var(--radius-sm); padding: 8px 16px; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .btn-white-outline { background: transparent; color: white; border: 1.5px solid rgba(255,255,255,0.6); border-radius: var(--radius-sm); padding: 8px 16px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  </style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">W</div>
+      <div class="logo-text">IWM Portal <span>Warehouse Management</span></div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item" onclick="location='04_products.html'"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item active"><span class="nav-icon">🛒</span> Orders <span class="nav-badge">12</span></div>
+      <div class="nav-item" onclick="location='11_prescriptions.html'"><span class="nav-icon">💊</span> Prescriptions</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='16_reports.html'"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item" onclick="location='15_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="sidebar-user">
+        <div class="avatar">SG</div>
+        <div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="topnav">
+    <div class="topnav-left">
+      <div class="breadcrumb">
+        <a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span>
+        <a href="08_orders.html">Orders</a> <span class="sep">›</span>
+        <span class="current">#ORD-1024</span>
+      </div>
+    </div>
+    <div class="topnav-right">
+      <button class="icon-btn">🔔 <span class="badge"></span></button>
+      <div class="topnav-avatar">SG</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-body">
+
+      <!-- Back Button -->
+      <div style="margin-bottom:16px;">
+        <button class="btn btn-secondary btn-sm" onclick="location='08_orders.html'">← Back to Orders</button>
+      </div>
+
+      <!-- Order Header Card -->
+      <div class="order-header-card">
+        <div>
+          <div class="order-id-big">#ORD-1024</div>
+          <div class="order-meta">📅 12 Aug 2026 · 10:32 AM &nbsp;|&nbsp; 🛍️ Regular Order &nbsp;|&nbsp; 💳 Cash on Delivery</div>
+        </div>
+        <div class="header-actions">
+          <span class="badge" style="background:rgba(255,255,255,0.2);color:white;font-size:12px;padding:6px 14px;">⏳ Pending</span>
+          <button class="btn-white">✅ Accept Order</button>
+          <button class="btn-white-outline">❌ Reject</button>
+        </div>
+      </div>
+
+      <!-- Detail Layout -->
+      <div class="detail-layout">
+
+        <!-- LEFT -->
+        <div class="detail-left" style="display:flex;flex-direction:column;gap:16px;">
+
+          <!-- Customer Info -->
+          <div class="card">
+            <div class="card-header"><span class="card-title">👤 Customer Information</span></div>
+            <div class="card-body">
+              <div style="display:flex;align-items:center;gap:14px;margin-bottom:16px;">
+                <div style="width:50px;height:50px;background:var(--primary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:18px;font-weight:700;">RS</div>
+                <div>
+                  <div style="font-size:16px;font-weight:700;">Rahul Sharma</div>
+                  <div style="font-size:13px;color:var(--text-secondary);">Customer since Jan 2026</div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div>
+                  <div class="info-row"><span class="info-label">📞 Phone</span><span class="info-value">+91-9876543210</span></div>
+                  <div class="info-row"><span class="info-label">📧 Email</span><span class="info-value">rahul@email.com</span></div>
+                </div>
+                <div>
+                  <div class="info-row"><span class="info-label">📍 Address</span><span class="info-value">12, MG Road, Jamshedpur</span></div>
+                  <div class="info-row"><span class="info-label">📦 Past Orders</span><span class="info-value">8 orders</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Order Items -->
+          <div class="card">
+            <div class="card-header"><span class="card-title">🛍️ Order Items</span><span style="font-size:13px;color:var(--text-secondary);">3 items</span></div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Qty</th>
+                    <th>MRP</th>
+                    <th>Discount</th>
+                    <th style="text-align:right;">Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><div style="font-weight:500;">Amoxicillin 500mg</div><div style="font-size:11px;color:var(--text-secondary);">Strip/10 · Antibiotics</div></td>
+                    <td>2</td>
+                    <td>₹ 85.00</td>
+                    <td><span class="badge badge-pending">20%</span></td>
+                    <td style="text-align:right;font-weight:600;">₹ 136.00</td>
+                  </tr>
+                  <tr>
+                    <td><div style="font-weight:500;">Vitamin D3 1000IU</div><div style="font-size:11px;color:var(--text-secondary);">Bottle/60 · Vitamins</div></td>
+                    <td>1</td>
+                    <td>₹ 280.00</td>
+                    <td><span class="badge badge-pending">20%</span></td>
+                    <td style="text-align:right;font-weight:600;">₹ 224.00</td>
+                  </tr>
+                  <tr>
+                    <td><div style="font-weight:500;">Paracetamol 650mg</div><div style="font-size:11px;color:var(--text-secondary);">Strip/15 · Analgesics</div></td>
+                    <td>5</td>
+                    <td>₹ 32.50</td>
+                    <td><span class="badge badge-pending">20%</span></td>
+                    <td style="text-align:right;font-weight:600;">₹ 130.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div style="padding:16px 20px;">
+              <div class="bill-row"><span class="info-label">Sub Total</span><span>₹ 597.50</span></div>
+              <div class="bill-row"><span class="info-label">Discount (20%)</span><span style="color:var(--success);">- ₹ 119.50</span></div>
+              <div class="bill-row"><span class="info-label">Delivery Charge</span><span style="color:var(--success);">FREE</span></div>
+              <div class="bill-total"><span>Total Payable</span><span style="color:var(--primary);">₹ 478.00</span></div>
+              <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-secondary);">
+                💳 Payment Mode: <strong>Cash on Delivery (COD)</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Notes -->
+          <div class="card">
+            <div class="card-header"><span class="card-title">📝 Order Notes</span></div>
+            <div class="card-body">
+              <textarea class="form-control" rows="3" placeholder="Add internal notes about this order..."></textarea>
+              <button class="btn btn-outline btn-sm" style="margin-top:10px;">Save Notes</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="detail-right">
+
+          <!-- Status Update -->
+          <div class="card">
+            <div class="card-header"><span class="card-title">⚙️ Update Status</span></div>
+            <div class="card-body" style="display:flex;flex-direction:column;gap:10px;">
+              <select class="form-control">
+                <option>⏳ Pending</option>
+                <option>✅ Accepted</option>
+                <option>🔄 Under Preparation</option>
+                <option>🚚 Dispatched</option>
+                <option>📦 Completed</option>
+                <option>❌ Rejected</option>
+              </select>
+              <button class="btn btn-primary w-100">Update Status</button>
+              <button class="btn btn-success w-100" onclick="location='10_generate_bill.html'">🧾 Generate Bill</button>
+            </div>
+          </div>
+
+          <!-- Timeline -->
+          <div class="card">
+            <div class="card-header"><span class="card-title">📍 Order Timeline</span></div>
+            <div class="card-body">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot done"></div>
+                  <div class="timeline-content">
+                    <div class="tl-title">🛒 Order Placed</div>
+                    <div class="tl-time">12 Aug 2026 · 10:32 AM</div>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot active"></div>
+                  <div class="timeline-content">
+                    <div class="tl-title">⏳ Awaiting Acceptance</div>
+                    <div class="tl-time">Current Status</div>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="tl-title" style="color:var(--text-secondary);">✅ Order Accepted</div>
+                    <div class="tl-time">—</div>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="tl-title" style="color:var(--text-secondary);">🔄 Under Preparation</div>
+                    <div class="tl-time">—</div>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="tl-title" style="color:var(--text-secondary);">🚚 Dispatched</div>
+                    <div class="tl-time">—</div>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="tl-title" style="color:var(--text-secondary);">📦 Delivered</div>
+                    <div class="tl-time">—</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Order Summary -->
+          <div class="card">
+            <div class="card-header"><span class="card-title">📋 Order Summary</span></div>
+            <div class="card-body">
+              <div class="info-row"><span class="info-label">Order ID</span><span class="info-value" style="color:var(--primary);">#ORD-1024</span></div>
+              <div class="info-row"><span class="info-label">Order Type</span><span class="badge badge-primary">Regular</span></div>
+              <div class="info-row"><span class="info-label">Items</span><span class="info-value">3 products</span></div>
+              <div class="info-row"><span class="info-label">Total Amount</span><span class="info-value font-700" style="color:var(--primary);">₹ 478.00</span></div>
+              <div class="info-row"><span class="info-label">Payment</span><span class="info-value">COD</span></div>
+              <div class="info-row"><span class="info-label">Bill Status</span><span class="badge badge-inactive">Not Generated</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Doctor Rounds — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item active"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">NK</div><div class="user-info"><div class="user-name">Dr. N. Kapoor</div><div class="user-role">Cardiologist</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='02_dashboard.html'" style="cursor:pointer">Dashboard</span><span class="sep">/</span><span class="current">Doctor Rounds</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">NK</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Today's Rounds — Ward B</div><div class="page-subtitle">8 patients assigned under your care</div></div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Bed</th><th>Patient</th><th>Diagnosis</th><th>Day</th><th>Last Round</th><th>Status</th><th></th></tr></thead>
+            <tbody>
+              <tr style="background:#EFF6FF;"><td>B-12</td><td>Ramesh Yadav</td><td>Stable Angina</td><td>Day 1</td><td>—</td><td><span class="badge badge-pending">Pending Round</span></td><td><button class="action-btn edit">📝</button></td></tr>
+              <tr><td>B-13</td><td>Sunita Devi</td><td>Post-op Recovery</td><td>Day 3</td><td>08:15 AM</td><td><span class="badge badge-completed">Reviewed</span></td><td><button class="action-btn edit">📝</button></td></tr>
+              <tr><td>B-15</td><td>Harish Kumar</td><td>Pneumonia</td><td>Day 2</td><td>08:20 AM</td><td><span class="badge badge-completed">Reviewed</span></td><td><button class="action-btn edit">📝</button></td></tr>
+              <tr><td>ICU-4</td><td>Deepak Rana</td><td>Post MI, Stable</td><td>Day 4</td><td>—</td><td><span class="badge badge-pending">Pending Round</span></td><td><button class="action-btn edit">📝</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><div class="card-title">Progress Note — Ramesh Yadav (Bed B-12)</div></div>
+        <div class="card-body">
+          <div class="form-group"><label class="form-label">Subjective</label><textarea class="form-control" rows="2" placeholder="Patient reported complaints, overnight events"></textarea></div>
+          <div class="form-group"><label class="form-label">Objective (Exam Findings)</label><textarea class="form-control" rows="2" placeholder="Vitals stable, chest clear, no new findings"></textarea></div>
+          <div class="form-group"><label class="form-label">Assessment</label><textarea class="form-control" rows="2" placeholder="Improving / stable / deteriorating"></textarea></div>
+          <div class="form-group"><label class="form-label">Plan</label><textarea class="form-control" rows="2" placeholder="Continue medication, repeat ECG tomorrow, review in 24h"></textarea></div>
+          <div class="flex gap-8" style="justify-content:flex-end;">
+            <button class="btn btn-outline" onclick="location='13_lab_orders_results.html'">Order Investigation</button>
+            <button class="btn btn-outline" onclick="location='12_pharmacy_dispense.html'">Modify Medication</button>
+            <button class="btn btn-secondary" onclick="location='14_ipd_discharge_summary.html'">Plan Discharge</button>
+            <button class="btn btn-primary">Save Progress Note</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

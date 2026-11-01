@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .product-img {
+      width: 40px; height: 40px; border-radius: 6px;
+      object-fit: cover; background: var(--bg);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; border: 1px solid var(--border);
+    }
+    .product-name { font-weight: 600; font-size: 13.5px; color: var(--text-primary); }
+    .product-generic { font-size: 11px; color: var(--text-secondary); }
+  </style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">W</div>
+      <div class="logo-text">IWM Portal <span>Warehouse Management</span></div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item active"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-item" onclick="location='07_categories.html'"><span class="nav-icon">🗂️</span> Categories</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item" onclick="location='08_orders.html'"><span class="nav-icon">🛒</span> Orders <span class="nav-badge">12</span></div>
+      <div class="nav-item" onclick="location='11_prescriptions.html'"><span class="nav-icon">💊</span> Prescriptions <span class="nav-badge">4</span></div>
+      <div class="nav-group-label">Phase 2</div>
+      <div class="nav-item"><span class="nav-icon">🏭</span> Inventory <span class="phase2-tag">P2</span></div>
+      <div class="nav-item"><span class="nav-icon">🚚</span> Delivery <span class="phase2-tag">P2</span></div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='16_reports.html'"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item" onclick="location='15_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="sidebar-user">
+        <div class="avatar">SG</div>
+        <div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="topnav">
+    <div class="topnav-left">
+      <div class="breadcrumb">
+        <a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span> <span class="current">Products</span>
+      </div>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input class="topnav-search" type="search" placeholder="Search products..."/>
+    </div>
+    <div class="topnav-right">
+      <button class="icon-btn">🔔 <span class="badge"></span></button>
+      <div class="topnav-avatar">SG</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-body">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Medicine & Product Master</div>
+          <div class="page-subtitle">Manage all medicines and products in your inventory</div>
+        </div>
+        <div class="flex gap-8">
+          <button class="btn btn-outline btn-sm">📥 Export</button>
+          <button class="btn btn-primary" onclick="location='05_add_product.html'">+ Add New Product</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+          <div class="search-filter-wrap">
+            <span class="si">🔍</span>
+            <input type="search" placeholder="Search by name, SKU, brand..." style="width:260px;padding-left:32px;height:36px;border:1px solid var(--border);border-radius:4px;font-size:13px;"/>
+          </div>
+          <select style="height:36px;padding:0 10px;border:1px solid var(--border);border-radius:4px;font-size:13px;">
+            <option>All Categories</option>
+            <option>Antibiotics</option>
+            <option>Analgesics</option>
+            <option>Vitamins & Supplements</option>
+            <option>Antacids</option>
+            <option>Cardiovascular</option>
+            <option>Diabetic Care</option>
+          </select>
+          <select style="height:36px;padding:0 10px;border:1px solid var(--border);border-radius:4px;font-size:13px;">
+            <option>All Availability</option>
+            <option>Available</option>
+            <option>Unavailable</option>
+          </select>
+          <div class="filter-spacer"></div>
+          <span style="font-size:13px;color:var(--text-secondary);">Showing 1–10 of 248 products</span>
+        </div>
+
+        <!-- Table -->
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Unit</th>
+                <th>MRP (₹)</th>
+                <th>Discount</th>
+                <th>Rx Required</th>
+                <th>Availability</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="color:var(--text-secondary);">1</td>
+                <td>
+                  <div style="display:flex;align-items:center;gap:10px;">
+                    <div class="product-img">💊</div>
+                    <div><div class="product-name">Amoxicillin 500mg</div><div class="product-generic">Generic: Amoxicillin</div></div>
+                  </div>
+                </td>
+                <td><span class="badge badge-primary">Antibiotics</span></td>
+                <td>Strip/10</td>
+                <td class="font-600">₹ 85.00</td>
+                <td><span class="badge badge-pending">20%</span></td>
+                <td><span class="badge badge-rx">Yes</span></td>
+                <td><div class="toggle-wrap"><div class="toggle on"></div><span style="font-size:12px;color:var(--success);">Active</span></div></td>
+                <td><div class="table-actions"><button class="action-btn view">👁️</button><button class="action-btn edit" onclick="location='06_edit_product.html'">✏️</button><button class="action-btn delete">🗑️</button></div></td>
+              </tr>
+              <tr>
+                <td style="color:var(--text-secondary);">2</td>
+                <td>
+                  <div style="display:flex;align-items:center;gap:10px;">
+                    <div class="product-img">💊</div>
+                    <div><div class="product-name">Paracetamol 650mg</div><div class="product-generic">Generic: Acetaminophen</div></div>
+                  </div>
+                </td>
+                <td><span class="badge" style="background:#FFF3CD;color:#856404;">Analgesics</span></td>
+                <td>Strip/15</td>
+                <td class="font-600">₹ 32.50</td>
+                <td><span class="badge badge-pending">20%</span></td>
+                <td><span class="badge badge-inactive">No</span></td>
+                <td><div class="toggle-wrap"><div class="toggle on"></div><span style="font-size:12px;color:var(--success);">Active</span></div></td>
+                <td><div class="table-actions"><button class="action-btn view">👁️</button><button class="action-btn edit" onclick="location='06_edit_product.html'">✏️</button><button class="action-btn delete">🗑️</button></div></td>
+              </tr>
+              <tr>
+                <td style="color:var(--text-secondary);">3</td>
+                <td>
+                  <div style="display:flex;align-items:center;gap:10px;">
+                    <div class="product-img">🧴</div>
+                    <div><div class="product-name">Vitamin D3 1000IU</div><div class="product-generic">Generic: Cholecalciferol</div></div>
+                  </div>
+                </td>
+                <td><span class="badge" style="background:#D1FAE5;color:#065F46;">Vitamins</span></td>
+                <td>Bottle/60</td>
+                <td class="font-600">₹ 280.00</td>
+                <td><span class="badge badge-pending">20%</span></td>
+                <td><span class="badge badge-inactive">No</span></td>
+                <td><div class="toggle-wrap"><div class="toggle on"></div><span style="font-size:12px;color:var(--success);">Active</span></div></td>
+                <td><div class="table-actions"><button class="action-btn view">👁️</button><button class="action-btn edit" onclick="location='06_edit_product.html'">✏️</button><button class="action-btn delete">🗑️</button></div></td>
+              </tr>
+              <tr>
+                <td style="color:var(--text-secondary);">4</td>
+                <td>
+                  <div style="display:flex;align-items:center;gap:10px;">
+                    <div class="product-img">💊</div>
+                    <div><div class="product-name">Metformin 500mg</div><div class="product-generic">Generic: Metformin HCl</div></div>
+                  </div>
+                </td>
+                <td><span class="badge" style="background:#DBEAFE;color:#1e40af;">Diabetic Care</span></td>
+                <td>Strip/10</td>
+                <td class="font-600">₹ 45.00</td>
+                <td><span class="badge badge-pending">20%</span></td>
+                <td><span class="badge badge-rx">Yes</span></td>
+                <td><div class="toggle-wrap"><div class="toggle on"></div><span style="font-size:12px;color:var(--success);">Active</span></div></td>
+                <td><div class="table-actions"><button class="action-btn view">👁️</button><button class="action-btn edit" onclick="location='06_edit_product.html'">✏️</button><button class="action-btn delete">🗑️</button></div></td>
+              </tr>
+              <tr>
+                <td style="color:var(--text-secondary);">5</td>
+                <td>
+                  <div style="display:flex;align-items:center;gap:10px;">
+                    <div class="product-img">🧪</div>
+                    <div><div class="product-name">Omeprazole 20mg</div><div class="product-generic">Generic: Omeprazole</div></div>
+                  </div>
+                </td>
+                <td><span class="badge" style="background:#EDE9FE;color:#7C3AED;">Antacids</span></td>
+                <td>Strip/14</td>
+                <td class="font-600">₹ 68.00</td>
+                <td><span class="badge badge-pending">20%</span></td>
+                <td><span class="badge badge-inactive">No</span></td>
+                <td><div class="toggle-wrap"><div class="toggle"></div><span style="font-size:12px;color:var(--text-secondary);">Inactive</span></div></td>
+                <td><div class="table-actions"><button class="action-btn view">👁️</button><button class="action-btn edit" onclick="location='06_edit_product.html'">✏️</button><button class="action-btn delete">🗑️</button></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+          <span class="page-info">Showing 1–10 of 248 results</span>
+          <button class="page-btn">‹</button>
+          <button class="page-btn active">1</button>
+          <button class="page-btn">2</button>
+          <button class="page-btn">3</button>
+          <span style="padding:0 4px;color:var(--text-secondary);">...</span>
+          <button class="page-btn">25</button>
+          <button class="page-btn">›</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

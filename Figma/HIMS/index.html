@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HIMS — Screen Index</title>
+<link rel="stylesheet" href="../css/style.css"/>
+<style>
+  body { background: linear-gradient(135deg, #0F2744 0%, #1A3C6E 50%, #0F9B8E 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px 20px; }
+  .hub { background: white; border-radius: 16px; padding: 40px; width: 100%; max-width: 1100px; box-shadow: 0 24px 80px rgba(0,0,0,0.3); }
+  .hub-header { text-align: center; margin-bottom: 32px; }
+  .hub-logo { width: 64px; height: 64px; background: var(--accent); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 30px; font-weight: 800; color: white; margin: 0 auto 16px; }
+  .hub-title { font-size: 26px; font-weight: 800; }
+  .hub-sub { font-size: 14px; color: var(--text-secondary); margin-top: 4px; }
+  .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-secondary); margin: 24px 0 12px; display: flex; align-items: center; gap: 8px; }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+  .screen-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .screen-card { border: 1.5px solid var(--border); border-radius: var(--radius-md); padding: 14px; text-decoration: none; color: inherit; transition: all .15s; }
+  .screen-card:hover { border-color: var(--primary); box-shadow: 0 4px 16px rgba(26,60,110,0.15); transform: translateY(-2px); }
+  .screen-card .icon { font-size: 26px; margin-bottom: 8px; }
+  .screen-card .name { font-size: 13px; font-weight: 600; }
+  .screen-card .num { font-size: 11px; color: var(--text-secondary); }
+</style>
+</head>
+<body>
+  <div class="hub">
+    <div class="hub-header">
+      <div class="hub-logo">H</div>
+      <div class="hub-title">HIMS — Hospital Information Management System</div>
+      <div class="hub-sub">Wireframe Screen Index · 20 screens · OPD + IPD end-to-end flow</div>
+    </div>
+
+    <div class="section-label">Authentication &amp; Dashboard</div>
+    <div class="screen-grid">
+      <a class="screen-card" href="screens/01_login.html"><div class="icon">🔐</div><div class="name">Login</div><div class="num">01</div></a>
+      <a class="screen-card" href="screens/02_dashboard.html"><div class="icon">🏠</div><div class="name">Dashboard</div><div class="num">02</div></a>
+    </div>
+
+    <div class="section-label">Patient Management</div>
+    <div class="screen-grid">
+      <a class="screen-card" href="screens/03_patient_registration.html"><div class="icon">📝</div><div class="name">Patient Registration</div><div class="num">03</div></a>
+      <a class="screen-card" href="screens/04_patient_list_search.html"><div class="icon">🔍</div><div class="name">Patient Search</div><div class="num">04</div></a>
+    </div>
+
+    <div class="section-label">OPD Flow</div>
+    <div class="screen-grid">
+      <a class="screen-card" href="screens/05_opd_appointment_booking.html"><div class="icon">📅</div><div class="name">Appointment Booking</div><div class="num">05</div></a>
+      <a class="screen-card" href="screens/06_opd_queue_token.html"><div class="icon">🎫</div><div class="name">Queue / Token</div><div class="num">06</div></a>
+      <a class="screen-card" href="screens/07_doctor_consultation.html"><div class="icon">🩺</div><div class="name">Doctor Consultation</div><div class="num">07</div></a>
+    </div>
+
+    <div class="section-label">IPD Flow</div>
+    <div class="screen-grid">
+      <a class="screen-card" href="screens/08_ipd_admission.html"><div class="icon">🛏️</div><div class="name">IPD Admission</div><div class="num">08</div></a>
+      <a class="screen-card" href="screens/09_bed_ward_management.html"><div class="icon">🏥</div><div class="name">Bed / Ward Mgmt</div><div class="num">09</div></a>
+      <a class="screen-card" href="screens/10_ipd_nursing_station.html"><div class="icon">💉</div><div class="name">Nursing Station</div><div class="num">10</div></a>
+      <a class="screen-card" href="screens/11_doctor_rounds_notes.html"><div class="icon">📋</div><div class="name">Doctor Rounds</div><div class="num">11</div></a>
+      <a class="screen-card" href="screens/14_ipd_discharge_summary.html"><div class="icon">📤</div><div class="name">Discharge Summary</div><div class="num">14</div></a>
+    </div>
+
+    <div class="section-label">Pharmacy &amp; Lab</div>
+    <div class="screen-grid">
+      <a class="screen-card" href="screens/12_pharmacy_dispense.html"><div class="icon">💊</div><div class="name">Pharmacy Dispense</div><div class="num">12</div></a>
+      <a class="screen-card" href="screens/13_lab_orders_results.html"><div class="icon">🧪</div><div class="name">Lab Orders &amp; Results</div><div class="num">13</div></a>
+    </div>
+
+    <div class="section-label">Billing</div>
+    <div class="screen-grid">
+      <a class="screen-card" href="screens/15_billing_invoice.html"><div class="icon">🧾</div><div class="name">Billing &amp; Invoice</div><div class="num">15</div></a>
+      <a class="screen-card" href="screens/16_payment_collection.html"><div class="icon">💰</div><div class="name">Payment Collection</div><div class="num">16</div></a>
+    </div>
+
+    <div class="section-label">Administration</div>
+    <div class="screen-grid">
+      <a class="screen-card" href="screens/17_doctor_schedule.html"><div class="icon">👨‍⚕️</div><div class="name">Doctor Schedule</div><div class="num">17</div></a>
+      <a class="screen-card" href="screens/18_reports_analytics.html"><div class="icon">📊</div><div class="name">Reports &amp; Analytics</div><div class="num">18</div></a>
+      <a class="screen-card" href="screens/19_user_roles.html"><div class="icon">👥</div><div class="name">Users &amp; Roles</div><div class="num">19</div></a>
+      <a class="screen-card" href="screens/20_settings.html"><div class="icon">⚙️</div><div class="name">Settings</div><div class="num">20</div></a>
+    </div>
+  </div>
+</body>
+</html>

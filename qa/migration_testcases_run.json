@@ -1,0 +1,67 @@
+[
+  {
+    "id": "MIG-001",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "SubCategoryCode",
+    "title": "Create missing sub-category if meaningful and absent",
+    "preconditions": "Migration script configured with GeneralMasters lookup.",
+    "steps": [
+      "Run migration for tests.",
+      "Pick source rows where target sub-category code does not exist in GeneralMasters.",
+      "Verify missing valid SCTG rows are created."
+    ],
+    "expected_result": "Meaningful missing sub-categories are auto-created and assigned.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Critical"
+  },
+  {
+    "id": "MIG-002",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "SubCategoryCode",
+    "title": "Keep sub-category blank when test name equals sub-category name",
+    "preconditions": "Rule enabled in migration utility.",
+    "steps": [
+      "Run migration for rows where normalized TestName equals normalized SubCategoryName.",
+      "Inspect destination TestMasters rows."
+    ],
+    "expected_result": "SubCategoryCode remains null/blank for such rows.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "MIG-003",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "SubCategoryName quality",
+    "title": "Reject nonsense sub-category names",
+    "preconditions": "Bad-name filter enabled (e.g., '.', '>', 'DR.', 'TEST', 'DUPLICATE').",
+    "steps": [
+      "Run migration on records with nonsense candidate names.",
+      "Inspect GeneralMasters and TestMasters outputs."
+    ],
+    "expected_result": "Nonsense names are not created and not assigned to tests.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "MIG-004",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "Hierarchy mapping",
+    "title": "Reuse existing DEPT/CTGY/SCTG masters before creating new",
+    "preconditions": "GeneralMasters pre-populated.",
+    "steps": [
+      "Run migration.",
+      "Verify existing codes are reused and duplicates are not created."
+    ],
+    "expected_result": "Mapping prefers existing masters; only valid missing rows are inserted.",
+    "test_data": "",
+    "priority": "High",
+    "severity": "Major"
+  }
+]

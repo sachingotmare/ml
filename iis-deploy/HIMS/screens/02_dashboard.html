@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Dashboard — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">H</div>
+      <div class="logo-text">HIMS Portal <span>Hospital Management</span></div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item active"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="sidebar-user">
+        <div class="avatar">RS</div>
+        <div class="user-info">
+          <div class="user-name">Dr. R. Sharma</div>
+          <div class="user-role">Admin</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left">
+        <div class="breadcrumb"><span class="current">Dashboard</span></div>
+      </div>
+      <div class="topnav-right">
+        <button class="icon-btn">🔔<span class="badge"></span></button>
+        <div class="topnav-avatar">RS</div>
+      </div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Hospital Overview</div>
+          <div class="page-subtitle">Tuesday, 19 October 2026</div>
+        </div>
+        <div class="flex gap-8">
+          <button class="btn btn-outline" onclick="location='03_patient_registration.html'">+ New Patient</button>
+          <button class="btn btn-primary" onclick="location='05_opd_appointment_booking.html'">+ New Appointment</button>
+        </div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-icon" style="background:var(--blue-light); color:var(--info);">👤</div>
+          <div class="stat-info"><div class="stat-value">186</div><div class="stat-label">OPD Visits Today</div><div class="stat-trend up">▲ 12% vs yesterday</div></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background:var(--success-light); color:var(--success);">🛏️</div>
+          <div class="stat-info"><div class="stat-value">72%</div><div class="stat-label">Bed Occupancy (86/120)</div><div class="stat-trend down">▼ 3% vs yesterday</div></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background:var(--warning-light); color:#856404;">🆕</div>
+          <div class="stat-info"><div class="stat-value">14</div><div class="stat-label">Admissions Today</div></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background:var(--danger-light); color:var(--danger);">📤</div>
+          <div class="stat-info"><div class="stat-value">9</div><div class="stat-label">Discharges Today</div></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background:var(--purple-light); color:var(--purple);">🧪</div>
+          <div class="stat-info"><div class="stat-value">47</div><div class="stat-label">Pending Lab Reports</div></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background:var(--teal-light); color:var(--secondary);">💰</div>
+          <div class="stat-info"><div class="stat-value">₹4.2L</div><div class="stat-label">Revenue Today</div><div class="stat-trend up">▲ 8%</div></div>
+        </div>
+      </div>
+
+      <div class="grid-2 mb-24">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Quick Actions</div></div>
+          <div class="card-body">
+            <div class="quick-actions">
+              <button class="quick-action-btn" onclick="location='03_patient_registration.html'"><span class="qa-icon" style="background:var(--blue-light);">📝</span> Register Patient</button>
+              <button class="quick-action-btn" onclick="location='06_opd_queue_token.html'"><span class="qa-icon" style="background:var(--warning-light);">🎫</span> OPD Token</button>
+              <button class="quick-action-btn" onclick="location='08_ipd_admission.html'"><span class="qa-icon" style="background:var(--success-light);">🛏️</span> Admit Patient</button>
+              <button class="quick-action-btn" onclick="location='13_lab_orders_results.html'"><span class="qa-icon" style="background:var(--purple-light);">🧪</span> Lab Order</button>
+              <button class="quick-action-btn" onclick="location='15_billing_invoice.html'"><span class="qa-icon" style="background:var(--teal-light);">🧾</span> Create Invoice</button>
+              <button class="quick-action-btn" onclick="location='09_bed_ward_management.html'"><span class="qa-icon" style="background:var(--danger-light);">🏥</span> Bed Status</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Department-wise OPD Load</div></div>
+          <div class="card-body">
+            <div class="legend">
+              <div class="legend-item"><span class="legend-dot" style="background:var(--warning);"></span> General Medicine <span class="legend-val">48</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--primary);"></span> Orthopedics <span class="legend-val">31</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--success);"></span> Pediatrics <span class="legend-val">27</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--info);"></span> Gynecology <span class="legend-val">24</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--danger);"></span> Cardiology <span class="legend-val">19</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Recent Patient Activity</div>
+          <button class="btn btn-sm btn-outline" onclick="location='04_patient_list_search.html'">View All</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>UHID</th><th>Patient</th><th>Type</th><th>Department</th><th>Status</th><th>Time</th></tr></thead>
+            <tbody>
+              <tr><td class="order-id">UHID-10231</td><td>Ramesh Yadav</td><td>OPD</td><td>Cardiology</td><td><span class="badge badge-completed">Consulted</span></td><td>10:45 AM</td></tr>
+              <tr><td class="order-id">UHID-10232</td><td>Sunita Devi</td><td>IPD</td><td>Gynecology</td><td><span class="badge badge-preparing">Admitted</span></td><td>11:02 AM</td></tr>
+              <tr><td class="order-id">UHID-10233</td><td>Arjun Mehta</td><td>OPD</td><td>Orthopedics</td><td><span class="badge badge-pending">Waiting</span></td><td>11:15 AM</td></tr>
+              <tr><td class="order-id">UHID-10234</td><td>Priya Singh</td><td>IPD</td><td>General Medicine</td><td><span class="badge badge-accepted">Under Treatment</span></td><td>09:30 AM</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Billing & Invoice — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item active"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">BK</div><div class="user-info"><div class="user-name">Billing Clerk</div><div class="user-role">Accounts</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='02_dashboard.html'" style="cursor:pointer">Dashboard</span><span class="sep">/</span><span class="current">Billing &amp; Invoice</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">BK</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Final Bill — Priya Singh</div><div class="page-subtitle">UHID-10234 · IPD-2026-00401 · Invoice No: INV-2026-08821</div></div>
+        <span class="badge badge-pending">Unpaid</span>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Charge Breakdown</div></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Category</th><th>Description</th><th>Qty</th><th>Rate</th><th>Amount</th></tr></thead>
+            <tbody>
+              <tr><td>Room Charges</td><td>General Ward — Bed A-01 (4 days)</td><td>4</td><td>₹1,500</td><td>₹6,000</td></tr>
+              <tr><td>Doctor Visit</td><td>Consultant Round Charges</td><td>4</td><td>₹600</td><td>₹2,400</td></tr>
+              <tr><td>Pharmacy</td><td>Medicines &amp; Consumables</td><td>—</td><td>—</td><td>₹3,250</td></tr>
+              <tr><td>Laboratory</td><td>CBC, CRP, Chest X-Ray</td><td>3</td><td>—</td><td>₹2,100</td></tr>
+              <tr><td>Nursing &amp; Procedures</td><td>IV administration, dressing</td><td>—</td><td>—</td><td>₹1,500</td></tr>
+              <tr><td>Miscellaneous</td><td>Registration, admin charges</td><td>—</td><td>—</td><td>₹500</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Insurance / TPA Claim</div></div>
+          <div class="card-body">
+            <div class="form-group"><label class="form-label">Insurance Provider</label><input class="form-control" value="Star Health"/></div>
+            <div class="form-group"><label class="form-label">Policy / Claim No.</label><input class="form-control" placeholder="Policy number"/></div>
+            <div class="form-group"><label class="form-label">Approved Amount</label><input class="form-control" placeholder="₹12,000"/></div>
+            <button class="btn btn-sm btn-outline w-100" style="justify-content:center;">Submit for TPA Approval</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Bill Summary</div></div>
+          <div class="card-body">
+            <div class="flex-between mb-8"><span class="text-secondary">Subtotal</span><span class="font-600">₹15,750</span></div>
+            <div class="flex-between mb-8"><span class="text-secondary">Discount</span><span class="font-600 text-danger">- ₹500</span></div>
+            <div class="flex-between mb-8"><span class="text-secondary">Tax (GST 5%)</span><span class="font-600">₹762</span></div>
+            <div class="flex-between mb-8"><span class="text-secondary">Advance Paid</span><span class="font-600 text-danger">- ₹5,000</span></div>
+            <div class="flex-between" style="border-top:1px solid var(--border); padding-top:10px; margin-top:6px;"><span class="font-700">Net Payable</span><span class="font-700" style="font-size:20px; color:var(--primary);">₹11,012</span></div>
+            <button class="btn btn-primary w-100 mt-16" style="justify-content:center;" onclick="location='16_payment_collection.html'">Proceed to Payment</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

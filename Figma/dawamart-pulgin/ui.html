@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DawaMart Wireframe Generator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Inter, -apple-system, sans-serif;
+      background: #F8FAFC;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 360px;
+      width: 100%;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .logo { font-size: 48px; margin-bottom: 12px; }
+    h1 { font-size: 20px; color: #121D32; font-weight: 700; margin-bottom: 6px; }
+    p { font-size: 13px; color: #6D7B8E; margin-bottom: 24px; line-height: 1.6; }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+    .info-item {
+      background: #EDF2FF;
+      border-radius: 10px;
+      padding: 12px 8px;
+    }
+    .info-num { font-size: 22px; font-weight: 700; color: #2563EB; }
+    .info-label { font-size: 10px; color: #6D7B8E; margin-top: 2px; }
+    button {
+      width: 100%;
+      padding: 14px;
+      background: #2563EB;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover { background: #1d4ed8; }
+    button:disabled { background: #93c5fd; cursor: not-allowed; }
+    .progress {
+      display: none;
+      margin-top: 16px;
+      font-size: 12px;
+      color: #6D7B8E;
+    }
+    .progress.show { display: block; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">💊</div>
+    <h1>DawaMart Wireframe Generator</h1>
+    <p>Generates 25 screens across 2 app pages with full prototype click-navigation.</p>
+    <div class="info-grid">
+      <div class="info-item">
+        <div class="info-num">12</div>
+        <div class="info-label">Customer Screens</div>
+      </div>
+      <div class="info-item">
+        <div class="info-num">13</div>
+        <div class="info-label">Pharmacy Screens</div>
+      </div>
+      <div class="info-item">
+        <div class="info-num">2</div>
+        <div class="info-label">App Pages</div>
+      </div>
+      <div class="info-item">
+        <div class="info-num">25</div>
+        <div class="info-label">Total Screens</div>
+      </div>
+    </div>
+    <button id="generateBtn" onclick="generate()">🚀 Generate Wireframe</button>
+    <div class="progress" id="progress">Building screens &amp; prototype links… ⏳</div>
+    <div class="success" id="success" style="display:none;background:#F0FDF4;border:1px solid #86EFAC;border-radius:10px;padding:12px;margin-top:12px;font-size:12px;color:#166534;">✅ Done! Open <strong>Customer App</strong> and <strong>Pharmacy App</strong> pages.<br>Press ▶ Present to run the interactive demo.</div>
+  </div>
+  <script>
+    function generate() {
+      const btn = document.getElementById('generateBtn');
+      const progress = document.getElementById('progress');
+      const success = document.getElementById('success');
+      btn.disabled = true;
+      btn.textContent = '⏳ Generating…';
+      progress.classList.add('show');
+      success.style.display = 'none';
+      parent.postMessage({ pluginMessage: { type: 'generate' } }, '*');
+    }
+    window.onmessage = function(event) {
+      const msg = event.data.pluginMessage;
+      if (!msg) return;
+      const btn = document.getElementById('generateBtn');
+      const progress = document.getElementById('progress');
+      progress.classList.remove('show');
+      btn.disabled = false;
+      if (msg.type === 'done') {
+        btn.textContent = '✅ Generated!';
+        document.getElementById('success').style.display = 'block';
+      } else if (msg.type === 'error') {
+        btn.textContent = '🚀 Generate Wireframe';
+        alert('Error: ' + msg.message);
+      }
+    };
+  </script>
+</body>
+</html>

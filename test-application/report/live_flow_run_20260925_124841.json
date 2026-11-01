@@ -1,0 +1,69 @@
+{
+  "timestamp": "20260925_124841",
+  "base_url": "http://localhost:1005/login",
+  "options": {
+    "all_cases": false,
+    "masters_accounts": true,
+    "masters_tests": true,
+    "masters_rates": true,
+    "masters_doctors": true,
+    "main_patient_entry": true,
+    "main_readings": true,
+    "main_receipt_entry": true,
+    "reports_all": true,
+    "headless": false,
+    "manual_login_fallback": false,
+    "manual_login_timeout_sec": 120,
+    "manual_pause_mode": false,
+    "browser": "edge"
+  },
+  "results": [
+    {
+      "name": "Masters: Accounts",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Masters: Tests",
+      "status": "FAIL",
+      "details": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"text=Pathology (DEPT001)\").first\n    - locator resolved to <option value=\"DEPT001\">Pathology (DEPT001)</option>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+    },
+    {
+      "name": "Masters: Rates",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Masters: Doctors",
+      "status": "FAIL",
+      "details": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"//label[contains(normalize-space(.), 'Type')]/following::input[1]\").first\n    - locator resolved to <input type=\"text\" class=\"input-field\" value=\"QA TEST QAT09251242\" placeholder=\"e.g. Hemoglobin\"/>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"p-6\">\u2026</div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"absolute inset-0 bg-black/40 backdrop-blur-sm\"></div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"p-6\">\u2026</div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n  2 \u00d7 retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"absolute inset-0 bg-black/40 backdrop-blur-sm\"></div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n  13 \u00d7 retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"absolute inset-0 bg-black/40 backdrop-blur-sm\"></div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"p-6\">\u2026</div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"absolute inset-0 bg-black/40 backdrop-blur-sm\"></div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"absolute inset-0 bg-black/40 backdrop-blur-sm\"></div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"absolute inset-0 bg-black/40 backdrop-blur-sm\"></div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"p-6\">\u2026</div> from <div class=\"fixed inset-0 z-[9999] flex items-center justify-center\">\u2026</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n"
+    },
+    {
+      "name": "Main: Patient Entry",
+      "status": "FAIL",
+      "details": "Could not click enabled Save button on Patient Entry form. (name=False, age=False, gender=False, mobile=False, account=False, doctor=False, test=True) Diagnostics: step_failed_patient_entry_save_20260925_124826.png, step_failed_patient_entry_save_20260925_124826.html"
+    },
+    {
+      "name": "Main: Receipt Entry",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Main: Readings",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Reports: All",
+      "status": "PASS",
+      "details": "Completed"
+    }
+  ],
+  "context_data": {
+    "account_name": "QA COMPANY QA09251242",
+    "test_code": "QAT09251242",
+    "test_name": "QA TEST QAT09251242",
+    "doctor_name": "DR QA 09251243",
+    "patient_name": "QA PATIENT 09251248"
+  }
+}

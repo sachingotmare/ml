@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Patient Search — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item active"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">RS</div><div class="user-info"><div class="user-name">Front Desk</div><div class="user-role">Receptionist</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='02_dashboard.html'" style="cursor:pointer">Dashboard</span><span class="sep">/</span><span class="current">Patient Search</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">RS</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Patient List &amp; Search</div><div class="page-subtitle">1,284 patients registered</div></div>
+        <button class="btn btn-primary" onclick="location='03_patient_registration.html'">+ New Patient</button>
+      </div>
+
+      <div class="card">
+        <div class="filter-bar">
+          <div class="search-filter-wrap"><span class="si">🔍</span><input type="search" placeholder="Search by UHID, name or mobile..." style="width:280px;"/></div>
+          <select><option>All Departments</option><option>General Medicine</option><option>Orthopedics</option><option>Cardiology</option></select>
+          <select><option>All Visit Types</option><option>OPD</option><option>IPD</option></select>
+          <div class="filter-spacer"></div>
+          <button class="btn btn-sm btn-secondary">⬇ Export</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>UHID</th><th>Patient Name</th><th>Age/Gender</th><th>Mobile</th><th>Last Visit</th><th>Visit Type</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td class="order-id">UHID-10231</td><td class="customer-cell"><span class="avatar-sm">RY</span> Ramesh Yadav</td><td>45 / M</td><td>+91 98230XXXXX</td><td>19 Oct 2026</td><td>OPD</td><td><span class="badge badge-completed">Active</span></td>
+                <td class="table-actions"><button class="action-btn view" onclick="location='05_opd_appointment_booking.html'">👁</button><button class="action-btn edit">✎</button></td></tr>
+              <tr><td class="order-id">UHID-10232</td><td class="customer-cell"><span class="avatar-sm">SD</span> Sunita Devi</td><td>32 / F</td><td>+91 99110XXXXX</td><td>18 Oct 2026</td><td>IPD</td><td><span class="badge badge-preparing">Admitted</span></td>
+                <td class="table-actions"><button class="action-btn view" onclick="location='10_ipd_nursing_station.html'">👁</button><button class="action-btn edit">✎</button></td></tr>
+              <tr><td class="order-id">UHID-10233</td><td class="customer-cell"><span class="avatar-sm">AM</span> Arjun Mehta</td><td>29 / M</td><td>+91 97123XXXXX</td><td>19 Oct 2026</td><td>OPD</td><td><span class="badge badge-pending">Waiting</span></td>
+                <td class="table-actions"><button class="action-btn view" onclick="location='06_opd_queue_token.html'">👁</button><button class="action-btn edit">✎</button></td></tr>
+              <tr><td class="order-id">UHID-10234</td><td class="customer-cell"><span class="avatar-sm">PS</span> Priya Singh</td><td>56 / F</td><td>+91 98887XXXXX</td><td>15 Oct 2026</td><td>IPD</td><td><span class="badge badge-accepted">Under Treatment</span></td>
+                <td class="table-actions"><button class="action-btn view" onclick="location='10_ipd_nursing_station.html'">👁</button><button class="action-btn edit">✎</button></td></tr>
+              <tr><td class="order-id">UHID-10100</td><td class="customer-cell"><span class="avatar-sm">KJ</span> Kiran Joshi</td><td>61 / F</td><td>+91 90001XXXXX</td><td>02 Oct 2026</td><td>IPD</td><td><span class="badge badge-inactive">Discharged</span></td>
+                <td class="table-actions"><button class="action-btn view" onclick="location='14_ipd_discharge_summary.html'">👁</button><button class="action-btn edit">✎</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination"><span class="page-info">Showing 1–5 of 1,284</span><button class="page-btn">‹</button><button class="page-btn active">1</button><button class="page-btn">2</button><button class="page-btn">3</button><button class="page-btn">›</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

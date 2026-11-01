@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Patient Registration — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item active"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">RS</div><div class="user-info"><div class="user-name">Front Desk</div><div class="user-role">Receptionist</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='02_dashboard.html'" style="cursor:pointer">Dashboard</span><span class="sep">/</span><span class="current">Patient Registration</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">RS</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">New Patient Registration</div><div class="page-subtitle">UHID will be auto-generated on save</div></div>
+        <div class="flex gap-8"><span class="badge badge-primary">UHID: Auto (UHID-10235)</span></div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Demographic Details</div></div>
+        <div class="card-body">
+          <div class="form-row-3">
+            <div class="form-group"><label class="form-label">Full Name<span class="req">*</span></label><input class="form-control" placeholder="Patient full name"/></div>
+            <div class="form-group"><label class="form-label">Date of Birth<span class="req">*</span></label><input type="date" class="form-control"/></div>
+            <div class="form-group"><label class="form-label">Gender<span class="req">*</span></label>
+              <select class="form-control"><option>Male</option><option>Female</option><option>Other</option></select>
+            </div>
+          </div>
+          <div class="form-row-3">
+            <div class="form-group"><label class="form-label">Mobile Number<span class="req">*</span></label><input class="form-control" placeholder="+91 98XXXXXXXX"/></div>
+            <div class="form-group"><label class="form-label">Email</label><input class="form-control" placeholder="patient@email.com"/></div>
+            <div class="form-group"><label class="form-label">Aadhaar / Govt ID</label><input class="form-control" placeholder="XXXX-XXXX-XXXX"/></div>
+          </div>
+          <div class="form-group"><label class="form-label">Address</label><textarea class="form-control" rows="2" placeholder="Full residential address"></textarea></div>
+          <div class="form-row-3">
+            <div class="form-group"><label class="form-label">Blood Group</label><select class="form-control"><option>A+</option><option>B+</option><option>O+</option><option>AB+</option><option>A-</option><option>B-</option><option>O-</option><option>AB-</option></select></div>
+            <div class="form-group"><label class="form-label">Emergency Contact Name</label><input class="form-control" placeholder="Contact person"/></div>
+            <div class="form-group"><label class="form-label">Emergency Contact Number</label><input class="form-control" placeholder="+91 98XXXXXXXX"/></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Visit Type</div></div>
+        <div class="card-body">
+          <div class="tabs" style="padding:0; border:none;">
+            <div class="tab-item active">OPD Visit</div>
+            <div class="tab-item">IPD Direct Admission</div>
+            <div class="tab-item">Emergency</div>
+          </div>
+          <div class="form-row mt-16">
+            <div class="form-group"><label class="form-label">Department</label><select class="form-control"><option>General Medicine</option><option>Orthopedics</option><option>Pediatrics</option><option>Gynecology</option><option>Cardiology</option></select></div>
+            <div class="form-group"><label class="form-label">Consulting Doctor</label><select class="form-control"><option>Dr. R. Sharma</option><option>Dr. A. Verma</option><option>Dr. N. Kapoor</option></select></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Insurance / Payment Mode</div></div>
+        <div class="card-body">
+          <div class="form-row">
+            <div class="form-group"><label class="form-label">Payment Type</label><select class="form-control"><option>Self Pay / Cash</option><option>Insurance / TPA</option><option>Corporate</option></select></div>
+            <div class="form-group"><label class="form-label">Insurance Provider (if applicable)</label><input class="form-control" placeholder="e.g. Star Health"/></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-8" style="justify-content:flex-end;">
+        <button class="btn btn-secondary">Cancel</button>
+        <button class="btn btn-primary" onclick="location='05_opd_appointment_booking.html'">Save &amp; Proceed to Appointment</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

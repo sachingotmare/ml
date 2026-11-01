@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Orders — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">W</div>
+      <div class="logo-text">IWM Portal <span>Warehouse Management</span></div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item" onclick="location='04_products.html'"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-item" onclick="location='07_categories.html'"><span class="nav-icon">🗂️</span> Categories</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item active"><span class="nav-icon">🛒</span> Orders <span class="nav-badge">12</span></div>
+      <div class="nav-item" onclick="location='11_prescriptions.html'"><span class="nav-icon">💊</span> Prescriptions <span class="nav-badge">4</span></div>
+      <div class="nav-group-label">Phase 2</div>
+      <div class="nav-item"><span class="nav-icon">🏭</span> Inventory <span class="phase2-tag">P2</span></div>
+      <div class="nav-item"><span class="nav-icon">🚚</span> Delivery <span class="phase2-tag">P2</span></div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='16_reports.html'"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item" onclick="location='15_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="sidebar-user">
+        <div class="avatar">SG</div>
+        <div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="topnav">
+    <div class="topnav-left">
+      <div class="breadcrumb">
+        <a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span> <span class="current">Orders</span>
+      </div>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input class="topnav-search" type="search" placeholder="Search by Order ID or customer..."/>
+    </div>
+    <div class="topnav-right">
+      <button class="icon-btn">🔔 <span class="badge"></span></button>
+      <div class="topnav-avatar">SG</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-body">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Order Management</div>
+          <div class="page-subtitle">Receive, process and track all customer orders</div>
+        </div>
+        <div class="flex gap-8">
+          <button class="btn btn-outline btn-sm">📥 Export</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <!-- Tabs -->
+        <div class="tabs">
+          <div class="tab-item active">All <span class="tab-count">35</span></div>
+          <div class="tab-item">⏳ Pending <span class="tab-count">12</span></div>
+          <div class="tab-item">✅ Accepted <span class="tab-count">8</span></div>
+          <div class="tab-item">🔄 Under Prep. <span class="tab-count">5</span></div>
+          <div class="tab-item">🚚 Dispatched <span class="tab-count">7</span></div>
+          <div class="tab-item">📦 Completed <span class="tab-count">143</span></div>
+          <div class="tab-item">❌ Rejected <span class="tab-count">3</span></div>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+          <div class="search-filter-wrap">
+            <span class="si">🔍</span>
+            <input type="search" placeholder="Order ID or customer name..." style="width:230px;padding-left:32px;height:36px;border:1px solid var(--border);border-radius:4px;font-size:13px;"/>
+          </div>
+          <input type="date" style="height:36px;padding:0 10px;border:1px solid var(--border);border-radius:4px;font-size:13px;" value="2026-08-12"/>
+          <select style="height:36px;padding:0 10px;border:1px solid var(--border);border-radius:4px;font-size:13px;">
+            <option>All Types</option>
+            <option>Regular</option>
+            <option>Prescription (Rx)</option>
+          </select>
+          <select style="height:36px;padding:0 10px;border:1px solid var(--border);border-radius:4px;font-size:13px;">
+            <option>Sort: Newest First</option>
+            <option>Sort: Oldest First</option>
+            <option>Sort: Amount High-Low</option>
+            <option>Sort: Amount Low-High</option>
+          </select>
+          <div class="filter-spacer"></div>
+          <span style="font-size:13px;color:var(--text-secondary);">35 orders found</span>
+        </div>
+
+        <!-- Table -->
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Order ID</th>
+                <th>Customer</th>
+                <th>Type</th>
+                <th>Items</th>
+                <th>Total Amount</th>
+                <th>Order Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1024</a></td>
+                <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm">RS</div><div><div style="font-size:13px;font-weight:500;">Rahul Sharma</div><div style="font-size:11px;color:var(--text-secondary);">+91-9876543210</div></div></div></td>
+                <td><span class="badge badge-primary">Regular</span></td>
+                <td>3 items</td>
+                <td class="font-600">₹ 1,440</td>
+                <td><div style="font-size:13px;">12 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">10:32 AM</div></td>
+                <td><span class="badge badge-pending">⏳ Pending</span></td>
+                <td>
+                  <div class="table-actions">
+                    <button class="action-btn view" onclick="location='09_order_detail.html'">👁️</button>
+                    <button class="action-btn accept">✅</button>
+                    <button class="action-btn reject">❌</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1023</a></td>
+                <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#0F9B8E;">PK</div><div><div style="font-size:13px;font-weight:500;">Priya Kumar</div><div style="font-size:11px;color:var(--text-secondary);">+91-8765432109</div></div></div></td>
+                <td><span class="badge badge-rx">💊 Rx</span></td>
+                <td>5 items</td>
+                <td class="font-600">₹ 2,880</td>
+                <td><div style="font-size:13px;">12 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">09:18 AM</div></td>
+                <td><span class="badge badge-accepted">✅ Accepted</span></td>
+                <td><div class="table-actions"><button class="action-btn view" onclick="location='09_order_detail.html'">👁️</button></div></td>
+              </tr>
+              <tr>
+                <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1022</a></td>
+                <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#7C3AED;">AM</div><div><div style="font-size:13px;font-weight:500;">Anjali Mehta</div><div style="font-size:11px;color:var(--text-secondary);">+91-7654321098</div></div></div></td>
+                <td><span class="badge badge-primary">Regular</span></td>
+                <td>2 items</td>
+                <td class="font-600">₹ 960</td>
+                <td><div style="font-size:13px;">12 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">08:55 AM</div></td>
+                <td><span class="badge badge-preparing">🔄 Under Prep.</span></td>
+                <td><div class="table-actions"><button class="action-btn view" onclick="location='09_order_detail.html'">👁️</button></div></td>
+              </tr>
+              <tr>
+                <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1021</a></td>
+                <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#F57C00;">SK</div><div><div style="font-size:13px;font-weight:500;">Suresh Kumar</div><div style="font-size:11px;color:var(--text-secondary);">+91-6543210987</div></div></div></td>
+                <td><span class="badge badge-primary">Regular</span></td>
+                <td>6 items</td>
+                <td class="font-600">₹ 3,120</td>
+                <td><div style="font-size:13px;">11 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">04:10 PM</div></td>
+                <td><span class="badge badge-dispatched">🚚 Dispatched</span></td>
+                <td><div class="table-actions"><button class="action-btn view" onclick="location='09_order_detail.html'">👁️</button></div></td>
+              </tr>
+              <tr>
+                <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1020</a></td>
+                <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#2E7D32;">NP</div><div><div style="font-size:13px;font-weight:500;">Neha Patel</div><div style="font-size:11px;color:var(--text-secondary);">+91-5432109876</div></div></div></td>
+                <td><span class="badge badge-rx">💊 Rx</span></td>
+                <td>4 items</td>
+                <td class="font-600">₹ 1,680</td>
+                <td><div style="font-size:13px;">11 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">02:45 PM</div></td>
+                <td><span class="badge badge-completed">📦 Completed</span></td>
+                <td><div class="table-actions"><button class="action-btn view" onclick="location='09_order_detail.html'">👁️</button></div></td>
+              </tr>
+              <tr>
+                <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1019</a></td>
+                <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#C62828;">VR</div><div><div style="font-size:13px;font-weight:500;">Vijay Raj</div><div style="font-size:11px;color:var(--text-secondary);">+91-4321098765</div></div></div></td>
+                <td><span class="badge badge-primary">Regular</span></td>
+                <td>1 item</td>
+                <td class="font-600">₹ 240</td>
+                <td><div style="font-size:13px;">11 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">11:20 AM</div></td>
+                <td><span class="badge badge-rejected">❌ Rejected</span></td>
+                <td><div class="table-actions"><button class="action-btn view" onclick="location='09_order_detail.html'">👁️</button></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+          <span class="page-info">Showing 1–10 of 35 results</span>
+          <button class="page-btn">‹</button>
+          <button class="page-btn active">1</button>
+          <button class="page-btn">2</button>
+          <button class="page-btn">3</button>
+          <button class="page-btn">4</button>
+          <button class="page-btn">›</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

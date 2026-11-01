@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>IPD Admission — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item active"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">RS</div><div class="user-info"><div class="user-name">Front Desk</div><div class="user-role">Receptionist</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='02_dashboard.html'" style="cursor:pointer">Dashboard</span><span class="sep">/</span><span class="current">IPD Admission</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">RS</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">IPD Admission Form</div><div class="page-subtitle">Patient: Ramesh Yadav · UHID-10231 · Referred by Dr. N. Kapoor</div></div>
+        <span class="badge badge-primary">IPD No: IPD-2026-00458</span>
+      </div>
+
+      <div class="grid-2">
+        <div class="card mb-24">
+          <div class="card-header"><div class="card-title">Admission Details</div></div>
+          <div class="card-body">
+            <div class="form-group"><label class="form-label">Admission Type<span class="req">*</span></label>
+              <select class="form-control"><option>Planned</option><option>Emergency</option><option>Transfer from OPD</option></select>
+            </div>
+            <div class="form-group"><label class="form-label">Admitting Doctor<span class="req">*</span></label>
+              <select class="form-control"><option>Dr. N. Kapoor — Cardiology</option><option>Dr. R. Sharma — General Medicine</option></select>
+            </div>
+            <div class="form-group"><label class="form-label">Provisional Diagnosis</label><input class="form-control" value="Stable Angina — for observation"/></div>
+            <div class="form-group"><label class="form-label">Admission Date &amp; Time</label><input type="datetime-local" class="form-control"/></div>
+          </div>
+        </div>
+
+        <div class="card mb-24">
+          <div class="card-header"><div class="card-title">Ward &amp; Bed Allocation</div></div>
+          <div class="card-body">
+            <div class="form-group"><label class="form-label">Ward Type<span class="req">*</span></label>
+              <select class="form-control"><option>General Ward</option><option>Semi-Private</option><option>Private</option><option>ICU</option></select>
+            </div>
+            <div class="form-group"><label class="form-label">Select Bed<span class="req">*</span></label>
+              <select class="form-control"><option>Ward B · Bed 12 (Available)</option><option>Ward B · Bed 14 (Available)</option><option>Private Room 4 (Available)</option></select>
+            </div>
+            <button class="btn btn-sm btn-outline w-100" style="justify-content:center;" onclick="location='09_bed_ward_management.html'">🏥 View Bed Availability Board</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Payment &amp; Estimate</div></div>
+        <div class="card-body">
+          <div class="form-row-3">
+            <div class="form-group"><label class="form-label">Payment Mode</label><select class="form-control"><option>Insurance / TPA</option><option>Self Pay</option><option>Corporate</option></select></div>
+            <div class="form-group"><label class="form-label">Estimated Package Cost</label><input class="form-control" value="₹45,000"/></div>
+            <div class="form-group"><label class="form-label">Advance Deposit Collected</label><input class="form-control" placeholder="₹10,000"/></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Attendant / Next of Kin</div></div>
+        <div class="card-body">
+          <div class="form-row">
+            <div class="form-group"><label class="form-label">Attendant Name</label><input class="form-control" placeholder="Name"/></div>
+            <div class="form-group"><label class="form-label">Relation &amp; Contact</label><input class="form-control" placeholder="Son · +91 98XXXXXXXX"/></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-8" style="justify-content:flex-end;">
+        <button class="btn btn-secondary">Cancel</button>
+        <button class="btn btn-primary" onclick="location='10_ipd_nursing_station.html'">Confirm Admission</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: Inter, sans-serif; }
+  body { background: #1e1e1e; color: #fff; padding: 16px; width: 320px; }
+  h2 { font-size: 15px; font-weight: 700; margin-bottom: 4px; color: #fff; }
+  p  { font-size: 11px; color: #999; margin-bottom: 16px; line-height: 1.5; }
+  .screen-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; max-height: 300px; overflow-y: auto; }
+  .screen-item {
+    display: flex; align-items: center; gap: 8px;
+    background: #2c2c2c; border-radius: 6px; padding: 8px 10px;
+    font-size: 12px; cursor: pointer;
+  }
+  .screen-item input[type=checkbox] { accent-color: #18a0fb; width: 14px; height: 14px; flex-shrink: 0; }
+  .screen-item .si-num { color: #666; font-size: 10px; width: 20px; }
+  .screen-item .si-name { flex: 1; font-weight: 500; }
+  .screen-item .si-phase { font-size: 9px; padding: 1px 6px; border-radius: 10px; }
+  .phase1 { background: #1a4a1a; color: #4ade80; }
+  .phase2 { background: #3a3020; color: #facc15; }
+  .divider { height: 1px; background: #333; margin: 12px 0; }
+  .row { display: flex; gap: 8px; margin-bottom: 10px; }
+  label { font-size: 11px; color: #aaa; display: block; margin-bottom: 4px; }
+  input[type=number], select {
+    width: 100%; background: #2c2c2c; border: 1px solid #444;
+    border-radius: 4px; padding: 6px 8px; color: #fff;
+    font-size: 12px; outline: none;
+  }
+  input[type=number]:focus, select:focus { border-color: #18a0fb; }
+  .check-row { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #ccc; margin-bottom: 8px; }
+  .check-row input { accent-color: #18a0fb; }
+  .btn {
+    width: 100%; padding: 10px; border: none; border-radius: 6px;
+    font-size: 13px; font-weight: 600; cursor: pointer; transition: opacity 0.15s;
+  }
+  .btn:hover { opacity: 0.88; }
+  .btn-primary   { background: #18a0fb; color: white; }
+  .btn-secondary { background: #333; color: white; margin-top: 6px; }
+  .btn-select    { background: #2c2c2c; color: #aaa; margin-bottom: 8px; font-size: 11px; padding: 6px; }
+  #status { font-size: 11px; color: #4ade80; margin-top: 10px; min-height: 16px; text-align: center; }
+  #progress { width: 100%; height: 4px; background: #333; border-radius: 2px; margin-top: 8px; display: none; }
+  #progress-bar { height: 100%; background: #18a0fb; border-radius: 2px; width: 0%; transition: width 0.3s; }
+  .section-title { font-size: 10px; font-weight: 700; text-transform: uppercase; color: #666; letter-spacing: 1px; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<h2>🏭 IWM Wireframe Generator</h2>
+<p>Inventory & Warehouse Management — SG Softech<br/>Generates native Figma wireframe screens.</p>
+
+<div class="section-title">Select Screens</div>
+<div style="display:flex;gap:6px;margin-bottom:8px;">
+  <button class="btn btn-select" style="flex:1" onclick="selectAll(true)">✓ Select All</button>
+  <button class="btn btn-select" style="flex:1" onclick="selectAll(false)">✗ Deselect All</button>
+</div>
+
+<div class="screen-list" id="screenList"></div>
+
+<div class="divider"></div>
+<div class="section-title">Options</div>
+
+<div class="row">
+  <div style="flex:1">
+    <label>Frame Width (px)</label>
+    <input type="number" id="frameWidth" value="1440" min="360" max="1920"/>
+  </div>
+  <div style="flex:1">
+    <label>Frame Gap (px)</label>
+    <input type="number" id="frameGap" value="120" min="20" max="400"/>
+  </div>
+</div>
+
+<div class="check-row">
+  <input type="checkbox" id="addPrototype" checked/>
+  <span>Add prototype click connections</span>
+</div>
+<div class="check-row">
+  <input type="checkbox" id="addLabels" checked/>
+  <span>Add screen name labels below frames</span>
+</div>
+<div class="check-row">
+  <input type="checkbox" id="darkMode"/>
+  <span>Dark mode sidebar</span>
+</div>
+
+<div class="divider"></div>
+
+<button class="btn btn-primary" onclick="generate()">⚡ Generate Wireframes</button>
+<button class="btn btn-secondary" onclick="arrangeOnly()">↔ Arrange Existing Frames</button>
+
+<div id="progress"><div id="progress-bar"></div></div>
+<div id="status"></div>
+
+<script>
+const SCREENS = [
+  { id:"login",       num:"01", name:"Login",               phase:1 },
+  { id:"forgot",      num:"02", name:"Forgot Password",      phase:1 },
+  { id:"dashboard",   num:"03", name:"Dashboard",            phase:1 },
+  { id:"products",    num:"04", name:"Products List",        phase:1 },
+  { id:"addproduct",  num:"05", name:"Add Product",          phase:1 },
+  { id:"editproduct", num:"06", name:"Edit Product",         phase:1 },
+  { id:"categories",  num:"07", name:"Categories",           phase:1 },
+  { id:"orders",      num:"08", name:"Orders List",          phase:1 },
+  { id:"orderdetail", num:"09", name:"Order Detail",         phase:1 },
+  { id:"bill",        num:"10", name:"Generate Bill",        phase:1 },
+  { id:"presclist",   num:"11", name:"Prescriptions",        phase:1 },
+  { id:"prescreview", num:"12", name:"Prescription Review",  phase:1 },
+  { id:"profile",     num:"13", name:"Warehouse Profile",    phase:1 },
+  { id:"users",       num:"14", name:"User Management",      phase:1 },
+  { id:"settings",    num:"15", name:"System Settings",      phase:1 },
+  { id:"reports",     num:"16", name:"Reports",              phase:1 },
+  { id:"purchase",    num:"P1", name:"Purchase Mgmt",        phase:2 },
+  { id:"inventory",   num:"P2", name:"Inventory Mgmt",       phase:2 },
+  { id:"delivery",    num:"P3", name:"Delivery Mgmt",        phase:2 },
+  { id:"accounting",  num:"P4", name:"Accounting & GST",     phase:2 },
+  { id:"analytics",   num:"P5", name:"Analytics Dashboard",  phase:2 },
+];
+
+// Build screen list
+const list = document.getElementById('screenList');
+SCREENS.forEach(s => {
+  const div = document.createElement('div');
+  div.className = 'screen-item';
+  div.innerHTML = `
+    <input type="checkbox" id="cb_${s.id}" ${s.phase===1?'checked':''}/>
+    <span class="si-num">${s.num}</span>
+    <span class="si-name">${s.name}</span>
+    <span class="si-phase ${s.phase===1?'phase1':'phase2'}">Phase ${s.phase}</span>
+  `;
+  div.onclick = (e) => { if(e.target.tagName!=='INPUT') document.getElementById('cb_'+s.id).click(); };
+  list.appendChild(div);
+});
+
+function selectAll(v) {
+  SCREENS.forEach(s => { document.getElementById('cb_'+s.id).checked = v; });
+}
+
+function setStatus(msg, color='#4ade80') {
+  const el = document.getElementById('status');
+  el.style.color = color;
+  el.textContent = msg;
+}
+
+function setProgress(pct) {
+  const bar = document.getElementById('progress-bar');
+  const wrap = document.getElementById('progress');
+  wrap.style.display = 'block';
+  bar.style.width = pct + '%';
+  if(pct >= 100) setTimeout(() => wrap.style.display='none', 800);
+}
+
+function getSelected() {
+  return SCREENS.filter(s => document.getElementById('cb_'+s.id).checked);
+}
+
+function generate() {
+  const selected = getSelected();
+  if(selected.length === 0) { setStatus('⚠️ Select at least one screen', '#facc15'); return; }
+
+  setStatus('⏳ Generating...', '#18a0fb');
+  setProgress(5);
+
+  const opts = {
+    screens:      selected,
+    frameWidth:   parseInt(document.getElementById('frameWidth').value) || 1440,
+    frameGap:     parseInt(document.getElementById('frameGap').value)   || 120,
+    addPrototype: document.getElementById('addPrototype').checked,
+    addLabels:    document.getElementById('addLabels').checked,
+    darkMode:     document.getElementById('darkMode').checked,
+  };
+
+  parent.postMessage({ pluginMessage: { type: 'GENERATE', opts } }, '*');
+}
+
+function arrangeOnly() {
+  const opts = {
+    frameWidth: parseInt(document.getElementById('frameWidth').value) || 1440,
+    frameGap:   parseInt(document.getElementById('frameGap').value)   || 120,
+    addPrototype: document.getElementById('addPrototype').checked,
+  };
+  parent.postMessage({ pluginMessage: { type: 'ARRANGE', opts } }, '*');
+}
+
+window.onmessage = (event) => {
+  const msg = event.data.pluginMessage;
+  if (!msg) return;
+  if (msg.type === 'PROGRESS') { setProgress(msg.pct); setStatus(msg.text, '#18a0fb'); }
+  if (msg.type === 'DONE')     { setProgress(100); setStatus(msg.text, '#4ade80'); }
+  if (msg.type === 'ERROR')    { setStatus('❌ ' + msg.text, '#f87171'); }
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,2129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\AI Powered.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\AI Powered.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Analytics and Dashboards.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Analytics and Dashboards.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Any OS.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Any OS.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Anywhere Anytime.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Anywhere Anytime.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\CMS_carousel.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\CMS_carousel.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\GreyEllipse_carousel.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\GreyEllipse_carousel.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\High Availability.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\High Availability.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Highly Secure.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Highly Secure.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-10.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-10.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-11.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-11.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-12.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-12.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-13.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-13.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-2.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-2.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-3.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-3.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-4.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-4.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-5.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-5.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-6.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-6.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-7.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-7.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-8.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-8.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Img-9.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Img-9.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Mlab_card.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Mlab_card.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Mlab_card1.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Mlab_card1.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Mlab_carousel.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Mlab_carousel.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Multi Modality.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Multi Modality.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Multi Tenancy.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Multi Tenancy.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Pay Per Use.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Pay Per Use.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Serverless.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Serverless.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Smart Notifications icon.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Smart Notifications icon.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Smart Reporting.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Smart Reporting.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Smart Storage.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Smart Storage.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Smart Worklist.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Smart Worklist.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Software_carousel.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Software_carousel.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\Zero Footprint.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\Zero Footprint.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\address-fill-footer.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\address-fill-footer.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\akar-icons_circle-check.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\akar-icons_circle-check.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\customer support_card.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\customer support_card.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\envelope-fill-footer.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\envelope-fill-footer.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\footer_ratings.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\footer_ratings.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\hero-ai-transformation.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\hero-ai-transformation.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\hostel_card.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\hostel_card.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\hostel_carousel.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\hostel_carousel.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\img_lab.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\img_lab.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\imgs.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\imgs.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\person-fill-footer.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\person-fill-footer.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\products\\whatsapp-qr.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\products\\whatsapp-qr.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\sg-logo-circle.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\sg-logo-circle.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\sg-softech-whatsapp-qr.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\sg-softech-whatsapp-qr.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\sg_logo.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\sg_logo.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\sg_logo_full.png",
+      "PackagePath": "staticwebassets\\Asset\\Images\\sg_logo_full.png"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\software devlopment_card.jpg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\software devlopment_card.jpg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\customers.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\customers.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\delivery.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\delivery.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\diagnostics.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\diagnostics.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\education.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\education.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\hospital.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\hospital.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\inventory.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\inventory.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\mobile-apps.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\mobile-apps.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\pharmacy.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\pharmacy.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\solutions\\software.webp",
+      "PackagePath": "staticwebassets\\Asset\\Images\\solutions\\software.webp"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Asset\\Images\\telephone-fill-footer.svg",
+      "PackagePath": "staticwebassets\\Asset\\Images\\telephone-fill-footer.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Reports\\ReceiptPrint.rdlc",
+      "PackagePath": "staticwebassets\\Reports\\ReceiptPrint.rdlc"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Reports\\SalePrint.rdlc",
+      "PackagePath": "staticwebassets\\Reports\\SalePrint.rdlc"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Common\\customHeaderGroup.js",
+      "PackagePath": "staticwebassets\\Scripts\\Common\\customHeaderGroup.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Common\\customValidator.js",
+      "PackagePath": "staticwebassets\\Scripts\\Common\\customValidator.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Common\\numericCellEditor.js",
+      "PackagePath": "staticwebassets\\Scripts\\Common\\numericCellEditor.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Payment\\paymentItemGrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\Payment\\paymentItemGrid.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Receipt\\receiptItemGrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\Receipt\\receiptItemGrid.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Report\\grid.js",
+      "PackagePath": "staticwebassets\\Scripts\\Report\\grid.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Sale\\btnCellRenderer.js",
+      "PackagePath": "staticwebassets\\Scripts\\Sale\\btnCellRenderer.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\Scripts\\Sale\\saleTypeGrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\Sale\\saleTypeGrid.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\css\\model-popup.css",
+      "PackagePath": "staticwebassets\\css\\model-popup.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\css\\product-details.css",
+      "PackagePath": "staticwebassets\\css\\product-details.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\helper.js",
+      "PackagePath": "staticwebassets\\js\\helper.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\industry-marquee.js",
+      "PackagePath": "staticwebassets\\js\\industry-marquee.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\model-popup.js",
+      "PackagePath": "staticwebassets\\js\\model-popup.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\page-motion.js",
+      "PackagePath": "staticwebassets\\js\\page-motion.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\product-details.js",
+      "PackagePath": "staticwebassets\\js\\product-details.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\ag-grid-community.min.noStyle.js",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\ag-grid-community.min.noStyle.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\alignedGridsService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\alignedGridsService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\autoScrollService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\autoScrollService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\cellNavigationService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\cellNavigationService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\autoGroupColService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\autoGroupColService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\columnApi.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\columnApi.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\columnDefFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\columnDefFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\columnFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\columnFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\columnKeyCreator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\columnKeyCreator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\columnModel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\columnModel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\columnUtils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\columnUtils.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\displayedGroupCreator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\displayedGroupCreator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\columns\\groupInstanceIdCreator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\columns\\groupInstanceIdCreator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\agStackComponentsRegistry.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\agStackComponentsRegistry.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\colDefUtil.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\colDefUtil.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\componentUtil.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\componentUtil.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\framework\\agComponentUtils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\framework\\agComponentUtils.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\framework\\componentMetadataProvider.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\framework\\componentMetadataProvider.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\framework\\componentTypes.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\framework\\componentTypes.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\framework\\frameworkComponentWrapper.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\framework\\frameworkComponentWrapper.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\framework\\userComponentFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\framework\\userComponentFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\components\\framework\\userComponentRegistry.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\components\\framework\\userComponentRegistry.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\constants\\constants.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\constants\\constants.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\constants\\keyCode.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\constants\\keyCode.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\context\\beanStub.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\context\\beanStub.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\context\\context.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\context\\context.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExportModule.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExportModule.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\baseCreator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\baseCreator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\csvCreator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\csvCreator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\downloader.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\downloader.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\gridSerializer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\gridSerializer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\interfaces\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\interfaces\\index.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\sessions\\baseGridSerializingSession.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\sessions\\baseGridSerializingSession.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\sessions\\csvSerializingSession.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\sessions\\csvSerializingSession.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\xmlFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\xmlFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\csvExport\\zipContainer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\csvExport\\zipContainer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\ctrlsFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\ctrlsFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\ctrlsService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\ctrlsService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\dragAndDrop\\dragAndDropService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\dragAndDrop\\dragAndDropService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\dragAndDrop\\dragService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\dragAndDrop\\dragService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\cellPosition.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\cellPosition.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\colDef.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\colDef.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\column.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\column.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\columnGroup.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\columnGroup.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\defaultColumnTypes.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\defaultColumnTypes.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\gridOptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\gridOptions.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\iCallbackParams.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\iCallbackParams.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\iHeaderColumn.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\iHeaderColumn.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\iProvidedColumn.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\iProvidedColumn.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\providedColumnGroup.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\providedColumnGroup.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\rowNode.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\rowNode.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\rowNodeEventThrottle.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\rowNodeEventThrottle.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\rowPosition.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\rowPosition.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\entities\\sideBar.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\entities\\sideBar.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\environment.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\environment.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\eventKeys.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\eventKeys.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\eventService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\eventService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\events.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\events.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\filterLocaleText.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\filterLocaleText.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\filterManager.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\filterManager.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\floating\\floatingFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\floating\\floatingFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\floating\\floatingFilterMapper.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\floating\\floatingFilterMapper.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\floating\\provided\\readOnlyFloatingFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\floating\\provided\\readOnlyFloatingFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\floating\\provided\\simpleFloatingFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\floating\\provided\\simpleFloatingFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\floating\\provided\\textInputFloatingFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\floating\\provided\\textInputFloatingFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\dateCompWrapper.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\dateCompWrapper.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\dateFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\dateFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\dateFloatingFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\dateFloatingFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\defaultDateComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\date\\defaultDateComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\number\\numberFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\number\\numberFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\number\\numberFloatingFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\number\\numberFloatingFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\optionsFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\optionsFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\providedFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\providedFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\scalarFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\scalarFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\simpleFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\simpleFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\text\\textFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\text\\textFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\filter\\provided\\text\\textFloatingFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\filter\\provided\\text\\textFloatingFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\focusService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\focusService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\functions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\functions.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\grid.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\grid.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridApi.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridApi.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\centerWidthFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\centerWidthFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\fakeHScrollComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\fakeHScrollComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\fakeHScrollCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\fakeHScrollCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\gridBodyComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\gridBodyComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\gridBodyCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\gridBodyCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\gridBodyScrollFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\gridBodyScrollFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\mouseEventService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\mouseEventService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\navigationService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\navigationService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\pinnedWidthService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\pinnedWidthService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\dragListenerFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\dragListenerFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\renderRowsFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\renderRowsFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\rowContainerComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\rowContainerComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\rowContainerCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\rowContainerCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\rowContainerEventsFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\rowContainerEventsFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\setHeightFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\setHeightFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\setPinnedLeftWidthFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\setPinnedLeftWidthFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\setPinnedRightWidthFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowContainer\\setPinnedRightWidthFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowDragFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\rowDragFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\scrollVisibleService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\scrollVisibleService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\viewportSizeFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridBodyComp\\viewportSizeFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridComp\\gridComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridComp\\gridComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridComp\\gridCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridComp\\gridCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\gridOptionsWrapper.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\gridOptionsWrapper.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\abstractCell\\abstractHeaderCellComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\abstractCell\\abstractHeaderCellComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\abstractCell\\abstractHeaderCellCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\abstractCell\\abstractHeaderCellCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\groupResizeFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\groupResizeFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\groupWidthFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\groupWidthFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\headerGroupCellComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\headerGroupCellComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\headerGroupCellCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\headerGroupCellCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\headerGroupComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\columnGroup\\headerGroupComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\headerCellComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\headerCellComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\headerCellCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\headerCellCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\headerComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\headerComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\resizeFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\resizeFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\selectAllFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\selectAllFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\standardMenu.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\column\\standardMenu.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\cssClassApplier.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\cssClassApplier.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\floatingFilter\\headerFilterCellComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\floatingFilter\\headerFilterCellComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\floatingFilter\\headerFilterCellCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\floatingFilter\\headerFilterCellCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\hoverFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\cells\\hoverFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\columnDrag\\bodyDropPivotTarget.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\columnDrag\\bodyDropPivotTarget.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\columnDrag\\bodyDropTarget.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\columnDrag\\bodyDropTarget.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\columnDrag\\moveColumnFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\columnDrag\\moveColumnFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\common\\headerNavigationService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\common\\headerNavigationService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\common\\headerPosition.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\common\\headerPosition.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\common\\horizontalResizeService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\common\\horizontalResizeService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\gridHeaderComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\gridHeaderComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\gridHeaderCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\gridHeaderCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\rowContainer\\headerRowContainerComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\rowContainer\\headerRowContainerComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\rowContainer\\headerRowContainerCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\rowContainer\\headerRowContainerCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\row\\headerRowComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\row\\headerRowComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\headerRendering\\row\\headerRowCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\headerRendering\\row\\headerRowCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\iLogger.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\iLogger.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\IChartService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\IChartService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\IRangeService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\IRangeService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\IServerSideStore.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\IServerSideStore.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\exportParams.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\exportParams.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iAfterGuiAttachedParams.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iAfterGuiAttachedParams.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iAgChartOptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iAgChartOptions.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iAggFuncService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iAggFuncService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iAggregationStage.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iAggregationStage.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iCellEditor.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iCellEditor.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iChartOptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iChartOptions.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iClientSideRowModel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iClientSideRowModel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iClipboardService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iClipboardService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iColumnToolPanel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iColumnToolPanel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iColumnVO.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iColumnVO.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iCommon.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iCommon.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iContextMenuFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iContextMenuFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iCsvCreator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iCsvCreator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iDatasource.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iDatasource.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iEventEmitter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iEventEmitter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iExcelCreator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iExcelCreator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iFiltersToolPanel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iFiltersToolPanel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iFrameworkOverrides.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iFrameworkOverrides.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iImmutableService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iImmutableService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iInfiniteRowModel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iInfiniteRowModel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iMenu.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iMenu.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iMenuFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iMenuFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iModule.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iModule.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iMultiFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iMultiFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iPopupComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iPopupComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iRichCellEditorParams.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iRichCellEditorParams.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iRowModel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iRowModel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iRowNodeBlock.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iRowNodeBlock.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iRowNodeStage.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iRowNodeStage.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iServerSideDatasource.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iServerSideDatasource.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iServerSideRowModel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iServerSideRowModel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iSetFilter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iSetFilter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iSideBar.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iSideBar.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iSparklineCellRendererParams.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iSparklineCellRendererParams.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iStatusBarService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iStatusBarService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iStatusPanel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iStatusPanel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iToolPanel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iToolPanel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iViewportDatasource.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iViewportDatasource.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\iXmlFactory.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\iXmlFactory.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\masterDetail.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\masterDetail.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\rowDataTransaction.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\rowDataTransaction.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\rowNodeTransaction.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\rowNodeTransaction.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\interfaces\\serverSideTransaction.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\interfaces\\serverSideTransaction.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\layout\\tabbedLayout.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\layout\\tabbedLayout.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\logger.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\logger.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\main.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\misc\\animationFrameService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\misc\\animationFrameService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\misc\\linkedList.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\misc\\linkedList.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\misc\\resizeObserverService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\misc\\resizeObserverService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\misc\\simpleHttpRequest.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\misc\\simpleHttpRequest.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\modules\\moduleNames.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\modules\\moduleNames.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\modules\\moduleRegistry.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\modules\\moduleRegistry.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\pagination\\paginationAutoPageSizeService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\pagination\\paginationAutoPageSizeService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\pagination\\paginationComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\pagination\\paginationComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\pagination\\paginationProxy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\pagination\\paginationProxy.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\pinnedRowModel\\pinnedRowModel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\pinnedRowModel\\pinnedRowModel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\propertyKeys.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\propertyKeys.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\autoWidthCalculator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\autoWidthCalculator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\beans.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\beans.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\largeTextCellEditor.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\largeTextCellEditor.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\popupEditorWrapper.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\popupEditorWrapper.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\popupSelectCellEditor.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\popupSelectCellEditor.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\popupTextCellEditor.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\popupTextCellEditor.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\selectCellEditor.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\selectCellEditor.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\textCellEditor.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellEditors\\textCellEditor.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\animateShowChangeCellRenderer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\animateShowChangeCellRenderer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\animateSlideCellRenderer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\animateSlideCellRenderer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\groupCellRenderer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\groupCellRenderer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\groupCellRendererCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\groupCellRendererCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\iCellRenderer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\iCellRenderer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\loadingCellRenderer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cellRenderers\\loadingCellRenderer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellCustomStyleFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellCustomStyleFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellKeyboardListenerFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellKeyboardListenerFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellMouseListenerFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellMouseListenerFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellPositionFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellPositionFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellRangeFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\cell\\cellRangeFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\checkboxSelectionComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\checkboxSelectionComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\columnAnimationService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\columnAnimationService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\columnHoverService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\columnHoverService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\dateComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\dateComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\dndSourceComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\dndSourceComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\features\\positionableFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\features\\positionableFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\features\\setLeftFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\features\\setLeftFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\overlays\\loadingOverlayComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\overlays\\loadingOverlayComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\overlays\\noRowsOverlayComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\overlays\\noRowsOverlayComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\overlays\\overlayWrapperComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\overlays\\overlayWrapperComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\rowContainerHeightService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\rowContainerHeightService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\rowRenderer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\rowRenderer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowCssClassCalculator.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowCssClassCalculator.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowDragComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\row\\rowDragComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\tooltipComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\tooltipComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rendering\\valueFormatterService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rendering\\valueFormatterService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rowNodeCache\\rowNodeBlock.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rowNodeCache\\rowNodeBlock.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rowNodeCache\\rowNodeBlockLoader.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rowNodeCache\\rowNodeBlockLoader.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rowNodes\\rowNodeSorter.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rowNodes\\rowNodeSorter.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\rowNodes\\selectableService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\rowNodes\\selectableService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\selectionService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\selectionService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\sortController.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\sortController.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\styling\\layoutFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\styling\\layoutFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\styling\\stylingService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\styling\\stylingService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\templateService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\templateService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\undoRedo\\undoRedoService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\undoRedo\\undoRedoService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\undoRedo\\undoRedoStack.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\undoRedo\\undoRedoStack.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\aria.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\aria.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\array.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\array.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\browser.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\browser.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\changedPath.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\changedPath.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\color.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\color.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\csv.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\csv.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\date.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\date.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\dom.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\dom.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\event.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\event.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\function.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\function.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\fuzzyMatch.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\fuzzyMatch.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\general.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\general.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\generic.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\generic.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\icon.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\icon.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\index.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\keyboard.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\keyboard.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\map.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\map.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\mouse.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\mouse.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\number.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\number.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\numberSequence.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\numberSequence.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\object.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\object.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\promise.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\promise.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\rowNode.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\rowNode.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\set.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\set.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\string.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\string.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\timer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\timer.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\utils\\utils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\utils\\utils.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\valueService\\changeDetectionService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\valueService\\changeDetectionService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\valueService\\expressionService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\valueService\\expressionService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\valueService\\valueCache.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\valueService\\valueCache.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\valueService\\valueService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\valueService\\valueService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\vanillaFrameworkOverrides.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\vanillaFrameworkOverrides.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agAbstractField.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agAbstractField.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agAbstractInputField.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agAbstractInputField.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agAbstractLabel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agAbstractLabel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agAngleSelect.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agAngleSelect.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agCheckbox.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agCheckbox.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agColorPanel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agColorPanel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agColorPicker.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agColorPicker.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agDialog.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agDialog.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agGroupComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agGroupComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agInputNumberField.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agInputNumberField.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agInputRange.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agInputRange.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agInputTextArea.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agInputTextArea.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agInputTextField.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agInputTextField.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agList.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agList.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agMenuItemComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agMenuItemComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agMenuList.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agMenuList.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agMenuPanel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agMenuPanel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agPanel.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agPanel.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agPickerField.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agPickerField.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agRadioButton.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agRadioButton.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agSelect.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agSelect.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agSlider.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agSlider.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\agToggleButton.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\agToggleButton.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\component.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\component.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\componentAnnotations.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\componentAnnotations.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\customTooltipFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\customTooltipFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\managedFocusFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\managedFocusFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\popupComponent.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\popupComponent.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\popupService.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\popupService.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\tabGuardComp.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\tabGuardComp.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\tabGuardCtrl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\tabGuardCtrl.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\tooltipFeature.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\tooltipFeature.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\touchListener.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\touchListener.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\lib\\widgets\\virtualList.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\lib\\widgets\\virtualList.d.ts"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-grid.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-grid.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-grid.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-grid.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-grid.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark.min.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark\\sass\\_ag-theme-alpine-dark-default-params.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark\\sass\\_ag-theme-alpine-dark-default-params.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark\\sass\\_ag-theme-alpine-dark-mixin.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark\\sass\\_ag-theme-alpine-dark-mixin.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark\\sass\\ag-theme-alpine-dark.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine-dark\\sass\\ag-theme-alpine-dark.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine.min.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\aggregation.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\aggregation.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\arrows.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\arrows.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\asc.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\asc.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\cancel.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\cancel.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\chart.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\chart.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\checkbox-checked.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\checkbox-checked.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\checkbox-indeterminate.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\checkbox-indeterminate.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\checkbox-unchecked.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\checkbox-unchecked.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\color-picker.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\color-picker.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\columns.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\columns.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\contracted.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\contracted.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\copy.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\copy.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\cross.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\cross.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\csv.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\csv.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\desc.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\desc.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\excel.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\excel.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\expanded.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\expanded.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\eye-slash.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\eye-slash.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\eye.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\eye.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\filter.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\filter.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\first.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\first.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\grip.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\grip.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\group.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\group.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\last.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\last.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\left.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\left.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\linked.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\linked.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\loading.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\loading.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\maximize.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\maximize.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\menu.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\menu.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\minimize.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\minimize.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\next.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\next.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\none.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\none.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\not-allowed.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\not-allowed.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\paste.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\paste.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\pin.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\pin.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\pivot.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\pivot.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\previous.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\previous.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\radio-button-off.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\radio-button-off.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\radio-button-on.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\radio-button-on.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\right.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\right.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\save.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\save.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-down.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-down.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-left.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-left.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-right.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-right.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-up.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\small-up.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tick.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tick.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tree-closed.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tree-closed.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tree-indeterminate.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tree-indeterminate.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tree-open.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\tree-open.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\unlinked.svg",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\icons\\unlinked.svg"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\_ag-theme-alpine-default-params.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\_ag-theme-alpine-default-params.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\_ag-theme-alpine-font-vars.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\_ag-theme-alpine-font-vars.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\_ag-theme-alpine-mixin.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\_ag-theme-alpine-mixin.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\ag-theme-alpine.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\ag-theme-alpine\\sass\\ag-theme-alpine.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\agGridAlpineFont.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\agGridAlpineFont.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\agGridAlpineFont.min.css",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\agGridAlpineFont.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\mixins\\_ag-grid-mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\mixins\\_ag-grid-mixins.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\mixins\\_ag-theme-mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\mixins\\_ag-theme-mixins.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\mixins\\_ag-theme-params.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\mixins\\_ag-theme-params.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\scss-template.hbs",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\scss-template.hbs"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\structural\\_charts-structural.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\structural\\_charts-structural.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\structural\\_common-structural.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\structural\\_common-structural.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\structural\\_date-time-structural.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\structural\\_date-time-structural.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\structural\\_mobile-structural.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\structural\\_mobile-structural.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\structural\\_print-structural.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\structural\\_print-structural.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\webfont\\agGridAlpineFont.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\webfont\\agGridAlpineFont.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\webfont\\agGridBalhamFont.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\webfont\\agGridBalhamFont.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\webfont\\agGridClassicFont.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\webfont\\agGridClassicFont.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\ag-grid\\dist\\styles\\webfont\\agGridMaterialFont.scss",
+      "PackagePath": "staticwebassets\\lib\\ag-grid\\dist\\styles\\webfont\\agGridMaterialFont.scss"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\chart-js\\4.1.2\\chart.umd.min.js",
+      "PackagePath": "staticwebassets\\lib\\chart-js\\4.1.2\\chart.umd.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\6.1.1\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\fonts\\dist\\roboto-font.css",
+      "PackagePath": "staticwebassets\\lib\\fonts\\dist\\roboto-font.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-mask\\jquery.mask.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-mask\\jquery.mask.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\select2\\dist\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\dist\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\lib\\select2\\dist\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\dist\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\GitRepo\\ml\\sgsoftech website\\CMS\\wwwroot\\product.html",
+      "PackagePath": "staticwebassets\\product.html"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.SGSoftech.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.SGSoftech.Web.props",
+      "PackagePath": "build\\SGSoftech.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SGSoftech.Web.props",
+      "PackagePath": "buildMultiTargeting\\SGSoftech.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.SGSoftech.Web.props",
+      "PackagePath": "buildTransitive\\SGSoftech.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

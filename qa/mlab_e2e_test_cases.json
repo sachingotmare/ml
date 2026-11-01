@@ -1,0 +1,3466 @@
+[
+  {
+    "id": "AUTH-001",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "Credentials",
+    "title": "Valid login",
+    "preconditions": "Active user with valid Lab Code, User ID and Password.",
+    "steps": [
+      "Open login page.",
+      "Enter valid Organization/Lab Code, User ID, Password.",
+      "Click Sign In."
+    ],
+    "expected_result": "Dashboard opens and authenticated session is created.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Critical"
+  },
+  {
+    "id": "AUTH-002",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "Password",
+    "title": "Invalid password",
+    "preconditions": "Valid Lab Code and User ID exist.",
+    "steps": [
+      "Enter incorrect password and click Sign In."
+    ],
+    "expected_result": "Error is shown and login is denied.",
+    "test_data": "",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "AUTH-003",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "Failed Attempt Lockout",
+    "title": "Lockout after threshold",
+    "preconditions": "Lockout policy configured.",
+    "steps": [
+      "Submit wrong password repeatedly past configured threshold."
+    ],
+    "expected_result": "Account is locked as per policy.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Critical"
+  },
+  {
+    "id": "AUTHF-001",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "Organization / Lab Code",
+    "title": "Validate Organization / Lab Code",
+    "preconditions": "Login page is loaded.",
+    "steps": [
+      "Open tab 'Login'.",
+      "Locate field 'Organization / Lab Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Organization / Lab Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "DEMO2026",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "AUTHF-002",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "User ID",
+    "title": "Validate User ID",
+    "preconditions": "Login page is loaded.",
+    "steps": [
+      "Open tab 'Login'.",
+      "Locate field 'User ID'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'User ID' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "demo2026admin",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "AUTHF-003",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "Password",
+    "title": "Validate Password",
+    "preconditions": "Login page is loaded.",
+    "steps": [
+      "Open tab 'Login'.",
+      "Locate field 'Password'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Password' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Admin@1234",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "AUTHF-004",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "Password Visibility Toggle",
+    "title": "Validate Password Visibility Toggle",
+    "preconditions": "Login page is loaded.",
+    "steps": [
+      "Open tab 'Login'.",
+      "Locate field 'Password Visibility Toggle'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Password Visibility Toggle' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Admin@1234",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "AUTHF-005",
+    "module": "AUTH",
+    "tab": "Login",
+    "field": "Sign In Button",
+    "title": "Validate Sign In Button",
+    "preconditions": "Login page is loaded.",
+    "steps": [
+      "Open tab 'Login'.",
+      "Locate field 'Sign In Button'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Sign In Button' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-001",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Search patients, tests, entries",
+    "title": "Validate Search patients, tests, entries",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Search patients, tests, entries'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Search patients, tests, entries' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-002",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Today's Entries Card",
+    "title": "Validate Today's Entries Card",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Today's Entries Card'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Today's Entries Card' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-003",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Today's Revenue Card",
+    "title": "Validate Today's Revenue Card",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Today's Revenue Card'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Today's Revenue Card' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-004",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Pending Readings Card",
+    "title": "Validate Pending Readings Card",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Pending Readings Card'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Pending Readings Card' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-005",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Total Patients Today Card",
+    "title": "Validate Total Patients Today Card",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Total Patients Today Card'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Total Patients Today Card' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-006",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Account-wise Entries Chart",
+    "title": "Validate Account-wise Entries Chart",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Account-wise Entries Chart'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Account-wise Entries Chart' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-007",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Top Tests Chart",
+    "title": "Validate Top Tests Chart",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Top Tests Chart'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Top Tests Chart' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-008",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Revenue Split Chart",
+    "title": "Validate Revenue Split Chart",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Revenue Split Chart'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Revenue Split Chart' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DB-009",
+    "module": "DASHBOARD",
+    "tab": "Dashboard",
+    "field": "Recent Entries Grid",
+    "title": "Validate Recent Entries Grid",
+    "preconditions": "User logged in and dashboard opened.",
+    "steps": [
+      "Open tab 'Dashboard'.",
+      "Locate field 'Recent Entries Grid'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Recent Entries Grid' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-001",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Voucher Number",
+    "title": "Validate Voucher Number",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Voucher Number'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Voucher Number' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-002",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Entry Date",
+    "title": "Validate Entry Date",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Entry Date'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Entry Date' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2026-09-11",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-003",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Patient Search",
+    "title": "Validate Patient Search",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Patient Search'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Patient Search' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-004",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Patient Name",
+    "title": "Validate Patient Name",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Patient Name'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Patient Name' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Test Record",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-005",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Age",
+    "title": "Validate Age",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Age'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Age' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-006",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Age Unit",
+    "title": "Validate Age Unit",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Age Unit'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Age Unit' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-007",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Gender",
+    "title": "Validate Gender",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Gender'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Gender' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Male",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-008",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Mobile Number",
+    "title": "Validate Mobile Number",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Mobile Number'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Mobile Number' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "9876543210",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-009",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Consulting Doctor",
+    "title": "Validate Consulting Doctor",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Consulting Doctor'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Consulting Doctor' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-010",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Referring Doctor",
+    "title": "Validate Referring Doctor",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Referring Doctor'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Referring Doctor' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-011",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Account / Company",
+    "title": "Validate Account / Company",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Account / Company'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Account / Company' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-012",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Test Selection",
+    "title": "Validate Test Selection",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Test Selection'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Test Selection' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-013",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Discount",
+    "title": "Validate Discount",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Discount'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Discount' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "10",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-014",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Net Amount",
+    "title": "Validate Net Amount",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Net Amount'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Net Amount' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "250",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "PE-015",
+    "module": "PATIENT_ENTRY",
+    "tab": "Patient Entry",
+    "field": "Save Button",
+    "title": "Validate Save Button",
+    "preconditions": "Patient Entry page opened.",
+    "steps": [
+      "Open tab 'Patient Entry'.",
+      "Locate field 'Save Button'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save Button' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-001",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Entry Search",
+    "title": "Validate Entry Search",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Entry Search'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Entry Search' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-002",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Sample Barcode",
+    "title": "Validate Sample Barcode",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Sample Barcode'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Sample Barcode' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-003",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Sample Status",
+    "title": "Validate Sample Status",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Sample Status'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Sample Status' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "4",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-004",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Specimen Type",
+    "title": "Validate Specimen Type",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Specimen Type'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Specimen Type' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Blood",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-005",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Tube / Container",
+    "title": "Validate Tube / Container",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Tube / Container'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Tube / Container' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "EDTA",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-006",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Collection Time",
+    "title": "Validate Collection Time",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Collection Time'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Collection Time' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-007",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Collector",
+    "title": "Validate Collector",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Collector'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Collector' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-008",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Handoff",
+    "title": "Validate Handoff",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Handoff'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Handoff' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-009",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Reject Reason",
+    "title": "Validate Reject Reason",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Reject Reason'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Reject Reason' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SC-010",
+    "module": "SAMPLE_COLLECTION",
+    "tab": "Sample Collections",
+    "field": "Recollection Link",
+    "title": "Validate Recollection Link",
+    "preconditions": "Sample Collections page opened with at least one entry.",
+    "steps": [
+      "Open tab 'Sample Collections'.",
+      "Locate field 'Recollection Link'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Recollection Link' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-001",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Voucher Search",
+    "title": "Validate Voucher Search",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Voucher Search'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Voucher Search' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-002",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Test Grid",
+    "title": "Validate Test Grid",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Test Grid'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Test Grid' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-003",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Result Value",
+    "title": "Validate Result Value",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Result Value'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Result Value' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-004",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Unit",
+    "title": "Validate Unit",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Unit'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Unit' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "mg/dL",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-005",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Reference Range",
+    "title": "Validate Reference Range",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Reference Range'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Reference Range' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-006",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Critical Low",
+    "title": "Validate Critical Low",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Critical Low'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Critical Low' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "40",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-007",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Critical High",
+    "title": "Validate Critical High",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Critical High'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Critical High' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "450",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-008",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Suggestion",
+    "title": "Validate Suggestion",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Suggestion'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Suggestion' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA auto-entry validation note",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-009",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RD-010",
+    "module": "READINGS",
+    "tab": "Readings",
+    "field": "Approve/Finalize",
+    "title": "Validate Approve/Finalize",
+    "preconditions": "Readings page opened for a pending entry.",
+    "steps": [
+      "Open tab 'Readings'.",
+      "Locate field 'Approve/Finalize'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Approve/Finalize' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "RE-001",
+    "module": "RECEIPT_ENTRY",
+    "tab": "Receipt Entry",
+    "field": "Voucher Search",
+    "title": "Validate Voucher Search",
+    "preconditions": "Receipt Entry page opened with billable entry.",
+    "steps": [
+      "Open tab 'Receipt Entry'.",
+      "Locate field 'Voucher Search'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Voucher Search' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RE-002",
+    "module": "RECEIPT_ENTRY",
+    "tab": "Receipt Entry",
+    "field": "Payment Amount",
+    "title": "Validate Payment Amount",
+    "preconditions": "Receipt Entry page opened with billable entry.",
+    "steps": [
+      "Open tab 'Receipt Entry'.",
+      "Locate field 'Payment Amount'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Payment Amount' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "250",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RE-003",
+    "module": "RECEIPT_ENTRY",
+    "tab": "Receipt Entry",
+    "field": "Payment Mode",
+    "title": "Validate Payment Mode",
+    "preconditions": "Receipt Entry page opened with billable entry.",
+    "steps": [
+      "Open tab 'Receipt Entry'.",
+      "Locate field 'Payment Mode'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Payment Mode' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Cash",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RE-004",
+    "module": "RECEIPT_ENTRY",
+    "tab": "Receipt Entry",
+    "field": "Transaction Reference",
+    "title": "Validate Transaction Reference",
+    "preconditions": "Receipt Entry page opened with billable entry.",
+    "steps": [
+      "Open tab 'Receipt Entry'.",
+      "Locate field 'Transaction Reference'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Transaction Reference' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RE-005",
+    "module": "RECEIPT_ENTRY",
+    "tab": "Receipt Entry",
+    "field": "Outstanding Balance",
+    "title": "Validate Outstanding Balance",
+    "preconditions": "Receipt Entry page opened with billable entry.",
+    "steps": [
+      "Open tab 'Receipt Entry'.",
+      "Locate field 'Outstanding Balance'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Outstanding Balance' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RE-006",
+    "module": "RECEIPT_ENTRY",
+    "tab": "Receipt Entry",
+    "field": "Save/Print Receipt",
+    "title": "Validate Save/Print Receipt",
+    "preconditions": "Receipt Entry page opened with billable entry.",
+    "steps": [
+      "Open tab 'Receipt Entry'.",
+      "Locate field 'Save/Print Receipt'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save/Print Receipt' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "PAY-001",
+    "module": "PAYMENT_ENTRY",
+    "tab": "Payment Entry",
+    "field": "Party Account",
+    "title": "Validate Party Account",
+    "preconditions": "Payment Entry page opened.",
+    "steps": [
+      "Open tab 'Payment Entry'.",
+      "Locate field 'Party Account'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Party Account' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PAY-002",
+    "module": "PAYMENT_ENTRY",
+    "tab": "Payment Entry",
+    "field": "Payment Date",
+    "title": "Validate Payment Date",
+    "preconditions": "Payment Entry page opened.",
+    "steps": [
+      "Open tab 'Payment Entry'.",
+      "Locate field 'Payment Date'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Payment Date' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2026-09-11",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PAY-003",
+    "module": "PAYMENT_ENTRY",
+    "tab": "Payment Entry",
+    "field": "Amount",
+    "title": "Validate Amount",
+    "preconditions": "Payment Entry page opened.",
+    "steps": [
+      "Open tab 'Payment Entry'.",
+      "Locate field 'Amount'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Amount' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "250",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PAY-004",
+    "module": "PAYMENT_ENTRY",
+    "tab": "Payment Entry",
+    "field": "Mode",
+    "title": "Validate Mode",
+    "preconditions": "Payment Entry page opened.",
+    "steps": [
+      "Open tab 'Payment Entry'.",
+      "Locate field 'Mode'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Mode' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Cash",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PAY-005",
+    "module": "PAYMENT_ENTRY",
+    "tab": "Payment Entry",
+    "field": "Remarks",
+    "title": "Validate Remarks",
+    "preconditions": "Payment Entry page opened.",
+    "steps": [
+      "Open tab 'Payment Entry'.",
+      "Locate field 'Remarks'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Remarks' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA auto-entry validation note",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PAY-006",
+    "module": "PAYMENT_ENTRY",
+    "tab": "Payment Entry",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Payment Entry page opened.",
+    "steps": [
+      "Open tab 'Payment Entry'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "JE-001",
+    "module": "JOURNAL_ENTRY",
+    "tab": "Journal Entry",
+    "field": "Journal Date",
+    "title": "Validate Journal Date",
+    "preconditions": "Journal Entry page opened.",
+    "steps": [
+      "Open tab 'Journal Entry'.",
+      "Locate field 'Journal Date'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Journal Date' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2026-09-11",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "JE-002",
+    "module": "JOURNAL_ENTRY",
+    "tab": "Journal Entry",
+    "field": "Debit Account",
+    "title": "Validate Debit Account",
+    "preconditions": "Journal Entry page opened.",
+    "steps": [
+      "Open tab 'Journal Entry'.",
+      "Locate field 'Debit Account'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Debit Account' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "JE-003",
+    "module": "JOURNAL_ENTRY",
+    "tab": "Journal Entry",
+    "field": "Credit Account",
+    "title": "Validate Credit Account",
+    "preconditions": "Journal Entry page opened.",
+    "steps": [
+      "Open tab 'Journal Entry'.",
+      "Locate field 'Credit Account'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Credit Account' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "JE-004",
+    "module": "JOURNAL_ENTRY",
+    "tab": "Journal Entry",
+    "field": "Amount",
+    "title": "Validate Amount",
+    "preconditions": "Journal Entry page opened.",
+    "steps": [
+      "Open tab 'Journal Entry'.",
+      "Locate field 'Amount'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Amount' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "250",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "JE-005",
+    "module": "JOURNAL_ENTRY",
+    "tab": "Journal Entry",
+    "field": "Narration",
+    "title": "Validate Narration",
+    "preconditions": "Journal Entry page opened.",
+    "steps": [
+      "Open tab 'Journal Entry'.",
+      "Locate field 'Narration'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Narration' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA auto-entry validation note",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "JE-006",
+    "module": "JOURNAL_ENTRY",
+    "tab": "Journal Entry",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Journal Entry page opened.",
+    "steps": [
+      "Open tab 'Journal Entry'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-001",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Item Search",
+    "title": "Validate Item Search",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Item Search'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Item Search' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-002",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Item Code",
+    "title": "Validate Item Code",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Item Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Item Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-003",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Item Name",
+    "title": "Validate Item Name",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Item Name'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Item Name' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Test Record",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-004",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Category",
+    "title": "Validate Category",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Category'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Category' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Clinical Biochemistry (CTGY002)",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-005",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Unit",
+    "title": "Validate Unit",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Unit'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Unit' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "mg/dL",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-006",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Reorder Level",
+    "title": "Validate Reorder Level",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Reorder Level'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Reorder Level' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-007",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Purchase Entry",
+    "title": "Validate Purchase Entry",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Purchase Entry'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Purchase Entry' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-008",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Usage Entry",
+    "title": "Validate Usage Entry",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Usage Entry'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Usage Entry' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "INV-009",
+    "module": "INVENTORY",
+    "tab": "Inventory",
+    "field": "Stock Ledger",
+    "title": "Validate Stock Ledger",
+    "preconditions": "Inventory page opened.",
+    "steps": [
+      "Open tab 'Inventory'.",
+      "Locate field 'Stock Ledger'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Stock Ledger' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "APP-001",
+    "module": "APPOINTMENTS",
+    "tab": "Appointments",
+    "field": "Appointment Date",
+    "title": "Validate Appointment Date",
+    "preconditions": "Appointments page opened.",
+    "steps": [
+      "Open tab 'Appointments'.",
+      "Locate field 'Appointment Date'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Appointment Date' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2026-09-11",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "APP-002",
+    "module": "APPOINTMENTS",
+    "tab": "Appointments",
+    "field": "Patient",
+    "title": "Validate Patient",
+    "preconditions": "Appointments page opened.",
+    "steps": [
+      "Open tab 'Appointments'.",
+      "Locate field 'Patient'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Patient' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "APP-003",
+    "module": "APPOINTMENTS",
+    "tab": "Appointments",
+    "field": "Doctor",
+    "title": "Validate Doctor",
+    "preconditions": "Appointments page opened.",
+    "steps": [
+      "Open tab 'Appointments'.",
+      "Locate field 'Doctor'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Doctor' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "APP-004",
+    "module": "APPOINTMENTS",
+    "tab": "Appointments",
+    "field": "Time Slot",
+    "title": "Validate Time Slot",
+    "preconditions": "Appointments page opened.",
+    "steps": [
+      "Open tab 'Appointments'.",
+      "Locate field 'Time Slot'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Time Slot' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "APP-005",
+    "module": "APPOINTMENTS",
+    "tab": "Appointments",
+    "field": "Status",
+    "title": "Validate Status",
+    "preconditions": "Appointments page opened.",
+    "steps": [
+      "Open tab 'Appointments'.",
+      "Locate field 'Status'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Status' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "4",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "APP-006",
+    "module": "APPOINTMENTS",
+    "tab": "Appointments",
+    "field": "Linked Lab Entry",
+    "title": "Validate Linked Lab Entry",
+    "preconditions": "Appointments page opened.",
+    "steps": [
+      "Open tab 'Appointments'.",
+      "Locate field 'Linked Lab Entry'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Linked Lab Entry' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "APP-007",
+    "module": "APPOINTMENTS",
+    "tab": "Appointments",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Appointments page opened.",
+    "steps": [
+      "Open tab 'Appointments'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-001",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Patient Code",
+    "title": "Validate Patient Code",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Patient Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Patient Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-002",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Title",
+    "title": "Validate Title",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Title'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Title' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-003",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Name",
+    "title": "Validate Name",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Name'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Name' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Test Record",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-004",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "DOB/Age",
+    "title": "Validate DOB/Age",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'DOB/Age'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'DOB/Age' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-005",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Gender",
+    "title": "Validate Gender",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Gender'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Gender' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Male",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-006",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Mobile",
+    "title": "Validate Mobile",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Mobile'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Mobile' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "9876543210",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-007",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Address",
+    "title": "Validate Address",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Address'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Address' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Block, Test Street, Ranchi",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-008",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Account Link",
+    "title": "Validate Account Link",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Account Link'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Account Link' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MPAT-009",
+    "module": "PATIENT_MASTER",
+    "tab": "Masters > Patients",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Patients master opened.",
+    "steps": [
+      "Open tab 'Masters > Patients'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-001",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Account Code",
+    "title": "Validate Account Code",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Account Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Account Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-002",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Account Name",
+    "title": "Validate Account Name",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Account Name'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Account Name' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-003",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Account Group",
+    "title": "Validate Account Group",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Account Group'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Account Group' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-004",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Contact Person",
+    "title": "Validate Contact Person",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Contact Person'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Contact Person' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-005",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Mobile",
+    "title": "Validate Mobile",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Mobile'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Mobile' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "9876543210",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-006",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Email",
+    "title": "Validate Email",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Email'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Email' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "qa.demo@mlab.local",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-007",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Address",
+    "title": "Validate Address",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Address'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Address' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Block, Test Street, Ranchi",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-008",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Active Toggle",
+    "title": "Validate Active Toggle",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Active Toggle'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Active Toggle' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MACC-009",
+    "module": "ACCOUNT_MASTER",
+    "tab": "Masters > Accounts",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Accounts master opened.",
+    "steps": [
+      "Open tab 'Masters > Accounts'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-001",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Test Type Selector",
+    "title": "Validate Test Type Selector",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Test Type Selector'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Test Type Selector' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-002",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Test Name",
+    "title": "Validate Test Name",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Test Name'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Test Name' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Test Record",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-003",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Short Name / Alias",
+    "title": "Validate Short Name / Alias",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Short Name / Alias'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Short Name / Alias' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Test Record",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-004",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Department",
+    "title": "Validate Department",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Department'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Department' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Pathology (DEPT001)",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-005",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Category",
+    "title": "Validate Category",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Category'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Category' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Clinical Biochemistry (CTGY002)",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-006",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Sub Category",
+    "title": "Validate Sub Category",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Sub Category'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Sub Category' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BIOCHEMISTRY (BI01)",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-007",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "LOINC Code",
+    "title": "Validate LOINC Code",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'LOINC Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'LOINC Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-008",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Unit",
+    "title": "Validate Unit",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Unit'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Unit' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "mg/dL",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBI-009",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Basic Information",
+    "field": "Method / Technique",
+    "title": "Validate Method / Technique",
+    "preconditions": "Tests page opened in new/modify mode.",
+    "steps": [
+      "Open tab 'Masters > Tests > Basic Information'.",
+      "Locate field 'Method / Technique'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Method / Technique' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Colorimetric",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TBP-001",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Billing & Pricing",
+    "field": "Default Rate",
+    "title": "Validate Default Rate",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Billing & Pricing'.",
+      "Locate field 'Default Rate'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Default Rate' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "250",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TBP-002",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Billing & Pricing",
+    "field": "CGHS Code",
+    "title": "Validate CGHS Code",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Billing & Pricing'.",
+      "Locate field 'CGHS Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'CGHS Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-001",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Male Min",
+    "title": "Validate Male Min",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Male Min'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Male Min' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "70",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-002",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Male Max",
+    "title": "Validate Male Max",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Male Max'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Male Max' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "110",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-003",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Female Min",
+    "title": "Validate Female Min",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Female Min'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Female Min' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "70",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-004",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Female Max",
+    "title": "Validate Female Max",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Female Max'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Female Max' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "110",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-005",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Child Min",
+    "title": "Validate Child Min",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Child Min'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Child Min' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "60",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-006",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Child Max",
+    "title": "Validate Child Max",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Child Max'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Child Max' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "100",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-007",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Critical Low",
+    "title": "Validate Critical Low",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Critical Low'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Critical Low' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "40",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TRR-008",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Reference Ranges",
+    "field": "Critical High",
+    "title": "Validate Critical High",
+    "preconditions": "Reading test type selected.",
+    "steps": [
+      "Open tab 'Masters > Tests > Reference Ranges'.",
+      "Locate field 'Critical High'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Critical High' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "450",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "TDS-001",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Display & Suggestions",
+    "field": "Reading Detail Template",
+    "title": "Validate Reading Detail Template",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Display & Suggestions'.",
+      "Locate field 'Reading Detail Template'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Reading Detail Template' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "TDS-002",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Display & Suggestions",
+    "field": "Default Suggestion",
+    "title": "Validate Default Suggestion",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Display & Suggestions'.",
+      "Locate field 'Default Suggestion'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Default Suggestion' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA auto-entry validation note",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "TLF-001",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Limits & Flags",
+    "field": "Daily Limit",
+    "title": "Validate Daily Limit",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Limits & Flags'.",
+      "Locate field 'Daily Limit'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Daily Limit' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "100",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "TLF-002",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Limits & Flags",
+    "field": "TAT (Hours)",
+    "title": "Validate TAT (Hours)",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Limits & Flags'.",
+      "Locate field 'TAT (Hours)'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'TAT (Hours)' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "4",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "TLF-003",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Limits & Flags",
+    "field": "Print on New Page",
+    "title": "Validate Print on New Page",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Limits & Flags'.",
+      "Locate field 'Print on New Page'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Print on New Page' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "TLF-004",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Limits & Flags",
+    "field": "Add to Quick List",
+    "title": "Validate Add to Quick List",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Limits & Flags'.",
+      "Locate field 'Add to Quick List'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Add to Quick List' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-001",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Specimen Type",
+    "title": "Validate Specimen Type",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Specimen Type'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Specimen Type' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Blood",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-002",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Tube / Container",
+    "title": "Validate Tube / Container",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Tube / Container'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Tube / Container' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "EDTA",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-003",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Storage Condition",
+    "title": "Validate Storage Condition",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Storage Condition'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Storage Condition' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-004",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Min Volume (mL)",
+    "title": "Validate Min Volume (mL)",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Min Volume (mL)'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Min Volume (mL)' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-005",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Recommended Volume (mL)",
+    "title": "Validate Recommended Volume (mL)",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Recommended Volume (mL)'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Recommended Volume (mL)' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-006",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Stability (hours)",
+    "title": "Validate Stability (hours)",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Stability (hours)'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Stability (hours)' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "24",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-007",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Inversions Required",
+    "title": "Validate Inversions Required",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Inversions Required'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Inversions Required' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "8",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-008",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Requires Fasting",
+    "title": "Validate Requires Fasting",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Requires Fasting'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Requires Fasting' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-009",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Protect from Light",
+    "title": "Validate Protect from Light",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Protect from Light'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Protect from Light' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-010",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Requires Mixing/Inversion",
+    "title": "Validate Requires Mixing/Inversion",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Requires Mixing/Inversion'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Requires Mixing/Inversion' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "8",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "TSC-011",
+    "module": "TESTS",
+    "tab": "Masters > Tests > Sample Collection Information",
+    "field": "Sample Collection Note",
+    "title": "Validate Sample Collection Note",
+    "preconditions": "Tests page opened.",
+    "steps": [
+      "Open tab 'Masters > Tests > Sample Collection Information'.",
+      "Locate field 'Sample Collection Note'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Sample Collection Note' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA auto-entry validation note",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-001",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Departments Counter",
+    "title": "Validate Departments Counter",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Departments Counter'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Departments Counter' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Pathology (DEPT001)",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-002",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Categories Counter",
+    "title": "Validate Categories Counter",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Categories Counter'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Categories Counter' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-003",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Sub-Categories Counter",
+    "title": "Validate Sub-Categories Counter",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Sub-Categories Counter'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Sub-Categories Counter' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-004",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Inactive Counter",
+    "title": "Validate Inactive Counter",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Inactive Counter'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Inactive Counter' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-005",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Search by name or code",
+    "title": "Validate Search by name or code",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Search by name or code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Search by name or code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Test Record",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-006",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Department Toggle",
+    "title": "Validate Department Toggle",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Department Toggle'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Department Toggle' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Pathology (DEPT001)",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-007",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Category Toggle",
+    "title": "Validate Category Toggle",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Category Toggle'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Category Toggle' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Clinical Biochemistry (CTGY002)",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-008",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Sub-category Toggle",
+    "title": "Validate Sub-category Toggle",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Sub-category Toggle'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Sub-category Toggle' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "GM-009",
+    "module": "GENERAL_MASTER",
+    "tab": "Masters > General Master",
+    "field": "Refresh",
+    "title": "Validate Refresh",
+    "preconditions": "General Master page opened.",
+    "steps": [
+      "Open tab 'Masters > General Master'.",
+      "Locate field 'Refresh'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Refresh' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RT-001",
+    "module": "RATES",
+    "tab": "Masters > Rates",
+    "field": "Account",
+    "title": "Validate Account",
+    "preconditions": "Rates page opened.",
+    "steps": [
+      "Open tab 'Masters > Rates'.",
+      "Locate field 'Account'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Account' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RT-002",
+    "module": "RATES",
+    "tab": "Masters > Rates",
+    "field": "Test",
+    "title": "Validate Test",
+    "preconditions": "Rates page opened.",
+    "steps": [
+      "Open tab 'Masters > Rates'.",
+      "Locate field 'Test'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Test' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RT-003",
+    "module": "RATES",
+    "tab": "Masters > Rates",
+    "field": "Rate",
+    "title": "Validate Rate",
+    "preconditions": "Rates page opened.",
+    "steps": [
+      "Open tab 'Masters > Rates'.",
+      "Locate field 'Rate'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Rate' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "250",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RT-004",
+    "module": "RATES",
+    "tab": "Masters > Rates",
+    "field": "Effective Date",
+    "title": "Validate Effective Date",
+    "preconditions": "Rates page opened.",
+    "steps": [
+      "Open tab 'Masters > Rates'.",
+      "Locate field 'Effective Date'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Effective Date' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2026-09-11",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RT-005",
+    "module": "RATES",
+    "tab": "Masters > Rates",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Rates page opened.",
+    "steps": [
+      "Open tab 'Masters > Rates'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "PKG-001",
+    "module": "PACKAGES",
+    "tab": "Masters > Packages",
+    "field": "Package Code",
+    "title": "Validate Package Code",
+    "preconditions": "Packages page opened.",
+    "steps": [
+      "Open tab 'Masters > Packages'.",
+      "Locate field 'Package Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Package Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PKG-002",
+    "module": "PACKAGES",
+    "tab": "Masters > Packages",
+    "field": "Package Name",
+    "title": "Validate Package Name",
+    "preconditions": "Packages page opened.",
+    "steps": [
+      "Open tab 'Masters > Packages'.",
+      "Locate field 'Package Name'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Package Name' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA Test Record",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PKG-003",
+    "module": "PACKAGES",
+    "tab": "Masters > Packages",
+    "field": "Included Tests",
+    "title": "Validate Included Tests",
+    "preconditions": "Packages page opened.",
+    "steps": [
+      "Open tab 'Masters > Packages'.",
+      "Locate field 'Included Tests'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Included Tests' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PKG-004",
+    "module": "PACKAGES",
+    "tab": "Masters > Packages",
+    "field": "Package Rate",
+    "title": "Validate Package Rate",
+    "preconditions": "Packages page opened.",
+    "steps": [
+      "Open tab 'Masters > Packages'.",
+      "Locate field 'Package Rate'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Package Rate' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "PKG-005",
+    "module": "PACKAGES",
+    "tab": "Masters > Packages",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Packages page opened.",
+    "steps": [
+      "Open tab 'Masters > Packages'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DOC-001",
+    "module": "DOCTORS",
+    "tab": "Masters > Doctors",
+    "field": "Doctor Code",
+    "title": "Validate Doctor Code",
+    "preconditions": "Doctors page opened.",
+    "steps": [
+      "Open tab 'Masters > Doctors'.",
+      "Locate field 'Doctor Code'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Doctor Code' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA26AUTO01",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DOC-002",
+    "module": "DOCTORS",
+    "tab": "Masters > Doctors",
+    "field": "Doctor Name",
+    "title": "Validate Doctor Name",
+    "preconditions": "Doctors page opened.",
+    "steps": [
+      "Open tab 'Masters > Doctors'.",
+      "Locate field 'Doctor Name'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Doctor Name' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Dr QA Automation",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DOC-003",
+    "module": "DOCTORS",
+    "tab": "Masters > Doctors",
+    "field": "Department",
+    "title": "Validate Department",
+    "preconditions": "Doctors page opened.",
+    "steps": [
+      "Open tab 'Masters > Doctors'.",
+      "Locate field 'Department'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Department' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Pathology (DEPT001)",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DOC-004",
+    "module": "DOCTORS",
+    "tab": "Masters > Doctors",
+    "field": "Category",
+    "title": "Validate Category",
+    "preconditions": "Doctors page opened.",
+    "steps": [
+      "Open tab 'Masters > Doctors'.",
+      "Locate field 'Category'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Category' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Clinical Biochemistry (CTGY002)",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DOC-005",
+    "module": "DOCTORS",
+    "tab": "Masters > Doctors",
+    "field": "Mobile",
+    "title": "Validate Mobile",
+    "preconditions": "Doctors page opened.",
+    "steps": [
+      "Open tab 'Masters > Doctors'.",
+      "Locate field 'Mobile'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Mobile' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "9876543210",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "DOC-006",
+    "module": "DOCTORS",
+    "tab": "Masters > Doctors",
+    "field": "Save",
+    "title": "Validate Save",
+    "preconditions": "Doctors page opened.",
+    "steps": [
+      "Open tab 'Masters > Doctors'.",
+      "Locate field 'Save'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Save' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "Medium",
+    "severity": "Major"
+  },
+  {
+    "id": "RP-001",
+    "module": "REPORTS",
+    "tab": "Reports",
+    "field": "Report Category",
+    "title": "Validate Report Category",
+    "preconditions": "Reports page opened with data.",
+    "steps": [
+      "Open tab 'Reports'.",
+      "Locate field 'Report Category'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Report Category' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "Clinical Biochemistry (CTGY002)",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RP-002",
+    "module": "REPORTS",
+    "tab": "Reports",
+    "field": "Date Filter",
+    "title": "Validate Date Filter",
+    "preconditions": "Reports page opened with data.",
+    "steps": [
+      "Open tab 'Reports'.",
+      "Locate field 'Date Filter'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Date Filter' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "2026-09-11",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RP-003",
+    "module": "REPORTS",
+    "tab": "Reports",
+    "field": "Doctor Filter",
+    "title": "Validate Doctor Filter",
+    "preconditions": "Reports page opened with data.",
+    "steps": [
+      "Open tab 'Reports'.",
+      "Locate field 'Doctor Filter'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Doctor Filter' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RP-004",
+    "module": "REPORTS",
+    "tab": "Reports",
+    "field": "Test Filter",
+    "title": "Validate Test Filter",
+    "preconditions": "Reports page opened with data.",
+    "steps": [
+      "Open tab 'Reports'.",
+      "Locate field 'Test Filter'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Test Filter' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "BLOOD SUGAR",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RP-005",
+    "module": "REPORTS",
+    "tab": "Reports",
+    "field": "Preview",
+    "title": "Validate Preview",
+    "preconditions": "Reports page opened with data.",
+    "steps": [
+      "Open tab 'Reports'.",
+      "Locate field 'Preview'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Preview' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RP-006",
+    "module": "REPORTS",
+    "tab": "Reports",
+    "field": "Export PDF",
+    "title": "Validate Export PDF",
+    "preconditions": "Reports page opened with data.",
+    "steps": [
+      "Open tab 'Reports'.",
+      "Locate field 'Export PDF'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Export PDF' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "RP-007",
+    "module": "REPORTS",
+    "tab": "Reports",
+    "field": "Export Excel",
+    "title": "Validate Export Excel",
+    "preconditions": "Reports page opened with data.",
+    "steps": [
+      "Open tab 'Reports'.",
+      "Locate field 'Export Excel'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Export Excel' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SYS-001",
+    "module": "SYSTEM",
+    "tab": "System",
+    "field": "User Management",
+    "title": "Validate User Management",
+    "preconditions": "System section opened with admin permissions.",
+    "steps": [
+      "Open tab 'System'.",
+      "Locate field 'User Management'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'User Management' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "32",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SYS-002",
+    "module": "SYSTEM",
+    "tab": "System",
+    "field": "Role Rights",
+    "title": "Validate Role Rights",
+    "preconditions": "System section opened with admin permissions.",
+    "steps": [
+      "Open tab 'System'.",
+      "Locate field 'Role Rights'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Role Rights' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SYS-003",
+    "module": "SYSTEM",
+    "tab": "System",
+    "field": "Menu Rights",
+    "title": "Validate Menu Rights",
+    "preconditions": "System section opened with admin permissions.",
+    "steps": [
+      "Open tab 'System'.",
+      "Locate field 'Menu Rights'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Menu Rights' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SYS-004",
+    "module": "SYSTEM",
+    "tab": "System",
+    "field": "Audit Logs",
+    "title": "Validate Audit Logs",
+    "preconditions": "System section opened with admin permissions.",
+    "steps": [
+      "Open tab 'System'.",
+      "Locate field 'Audit Logs'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Audit Logs' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SYS-005",
+    "module": "SYSTEM",
+    "tab": "System",
+    "field": "Backup Trigger",
+    "title": "Validate Backup Trigger",
+    "preconditions": "System section opened with admin permissions.",
+    "steps": [
+      "Open tab 'System'.",
+      "Locate field 'Backup Trigger'.",
+      "Check default value, enabled/disabled state and placeholder/help text.",
+      "Enter valid input and save/apply.",
+      "Reopen record and verify persisted value."
+    ],
+    "expected_result": "Field 'Backup Trigger' is visible and functional; valid value persists and validation behaves correctly.",
+    "test_data": "QA_SAMPLE",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "MIG-001",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "SubCategoryCode",
+    "title": "Create missing sub-category if meaningful and absent",
+    "preconditions": "Migration script configured with GeneralMasters lookup.",
+    "steps": [
+      "Run migration for tests.",
+      "Pick source rows where target sub-category code does not exist in GeneralMasters.",
+      "Verify missing valid SCTG rows are created."
+    ],
+    "expected_result": "Meaningful missing sub-categories are auto-created and assigned.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Critical"
+  },
+  {
+    "id": "MIG-002",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "SubCategoryCode",
+    "title": "Keep sub-category blank when test name equals sub-category name",
+    "preconditions": "Rule enabled in migration utility.",
+    "steps": [
+      "Run migration for rows where normalized TestName equals normalized SubCategoryName.",
+      "Inspect destination TestMasters rows."
+    ],
+    "expected_result": "SubCategoryCode remains null/blank for such rows.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "MIG-003",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "SubCategoryName quality",
+    "title": "Reject nonsense sub-category names",
+    "preconditions": "Bad-name filter enabled (e.g., '.', '>', 'DR.', 'TEST', 'DUPLICATE').",
+    "steps": [
+      "Run migration on records with nonsense candidate names.",
+      "Inspect GeneralMasters and TestMasters outputs."
+    ],
+    "expected_result": "Nonsense names are not created and not assigned to tests.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Major"
+  },
+  {
+    "id": "MIG-004",
+    "module": "MIGRATION",
+    "tab": "TstMaster -> TestMasters",
+    "field": "Hierarchy mapping",
+    "title": "Reuse existing DEPT/CTGY/SCTG masters before creating new",
+    "preconditions": "GeneralMasters pre-populated.",
+    "steps": [
+      "Run migration.",
+      "Verify existing codes are reused and duplicates are not created."
+    ],
+    "expected_result": "Mapping prefers existing masters; only valid missing rows are inserted.",
+    "test_data": "",
+    "priority": "High",
+    "severity": "Major"
+  },
+  {
+    "id": "SEC-001",
+    "module": "SECURITY",
+    "tab": "Cross-module",
+    "field": "Input sanitization",
+    "title": "SQL injection payload handling",
+    "preconditions": "Text input fields available.",
+    "steps": [
+      "Inject SQL-like payload in key search/login fields and submit."
+    ],
+    "expected_result": "No SQL execution or auth bypass occurs.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Critical"
+  },
+  {
+    "id": "SEC-002",
+    "module": "SECURITY",
+    "tab": "Cross-module",
+    "field": "Output encoding",
+    "title": "XSS payload handling",
+    "preconditions": "Free text fields available.",
+    "steps": [
+      "Store script payload and reopen screens/reports where value is rendered."
+    ],
+    "expected_result": "Payload is escaped/sanitized and never executed.",
+    "test_data": "",
+    "priority": "Critical",
+    "severity": "Critical"
+  },
+  {
+    "id": "PERF-001",
+    "module": "PERFORMANCE",
+    "tab": "Masters > Tests",
+    "field": "Search",
+    "title": "Test search responsiveness",
+    "preconditions": "Large test catalog loaded.",
+    "steps": [
+      "Search by partial code/name repeatedly.",
+      "Measure average response time."
+    ],
+    "expected_result": "Search remains responsive within SLA.",
+    "test_data": "",
+    "priority": "Medium",
+    "severity": "Major"
+  }
+]

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prescriptions — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .rx-card {
+      background: white; border: 1px solid var(--border);
+      border-radius: var(--radius-md); padding: 16px 18px;
+      display: flex; align-items: center; gap: 14px;
+      transition: box-shadow 0.15s; cursor: pointer;
+    }
+    .rx-card:hover { box-shadow: var(--shadow-md); border-color: var(--primary); }
+    .rx-thumb {
+      width: 54px; height: 54px; border-radius: var(--radius-md);
+      background: var(--purple-light); display: flex; align-items: center;
+      justify-content: center; font-size: 24px; flex-shrink: 0;
+    }
+    .rx-info { flex: 1; }
+    .rx-name { font-size: 14px; font-weight: 600; }
+    .rx-meta { font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
+    .rx-actions { display: flex; gap: 6px; }
+
+    /* Review Page */
+    .review-layout { display: flex; gap: 20px; }
+    .review-left  { flex: 0 0 45%; }
+    .review-right { flex: 1; display: flex; flex-direction: column; gap: 16px; }
+    .img-viewer {
+      background: #1C1C1E; border-radius: var(--radius-md);
+      min-height: 420px; display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 72px; position: relative;
+    }
+    .img-controls {
+      display: flex; gap: 8px; margin-top: 10px; justify-content: center;
+    }
+    .img-control-btn {
+      background: white; border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 6px 12px;
+      font-size: 12px; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">W</div>
+      <div class="logo-text">IWM Portal <span>Warehouse Management</span></div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item" onclick="location='04_products.html'"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item" onclick="location='08_orders.html'"><span class="nav-icon">🛒</span> Orders <span class="nav-badge">12</span></div>
+      <div class="nav-item active"><span class="nav-icon">💊</span> Prescriptions <span class="nav-badge">4</span></div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='16_reports.html'"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item" onclick="location='15_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="sidebar-user">
+        <div class="avatar">SG</div>
+        <div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="topnav">
+    <div class="topnav-left">
+      <div class="breadcrumb">
+        <a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span>
+        <span class="current">Prescriptions</span>
+      </div>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input class="topnav-search" type="search" placeholder="Search prescriptions..."/>
+    </div>
+    <div class="topnav-right">
+      <button class="icon-btn">🔔 <span class="badge"></span></button>
+      <div class="topnav-avatar">SG</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-body">
+
+      <div id="listView">
+        <div class="page-header">
+          <div>
+            <div class="page-title">Prescription Management</div>
+            <div class="page-subtitle">Review and process prescription-based orders</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- Tabs -->
+          <div class="tabs">
+            <div class="tab-item active">All <span class="tab-count">18</span></div>
+            <div class="tab-item">⏳ Pending Review <span class="tab-count">4</span></div>
+            <div class="tab-item">👀 Reviewed <span class="tab-count">6</span></div>
+            <div class="tab-item">✅ Approved <span class="tab-count">6</span></div>
+            <div class="tab-item">❌ Rejected <span class="tab-count">2</span></div>
+          </div>
+
+          <!-- Table -->
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rx ID</th>
+                  <th>Customer</th>
+                  <th>Uploaded</th>
+                  <th>Linked Order</th>
+                  <th>Images</th>
+                  <th>Status</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="color:var(--purple);font-weight:600;">#RX-0048</td>
+                  <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#0F9B8E;">PK</div><div><div style="font-size:13px;font-weight:500;">Priya Kumar</div><div style="font-size:11px;color:var(--text-secondary);">+91-8765432109</div></div></div></td>
+                  <td><div style="font-size:13px;">12 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">09:05 AM · 10 mins ago</div></td>
+                  <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1023</a></td>
+                  <td>2 images</td>
+                  <td><span class="badge badge-pending">⏳ Pending</span></td>
+                  <td>
+                    <div class="table-actions">
+                      <button class="action-btn view" onclick="document.getElementById('listView').style.display='none';document.getElementById('reviewView').style.display='block';">👁️ Review</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:var(--purple);font-weight:600;">#RX-0047</td>
+                  <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#7C3AED;">AS</div><div><div style="font-size:13px;font-weight:500;">Amit Singh</div><div style="font-size:11px;color:var(--text-secondary);">+91-7654321098</div></div></div></td>
+                  <td><div style="font-size:13px;">12 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">08:40 AM · 35 mins ago</div></td>
+                  <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1022</a></td>
+                  <td>1 image</td>
+                  <td><span class="badge badge-pending">⏳ Pending</span></td>
+                  <td>
+                    <div class="table-actions">
+                      <button class="action-btn view" onclick="document.getElementById('listView').style.display='none';document.getElementById('reviewView').style.display='block';">👁️ Review</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:var(--purple);font-weight:600;">#RX-0046</td>
+                  <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#2E7D32;">NP</div><div><div style="font-size:13px;font-weight:500;">Neha Patel</div><div style="font-size:11px;color:var(--text-secondary);">+91-5432109876</div></div></div></td>
+                  <td><div style="font-size:13px;">11 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">02:30 PM</div></td>
+                  <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1020</a></td>
+                  <td>1 image</td>
+                  <td><span class="badge badge-completed">✅ Approved</span></td>
+                  <td>
+                    <div class="table-actions">
+                      <button class="action-btn view" onclick="document.getElementById('listView').style.display='none';document.getElementById('reviewView').style.display='block';">👁️ View</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:var(--purple);font-weight:600;">#RX-0045</td>
+                  <td><div style="display:flex;align-items:center;gap:8px;"><div class="avatar-sm" style="background:#C62828;">VR</div><div><div style="font-size:13px;font-weight:500;">Vijay Raj</div><div style="font-size:11px;color:var(--text-secondary);">+91-4321098765</div></div></div></td>
+                  <td><div style="font-size:13px;">11 Aug 2026</div><div style="font-size:11px;color:var(--text-secondary);">11:10 AM</div></td>
+                  <td><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1019</a></td>
+                  <td>1 image</td>
+                  <td><span class="badge badge-rejected">❌ Rejected</span></td>
+                  <td>
+                    <div class="table-actions">
+                      <button class="action-btn view" onclick="document.getElementById('listView').style.display='none';document.getElementById('reviewView').style.display='block';">👁️ View</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pagination">
+            <span class="page-info">Showing 1–10 of 18 results</span>
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- REVIEW VIEW -->
+      <div id="reviewView" style="display:none;">
+        <div style="margin-bottom:16px;display:flex;align-items:center;gap:10px;">
+          <button class="btn btn-secondary btn-sm" onclick="document.getElementById('reviewView').style.display='none';document.getElementById('listView').style.display='block';">← Back to Prescriptions</button>
+          <span style="font-size:16px;font-weight:700;">Prescription Review — #RX-0048</span>
+          <span class="badge badge-pending">⏳ Pending Review</span>
+        </div>
+
+        <div class="review-layout">
+          <!-- Image Viewer -->
+          <div class="review-left">
+            <div class="card">
+              <div class="card-header"><span class="card-title">🖼️ Prescription Image</span><span style="font-size:13px;color:var(--text-secondary);">1 of 2</span></div>
+              <div class="card-body">
+                <div class="img-viewer">📄<div style="position:absolute;top:10px;right:10px;background:rgba(0,0,0,0.5);color:white;padding:4px 10px;border-radius:4px;font-size:12px;">Image 1/2</div></div>
+                <div class="img-controls">
+                  <button class="img-control-btn">‹ Prev</button>
+                  <button class="img-control-btn">🔍 Zoom In</button>
+                  <button class="img-control-btn">🔄 Rotate</button>
+                  <button class="img-control-btn">📥 Download</button>
+                  <button class="img-control-btn">Next ›</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Form -->
+          <div class="review-right">
+            <!-- Customer Info -->
+            <div class="card">
+              <div class="card-header"><span class="card-title">👤 Customer Info</span></div>
+              <div class="card-body">
+                <div class="info-row"><span class="info-label">Name</span><span class="info-value">Priya Kumar</span></div>
+                <div class="info-row"><span class="info-label">Phone</span><span class="info-value">+91-8765432109</span></div>
+                <div class="info-row"><span class="info-label">Linked Order</span><a href="09_order_detail.html" style="color:var(--primary);font-weight:600;">#ORD-1023</a></div>
+                <div class="info-row"><span class="info-label">Uploaded</span><span class="info-value">12 Aug 2026, 09:05 AM</span></div>
+              </div>
+            </div>
+
+            <!-- Medicines Extracted -->
+            <div class="card">
+              <div class="card-header">
+                <span class="card-title">💊 Medicines in Prescription</span>
+                <button class="btn btn-outline btn-sm">+ Add Row</button>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>Medicine Name</th><th>Qty</th><th>Dosage</th><th>Duration</th><th></th></tr></thead>
+                  <tbody>
+                    <tr>
+                      <td><input type="text" value="Amoxicillin 500mg" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:100%;"/></td>
+                      <td><input type="number" value="2" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:60px;"/></td>
+                      <td><input type="text" value="Twice a day" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:100%;"/></td>
+                      <td><input type="text" value="5 days" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:80px;"/></td>
+                      <td><button class="action-btn delete">🗑️</button></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" value="Vitamin D3 1000IU" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:100%;"/></td>
+                      <td><input type="number" value="1" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:60px;"/></td>
+                      <td><input type="text" value="Once a day" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:100%;"/></td>
+                      <td><input type="text" value="30 days" style="border:1px solid var(--border);border-radius:4px;padding:4px 8px;font-size:13px;width:80px;"/></td>
+                      <td><button class="action-btn delete">🗑️</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="card-body" style="padding-top:10px;">
+                <button class="btn btn-outline w-100">🔗 Link Medicines to Order #ORD-1023</button>
+              </div>
+            </div>
+
+            <!-- Review Notes & Actions -->
+            <div class="card">
+              <div class="card-header"><span class="card-title">📝 Review Notes</span></div>
+              <div class="card-body">
+                <textarea class="form-control" rows="3" placeholder="Add notes about this prescription (visible internally only)..."></textarea>
+                <div style="display:flex;gap:10px;margin-top:14px;">
+                  <button class="btn btn-success w-100">✅ Approve Prescription</button>
+                  <button class="btn btn-danger w-100">❌ Reject</button>
+                </div>
+                <button class="btn btn-outline w-100" style="margin-top:8px;">⏸️ Request Clarification</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+</body>
+</html>

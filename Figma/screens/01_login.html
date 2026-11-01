@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    body { background: var(--bg); }
+    .login-page {
+      display: grid; grid-template-columns: 1fr 1fr;
+      min-height: 100vh;
+    }
+    /* ---- Left Panel ---- */
+    .login-left {
+      background: linear-gradient(145deg, #1A3C6E 0%, #0F9B8E 100%);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 60px 48px; color: white; position: relative; overflow: hidden;
+    }
+    .login-left::before {
+      content: '';
+      position: absolute; top: -100px; right: -100px;
+      width: 400px; height: 400px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 50%;
+    }
+    .login-left::after {
+      content: '';
+      position: absolute; bottom: -80px; left: -80px;
+      width: 300px; height: 300px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 50%;
+    }
+    .left-content { position: relative; z-index: 1; width: 100%; max-width: 380px; }
+    .brand-logo {
+      display: flex; align-items: center; gap: 14px; margin-bottom: 48px;
+    }
+    .brand-logo .logo-box {
+      width: 50px; height: 50px; background: var(--accent);
+      border-radius: 12px; display: flex; align-items: center; justify-content: center;
+      font-size: 24px; font-weight: 800; color: white;
+    }
+    .brand-logo .brand-name { font-size: 22px; font-weight: 700; }
+    .brand-logo .brand-sub { font-size: 12px; opacity: 0.7; }
+
+    .left-illustration {
+      width: 100%; height: 220px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px; margin-bottom: 36px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 80px;
+    }
+    .left-tagline { font-size: 24px; font-weight: 700; line-height: 1.35; margin-bottom: 12px; }
+    .left-sub { font-size: 14px; opacity: 0.75; line-height: 1.6; margin-bottom: 32px; }
+    .feature-list { display: flex; flex-direction: column; gap: 12px; }
+    .feature-item {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 13.5px; opacity: 0.9;
+    }
+    .feature-item .fi { font-size: 18px; }
+
+    /* ---- Right Panel ---- */
+    .login-right {
+      display: flex; align-items: center; justify-content: center;
+      padding: 40px; background: white;
+    }
+    .login-form-box { width: 100%; max-width: 400px; }
+    .login-form-box h1 { font-size: 26px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+    .login-form-box .sub { font-size: 13.5px; color: var(--text-secondary); margin-bottom: 36px; }
+
+    .input-wrap { position: relative; }
+    .input-wrap .input-icon {
+      position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+      color: var(--text-secondary); font-size: 16px;
+    }
+    .input-wrap input {
+      width: 100%; height: 46px;
+      padding: 0 44px;
+      border: 1.5px solid var(--border-dark);
+      border-radius: var(--radius-sm);
+      font-size: 14px; font-family: var(--font);
+      outline: none; transition: border 0.15s;
+    }
+    .input-wrap input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(26,60,110,0.08); }
+    .input-wrap .toggle-pw {
+      position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+      background: none; border: none; color: var(--text-secondary); font-size: 16px; cursor: pointer;
+    }
+    .remember-row {
+      display: flex; align-items: center; justify-content: space-between;
+      margin: 16px 0;
+    }
+    .checkbox-label {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 13px; color: var(--text-secondary); cursor: pointer;
+    }
+    .checkbox-label input { accent-color: var(--primary); }
+    .forgot-link { font-size: 13px; color: var(--primary); font-weight: 500; }
+    .forgot-link:hover { text-decoration: underline; }
+    .btn-login {
+      width: 100%; height: 46px;
+      background: var(--primary); color: white;
+      border: none; border-radius: var(--radius-sm);
+      font-size: 15px; font-weight: 600; font-family: var(--font);
+      cursor: pointer; transition: background 0.15s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .btn-login:hover { background: var(--primary-light); }
+    .login-footer {
+      text-align: center; margin-top: 36px;
+      font-size: 12px; color: var(--text-secondary);
+    }
+    .login-footer a { color: var(--primary); }
+    .divider {
+      display: flex; align-items: center; gap: 12px;
+      margin: 24px 0; color: var(--text-secondary); font-size: 12px;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+    .error-msg {
+      background: var(--danger-light); color: #721C24;
+      border-radius: var(--radius-sm); padding: 10px 14px;
+      font-size: 13px; margin-bottom: 16px; display: none;
+    }
+  </style>
+</head>
+<body>
+<div class="login-page">
+
+  <!-- Left Panel -->
+  <div class="login-left">
+    <div class="left-content">
+      <div class="brand-logo">
+        <div class="logo-box">W</div>
+        <div>
+          <div class="brand-name">IWM Portal</div>
+          <div class="brand-sub">Inventory & Warehouse Management</div>
+        </div>
+      </div>
+
+      <div class="left-illustration">🏭</div>
+
+      <div class="left-tagline">Simplifying Warehouse Operations</div>
+      <div class="left-sub">Manage orders, inventory, prescriptions and billing from one powerful platform.</div>
+
+      <div class="feature-list">
+        <div class="feature-item"><span class="fi">📦</span> Complete Order & Inventory Management</div>
+        <div class="feature-item"><span class="fi">💊</span> Prescription Upload & Review</div>
+        <div class="feature-item"><span class="fi">📊</span> Real-time Dashboard & Reports</div>
+        <div class="feature-item"><span class="fi">🔒</span> Role-based Access Control</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Panel -->
+  <div class="login-right">
+    <div class="login-form-box">
+      <h1>Welcome Back 👋</h1>
+      <p class="sub">Login to your Inventory & Warehouse Management account</p>
+
+      <div class="error-msg" id="errorMsg">❌ Invalid email or password. Please try again.</div>
+
+      <div class="form-group">
+        <label class="form-label">Email / Username <span class="req">*</span></label>
+        <div class="input-wrap">
+          <span class="input-icon">📧</span>
+          <input type="email" placeholder="admin@warehouse.com" value="admin@warehouse.com"/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Password <span class="req">*</span></label>
+        <div class="input-wrap">
+          <span class="input-icon">🔒</span>
+          <input type="password" placeholder="Enter your password" value="••••••••"/>
+          <button class="toggle-pw">👁️</button>
+        </div>
+      </div>
+
+      <div class="remember-row">
+        <label class="checkbox-label">
+          <input type="checkbox" checked/> Remember me
+        </label>
+        <a href="02_forgot_password.html" class="forgot-link">Forgot Password?</a>
+      </div>
+
+      <button class="btn-login" onclick="window.location='../screens/03_dashboard.html'">
+        🔑 Login to Dashboard
+      </button>
+
+      <div class="login-footer">
+        <p>Powered by <a href="#">SG Softech</a> &nbsp;|&nbsp; support@sgsoftech.in</p>
+        <p style="margin-top:6px;">© 2026 All rights reserved &nbsp;|&nbsp; v1.0.0</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

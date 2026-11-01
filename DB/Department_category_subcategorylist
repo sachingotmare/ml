@@ -1,0 +1,713 @@
+DIAGNOSTIC SERVICES
+│
+├── PATHOLOGY
+│   │
+│   ├── Hematology
+│   │   ├── Complete Blood Count (CBC)
+│   │   ├── Hemoglobin
+│   │   ├── RBC / Red Cell Indices
+│   │   ├── WBC / White Cell Count
+│   │   ├── Differential Leukocyte Count (DLC)
+│   │   ├── Platelet Count
+│   │   ├── Peripheral Blood Smear
+│   │   ├── Reticulocyte Count
+│   │   ├── ESR
+│   │   ├── Anemia Profile
+│   │   ├── Hemoglobin Electrophoresis
+│   │   ├── Hemoglobinopathy
+│   │   ├── Bone Marrow Examination
+│   │   ├── Bone Marrow Aspiration
+│   │   ├── Bone Marrow Biopsy
+│   │   ├── Coagulation
+│   │   ├── PT / Prothrombin Time
+│   │   ├── INR
+│   │   ├── APTT
+│   │   ├── D-Dimer
+│   │   ├── Fibrinogen
+│   │   ├── Thrombophilia
+│   │   ├── Factor Assays
+│   │   └── Flow Cytometry
+│   │
+│   ├── Clinical Biochemistry / Clinical Chemistry
+│   │   ├── Routine Biochemistry
+│   │   ├── Blood Glucose
+│   │   ├── Diabetes
+│   │   ├── HbA1c
+│   │   ├── Lipid Profile
+│   │   ├── Liver Function Test (LFT)
+│   │   ├── Kidney / Renal Function Test (KFT/RFT)
+│   │   ├── Cardiac Biomarkers
+│   │   ├── Pancreatic Enzymes
+│   │   ├── Electrolytes
+│   │   ├── Calcium / Phosphorus / Magnesium
+│   │   ├── Iron Studies
+│   │   ├── Protein Studies
+│   │   ├── Enzymes
+│   │   ├── Hormones
+│   │   ├── Thyroid Function Tests
+│   │   ├── Adrenal Hormones
+│   │   ├── Reproductive Hormones
+│   │   ├── Growth Hormones
+│   │   ├── Fertility / Reproductive Tests
+│   │   ├── Vitamin Assays
+│   │   ├── Trace Elements
+│   │   ├── Tumor Markers
+│   │   ├── Therapeutic Drug Monitoring
+│   │   ├── Toxicology
+│   │   ├── Drug Screening
+│   │   ├── Blood Gas Analysis
+│   │   ├── Lactate
+│   │   ├── Ammonia
+│   │   ├── Osmolality
+│   │   ├── Specialized Biochemistry
+│   │   └── Protein Electrophoresis
+│   │
+│   ├── Clinical Pathology / Clinical Microscopy
+│   │   ├── Urinalysis
+│   │   ├── Routine Urine Examination
+│   │   ├── Urine Microscopy
+│   │   ├── Urine Chemistry
+│   │   ├── Urine Protein
+│   │   ├── Urine Albumin / ACR
+│   │   ├── Stool Examination
+│   │   ├── Stool Routine
+│   │   ├── Stool Occult Blood
+│   │   ├── Stool Ova & Parasites
+│   │   ├── Semen Analysis
+│   │   ├── Semen Chemistry
+│   │   ├── Body Fluids
+│   │   ├── Pleural Fluid
+│   │   ├── Ascitic Fluid
+│   │   ├── CSF
+│   │   ├── Synovial Fluid
+│   │   ├── Pericardial Fluid
+│   │   ├── Amniotic Fluid
+│   │   ├── Bronchoalveolar Lavage (BAL)
+│   │   └── Other Biological Fluids
+│   │
+│   ├── Microbiology
+│   │   │
+│   │   ├── Bacteriology
+│   │   │   ├── Bacterial Culture
+│   │   │   ├── Gram Stain
+│   │   │   ├── Bacterial Identification
+│   │   │   └── Antibiotic Susceptibility
+│   │   │
+│   │   ├── Culture & Sensitivity
+│   │   │   ├── Blood Culture
+│   │   │   ├── Urine Culture
+│   │   │   ├── Pus Culture
+│   │   │   ├── Sputum Culture
+│   │   │   ├── Throat Swab Culture
+│   │   │   ├── Wound Culture
+│   │   │   ├── Stool Culture
+│   │   │   ├── CSF Culture
+│   │   │   └── Body Fluid Culture
+│   │   │
+│   │   ├── Mycology
+│   │   │   ├── Fungal Culture
+│   │   │   ├── KOH Examination
+│   │   │   ├── Fungal Identification
+│   │   │   └── Antifungal Susceptibility
+│   │   │
+│   │   ├── Mycobacteriology
+│   │   │   ├── AFB Smear
+│   │   │   ├── TB Culture
+│   │   │   ├── TB Molecular Testing
+│   │   │   └── Drug Susceptibility
+│   │   │
+│   │   ├── Parasitology
+│   │   │   ├── Stool Parasites
+│   │   │   ├── Malaria
+│   │   │   ├── Filaria
+│   │   │   └── Other Parasites
+│   │   │
+│   │   ├── Virology
+│   │   │   ├── Viral Antigen
+│   │   │   ├── Viral Antibody
+│   │   │   ├── Viral PCR
+│   │   │   ├── Viral Load
+│   │   │   └── Viral Genotyping
+│   │   │
+│   │   └── Infection Control Microbiology
+│   │       ├── Environmental Cultures
+│   │       ├── Water Testing
+│   │       └── Sterility Testing
+│   │
+│   ├── Serology / Immunology
+│   │   ├── Infectious Disease Serology
+│   │   ├── Autoimmune Testing
+│   │   ├── ANA
+│   │   ├── ENA Profile
+│   │   ├── ANCA
+│   │   ├── Rheumatoid Factor
+│   │   ├── Anti-CCP
+│   │   ├── Complement
+│   │   ├── Immunoglobulins
+│   │   ├── Allergy Testing
+│   │   ├── IgE
+│   │   ├── Immunodeficiency Testing
+│   │   └── Immunological Markers
+│   │
+│   ├── Histopathology
+│   │   ├── Surgical Pathology
+│   │   ├── Biopsy
+│   │   ├── Small Biopsy
+│   │   ├── Large Biopsy
+│   │   ├── Excision Biopsy
+│   │   ├── Resection Specimen
+│   │   ├── Endoscopic Biopsy
+│   │   ├── Skin Biopsy
+│   │   ├── GI Biopsy
+│   │   ├── Liver Biopsy
+│   │   ├── Kidney Biopsy
+│   │   ├── Breast Biopsy
+│   │   ├── Bone / Soft Tissue Pathology
+│   │   ├── Dermatopathology
+│   │   ├── Neuropathology
+│   │   ├── GI Pathology
+│   │   ├── Hepatobiliary Pathology
+│   │   ├── Renal Pathology
+│   │   ├── Breast Pathology
+│   │   ├── Gynecologic Pathology
+│   │   ├── Uropathology
+│   │   └── Immunohistochemistry (IHC)
+│   │
+│   ├── Cytopathology
+│   │   ├── FNAC
+│   │   ├── Pap Smear / Cervical Cytology
+│   │   ├── Fluid Cytology
+│   │   ├── Pleural Fluid Cytology
+│   │   ├── Ascitic Fluid Cytology
+│   │   ├── CSF Cytology
+│   │   ├── Urine Cytology
+│   │   ├── Sputum Cytology
+│   │   ├── Thyroid Cytology
+│   │   ├── Breast Cytology
+│   │   ├── Lymph Node Cytology
+│   │   └── Brush / Wash Cytology
+│   │
+│   ├── Molecular Pathology
+│   │   ├── PCR
+│   │   ├── RT-PCR
+│   │   ├── Real-Time PCR
+│   │   ├── DNA Testing
+│   │   ├── RNA Testing
+│   │   ├── Mutation Analysis
+│   │   ├── Oncology Molecular Testing
+│   │   ├── Infectious Disease Molecular Testing
+│   │   ├── Pharmacogenomics
+│   │   └── Next Generation Sequencing (NGS)
+│   │
+│   ├── Clinical Genetics / Genomics
+│   │   ├── Genetic Screening
+│   │   ├── Carrier Screening
+│   │   ├── Prenatal Genetic Testing
+│   │   ├── Newborn Screening
+│   │   ├── Chromosomal Analysis
+│   │   ├── Karyotyping
+│   │   ├── FISH
+│   │   ├── Microarray
+│   │   ├── Exome Sequencing
+│   │   ├── Whole Genome Sequencing
+│   │   └── Genetic Counseling
+│   │
+│   ├── Cytogenetics
+│   │   ├── Karyotyping
+│   │   ├── FISH
+│   │   ├── Chromosomal Microarray
+│   │   └── Chromosome Analysis
+│   │
+│   ├── Transfusion Medicine / Blood Bank
+│   │   ├── Blood Grouping
+│   │   ├── Rh Typing
+│   │   ├── Cross Matching
+│   │   ├── Antibody Screening
+│   │   ├── Direct Antiglobulin Test (DAT)
+│   │   ├── Indirect Antiglobulin Test (IAT)
+│   │   ├── Blood Component Preparation
+│   │   ├── Blood Component Compatibility
+│   │   ├── Transfusion Reaction Investigation
+│   │   └── Immunohematology
+│   │
+│   ├── Forensic Pathology
+│   │   ├── Forensic Autopsy
+│   │   ├── Forensic Histopathology
+│   │   ├── Forensic Toxicology
+│   │   ├── DNA Identification
+│   │   └── Medicolegal Examination
+│   │
+│   └── Autopsy / Postmortem Pathology
+│       ├── Complete Autopsy
+│       ├── Limited Autopsy
+│       ├── Histopathology
+│       └── Postmortem Toxicology
+│
+├── RADIOLOGY / DIAGNOSTIC IMAGING
+│   │
+│   ├── X-Ray / Radiography
+│   │   ├── Chest
+│   │   ├── Abdomen
+│   │   ├── Spine
+│   │   ├── Skull
+│   │   ├── Face
+│   │   ├── PNS
+│   │   ├── Neck
+│   │   ├── Upper Limb
+│   │   ├── Lower Limb
+│   │   ├── Shoulder
+│   │   ├── Elbow
+│   │   ├── Wrist
+│   │   ├── Hand
+│   │   ├── Hip
+│   │   ├── Knee
+│   │   ├── Ankle
+│   │   ├── Foot
+│   │   ├── Pelvis
+│   │   ├── Bone / Joint
+│   │   └── Dental X-Ray
+│   │
+│   ├── Fluoroscopy
+│   │   ├── Barium Swallow
+│   │   ├── Barium Meal
+│   │   ├── Barium Enema
+│   │   ├── MCU
+│   │   ├── RGU
+│   │   ├── IVP
+│   │   ├── HSG
+│   │   ├── Fistulogram
+│   │   ├── Sinogram
+│   │   ├── T-Tube Cholangiogram
+│   │   └── Other Contrast Studies
+│   │
+│   ├── CT Scan
+│   │   ├── Brain
+│   │   ├── Head
+│   │   ├── Neck
+│   │   ├── Chest / Thorax
+│   │   ├── Abdomen
+│   │   ├── Pelvis
+│   │   ├── KUB
+│   │   ├── Spine
+│   │   ├── Extremities
+│   │   ├── Musculoskeletal
+│   │   ├── PNS
+│   │   ├── Orbit
+│   │   ├── Temporal Bone
+│   │   ├── CT Angiography
+│   │   ├── CT Urography
+│   │   ├── CT Colonography
+│   │   ├── HRCT
+│   │   ├── CECT
+│   │   ├── NCCT
+│   │   ├── CT Enterography
+│   │   └── CT-Guided Procedures
+│   │
+│   ├── MRI
+│   │   ├── Brain
+│   │   ├── Spine
+│   │   ├── Neck
+│   │   ├── Chest
+│   │   ├── Abdomen
+│   │   ├── Pelvis
+│   │   ├── Breast
+│   │   ├── Musculoskeletal
+│   │   ├── Shoulder
+│   │   ├── Knee
+│   │   ├── Hip
+│   │   ├── Ankle
+│   │   ├── Wrist
+│   │   ├── MRCP
+│   │   ├── MR Urography
+│   │   ├── MR Angiography
+│   │   ├── MR Venography
+│   │   ├── Cardiac MRI
+│   │   ├── Functional MRI
+│   │   ├── Diffusion MRI
+│   │   └── Whole Body MRI
+│   │
+│   ├── Ultrasound / Sonography
+│   │   ├── Whole Abdomen
+│   │   ├── Upper Abdomen
+│   │   ├── Pelvis
+│   │   ├── KUB
+│   │   ├── Kidney
+│   │   ├── Liver
+│   │   ├── Gall Bladder
+│   │   ├── Pancreas
+│   │   ├── Thyroid
+│   │   ├── Neck
+│   │   ├── Breast
+│   │   ├── Scrotum
+│   │   ├── Testes
+│   │   ├── Prostate
+│   │   ├── Soft Tissue
+│   │   ├── Musculoskeletal
+│   │   ├── Obstetric
+│   │   ├── Pregnancy
+│   │   ├── Gynecological
+│   │   ├── Follicular Study
+│   │   ├── Transvaginal
+│   │   ├── Transrectal
+│   │   └── Pediatric Ultrasound
+│   │
+│   ├── Colour Doppler
+│   │   ├── Carotid Doppler
+│   │   ├── Renal Doppler
+│   │   ├── Portal Doppler
+│   │   ├── Lower Limb Venous Doppler
+│   │   ├── Lower Limb Arterial Doppler
+│   │   ├── Upper Limb Doppler
+│   │   ├── Peripheral Arterial Doppler
+│   │   ├── Fetal Doppler
+│   │   ├── Penile Doppler
+│   │   ├── Scrotal Doppler
+│   │   └── Other Vascular Doppler
+│   │
+│   ├── Mammography
+│   │   ├── Screening Mammography
+│   │   ├── Diagnostic Mammography
+│   │   ├── Bilateral Mammography
+│   │   ├── Unilateral Mammography
+│   │   ├── Breast Tomosynthesis
+│   │   └── Image-Guided Breast Procedures
+│   │
+│   ├── Nuclear Medicine
+│   │   ├── Bone Scan
+│   │   ├── Renal Scan
+│   │   ├── Thyroid Scan
+│   │   ├── Hepatobiliary Scan
+│   │   ├── Lung Perfusion Scan
+│   │   ├── Cardiac Nuclear Imaging
+│   │   ├── PET
+│   │   ├── PET-CT
+│   │   ├── SPECT
+│   │   └── SPECT-CT
+│   │
+│   ├── PET / Molecular Imaging
+│   │   ├── PET
+│   │   ├── PET-CT
+│   │   ├── PET-MRI
+│   │   ├── FDG PET
+│   │   └── PSMA PET
+│   │
+│   └── Interventional Radiology
+│       ├── Image-Guided Biopsy
+│       ├── CT-Guided Biopsy
+│       ├── US-Guided Biopsy
+│       ├── FNAC
+│       ├── Drainage
+│       ├── Angiography
+│       ├── Angioplasty
+│       ├── Stent Placement
+│       ├── Vascular Intervention
+│       ├── Central Line Placement
+│       ├── Nephrostomy
+│       ├── Biliary Drainage
+│       └── Ablation Procedures
+│
+├── CARDIOLOGY
+│   │
+│   ├── Electrocardiography
+│   │   ├── ECG
+│   │   ├── 12-Lead ECG
+│   │   ├── 15-Lead ECG
+│   │   └── Pediatric ECG
+│   │
+│   ├── Echocardiography
+│   │   ├── 2D Echo
+│   │   ├── 3D Echo
+│   │   ├── M-Mode Echo
+│   │   ├── Doppler Echo
+│   │   ├── Colour Doppler Echo
+│   │   ├── Transesophageal Echo (TEE)
+│   │   ├── Stress Echo
+│   │   ├── Fetal Echo
+│   │   └── Pediatric Echo
+│   │
+│   ├── Cardiac Monitoring
+│   │   ├── Holter Monitoring
+│   │   ├── 24-Hour Holter
+│   │   ├── 48-Hour Holter
+│   │   ├── Event Monitoring
+│   │   └── Ambulatory ECG
+│   │
+│   ├── Blood Pressure Monitoring
+│   │   ├── BP Measurement
+│   │   ├── 24-Hour ABPM
+│   │   └── Ambulatory BP Monitoring
+│   │
+│   ├── Cardiac Stress Testing
+│   │   ├── Treadmill Test (TMT)
+│   │   ├── Exercise Stress Test
+│   │   ├── Stress ECG
+│   │   └── Stress Echocardiography
+│   │
+│   ├── Vascular Studies
+│   │   ├── Arterial Doppler
+│   │   ├── Venous Doppler
+│   │   ├── Carotid Doppler
+│   │   └── Peripheral Vascular Studies
+│   │
+│   └── Advanced Cardiac Diagnostics
+│       ├── Cardiac CT
+│       ├── Cardiac MRI
+│       ├── Coronary CT Angiography
+│       └── Nuclear Cardiac Imaging
+│
+├── PULMONOLOGY / RESPIRATORY MEDICINE
+│   │
+│   ├── Pulmonary Function Testing
+│   │   ├── Spirometry
+│   │   ├── Pulmonary Function Test (PFT)
+│   │   ├── Lung Volumes
+│   │   ├── Diffusing Capacity (DLCO)
+│   │   ├── Peak Expiratory Flow
+│   │   └── Bronchodilator Test
+│   │
+│   ├── Respiratory Monitoring
+│   │   ├── Pulse Oximetry
+│   │   ├── Overnight Oximetry
+│   │   └── Capnography
+│   │
+│   ├── Sleep Medicine
+│   │   ├── Polysomnography
+│   │   ├── Sleep Study
+│   │   ├── CPAP Titration
+│   │   └── Multiple Sleep Latency Test
+│   │
+│   ├── Bronchoscopy
+│   │   ├── Diagnostic Bronchoscopy
+│   │   ├── Bronchial Washing
+│   │   ├── Bronchial Brushing
+│   │   ├── BAL
+│   │   └── Bronchoscopic Biopsy
+│   │
+│   └── Respiratory Function
+│       ├── Bronchial Provocation Test
+│       ├── Methacholine Challenge
+│       └── Exercise Pulmonary Testing
+│
+├── NEUROLOGY / NEUROPHYSIOLOGY
+│   │
+│   ├── Electroencephalography
+│   │   ├── EEG
+│   │   ├── Routine EEG
+│   │   ├── Sleep EEG
+│   │   ├── Video EEG
+│   │   ├── Ambulatory EEG
+│   │   └── Long-Term EEG Monitoring
+│   │
+│   ├── Electrodiagnostics
+│   │   ├── EMG
+│   │   ├── Nerve Conduction Study (NCS)
+│   │   ├── Nerve Conduction Velocity (NCV)
+│   │   ├── EMG + NCV
+│   │   └── Repetitive Nerve Stimulation
+│   │
+│   ├── Evoked Potentials
+│   │   ├── VEP
+│   │   ├── BAEP / BERA
+│   │   ├── SSEP
+│   │   └── MEP
+│   │
+│   └── Neurodiagnostic Monitoring
+│       ├── Intraoperative Neuro Monitoring
+│       ├── Continuous EEG
+│       └── Neurophysiological Monitoring
+│
+├── ENT / AUDIOLOGY
+│   │
+│   ├── Audiology
+│   │   ├── Pure Tone Audiometry
+│   │   ├── Impedance Audiometry
+│   │   ├── Tympanometry
+│   │   ├── Speech Audiometry
+│   │   ├── Otoacoustic Emissions (OAE)
+│   │   ├── BERA / ABR
+│   │   ├── ASSR
+│   │   └── Hearing Assessment
+│   │
+│   ├── Vestibular Testing
+│   │   ├── VNG
+│   │   ├── ENG
+│   │   ├── Caloric Test
+│   │   └── Vestibular Evoked Myogenic Potentials
+│   │
+│   ├── ENT Endoscopy
+│   │   ├── Nasal Endoscopy
+│   │   ├── Laryngoscopy
+│   │   ├── Otoscopy
+│   │   └── Flexible Nasopharyngoscopy
+│   │
+│   └── Voice & Speech
+│       ├── Voice Assessment
+│       ├── Speech Assessment
+│       └── Videostroboscopy
+│
+├── OPHTHALMOLOGY
+│   │
+│   ├── Vision Testing
+│   │   ├── Visual Acuity
+│   │   ├── Refraction
+│   │   ├── Color Vision
+│   │   └── Contrast Sensitivity
+│   │
+│   ├── Ocular Imaging
+│   │   ├── OCT
+│   │   ├── OCT Angiography
+│   │   ├── Fundus Photography
+│   │   ├── Fundus Fluorescein Angiography
+│   │   ├── B-Scan
+│   │   └── Ocular Ultrasound
+│   │
+│   ├── Glaucoma Testing
+│   │   ├── Tonometry
+│   │   ├── Pachymetry
+│   │   ├── Visual Field
+│   │   └── Gonioscopy
+│   │
+│   ├── Corneal Diagnostics
+│   │   ├── Corneal Topography
+│   │   ├── Keratometry
+│   │   └── Specular Microscopy
+│   │
+│   └── Retina Diagnostics
+│       ├── Fundus Examination
+│       ├── OCT Retina
+│       └── Retinal Angiography
+│
+├── GASTROENTEROLOGY
+│   │
+│   ├── Endoscopy
+│   │   ├── Upper GI Endoscopy
+│   │   ├── Gastroscopy
+│   │   ├── Colonoscopy
+│   │   ├── Sigmoidoscopy
+│   │   └── Capsule Endoscopy
+│   │
+│   ├── ERCP
+│   │   ├── Diagnostic ERCP
+│   │   └── Therapeutic ERCP
+│   │
+│   ├── GI Physiology
+│   │   ├── Esophageal Manometry
+│   │   ├── Anorectal Manometry
+│   │   └── 24-Hour pH Monitoring
+│   │
+│   └── Liver Diagnostics
+│       ├── FibroScan
+│       ├── Liver Elastography
+│       └── FibroTest
+│
+├── UROLOGY
+│   │
+│   ├── Urodynamics
+│   │   ├── Uroflowmetry
+│   │   ├── Cystometry
+│   │   ├── Pressure Flow Study
+│   │   ├── Urethral Pressure Profile
+│   │   └── Complete Urodynamic Study
+│   │
+│   ├── Urological Imaging
+│   │   ├── Renal Ultrasound
+│   │   ├── KUB
+│   │   ├── CT Urography
+│   │   ├── MR Urography
+│   │   └── Renal Doppler
+│   │
+│   └── Urological Endoscopy
+│       ├── Cystoscopy
+│       ├── Ureteroscopy
+│       └── Urethroscopy
+│
+├── GYNECOLOGY / OBSTETRICS
+│   │
+│   ├── Obstetric Ultrasound
+│   │   ├── Early Pregnancy Scan
+│   │   ├── Dating Scan
+│   │   ├── NT Scan
+│   │   ├── Anomaly Scan
+│   │   ├── Growth Scan
+│   │   ├── Fetal Wellbeing
+│   │   ├── Biophysical Profile
+│   │   └── Fetal Doppler
+│   │
+│   ├── Gynecological Ultrasound
+│   │   ├── Pelvic Ultrasound
+│   │   ├── Transvaginal Ultrasound
+│   │   ├── Follicular Study
+│   │   └── Uterine / Adnexal Scan
+│   │
+│   ├── Cervical Screening
+│   │   ├── Pap Smear
+│   │   ├── HPV Testing
+│   │   └── Liquid-Based Cytology
+│   │
+│   └── Fertility Diagnostics
+│       ├── AMH
+│       ├── FSH
+│       ├── LH
+│       ├── Semen Analysis
+│       └── HSG
+│
+├── DERMATOLOGY
+│   │
+│   ├── Skin Diagnostics
+│   │   ├── Skin Biopsy
+│   │   ├── Skin Scraping
+│   │   ├── KOH Examination
+│   │   ├── Fungal Culture
+│   │   └── Bacterial Culture
+│   │
+│   ├── Allergy Testing
+│   │   ├── Patch Test
+│   │   ├── Skin Prick Test
+│   │   └── Allergy Panel
+│   │
+│   └── Dermoscopy
+│       ├── Dermoscopy
+│       └── Digital Dermoscopy
+│
+├── DENTAL / ORAL DIAGNOSTICS
+│   │
+│   ├── Dental Imaging
+│   │   ├── Intraoral X-Ray
+│   │   ├── OPG
+│   │   ├── Cephalometry
+│   │   ├── CBCT
+│   │   └── Dental CT
+│   │
+│   ├── Oral Pathology
+│   │   ├── Oral Biopsy
+│   │   ├── Oral Cytology
+│   │   └── Oral Histopathology
+│   │
+│   └── Dental Diagnostics
+│       ├── Caries Assessment
+│       ├── Periodontal Assessment
+│       └── TMJ Assessment
+│
+└── GENERAL / PREVENTIVE DIAGNOSTICS
+    │
+    ├── Health Checkup
+    │   ├── Basic Health Checkup
+    │   ├── Executive Health Checkup
+    │   ├── Comprehensive Health Checkup
+    │   ├── Senior Citizen Health Checkup
+    │   └── Corporate Health Checkup
+    │
+    ├── Preventive Screening
+    │   ├── Diabetes Screening
+    │   ├── Cardiac Screening
+    │   ├── Cancer Screening
+    │   ├── Kidney Screening
+    │   ├── Liver Screening
+    │   └── Thyroid Screening
+    │
+    └── Wellness Packages
+        ├── Male Health Package
+        ├── Female Health Package
+        ├── Child Health Package
+        ├── Senior Citizen Package
+        └── Comprehensive Wellness Package

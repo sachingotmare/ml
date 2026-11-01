@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Generate Bill — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .bill-preview { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 32px; max-width: 680px; margin: 0 auto; }
+    .bill-company { text-align: center; margin-bottom: 24px; }
+    .bill-company h2 { font-size: 20px; font-weight: 800; color: var(--primary); }
+    .bill-company p  { font-size: 12px; color: var(--text-secondary); }
+    .bill-divider { border: none; border-top: 2px solid var(--primary); margin: 16px 0; }
+    .bill-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; font-size: 13px; }
+    .bi-label { color: var(--text-secondary); }
+    .bi-value { font-weight: 500; }
+    .bill-items table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .bill-items th, .bill-items td { padding: 8px 12px; border: 1px solid var(--border); }
+    .bill-items th { background: var(--bg); font-weight: 600; }
+    .bill-total-section { margin-top: 16px; max-width: 280px; margin-left: auto; font-size: 13px; }
+    .bill-total-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px dashed var(--border); }
+    .bill-grand-total { display: flex; justify-content: space-between; padding: 10px 0 0; font-size: 15px; font-weight: 700; color: var(--primary); }
+    .bill-footer { text-align: center; margin-top: 24px; font-size: 12px; color: var(--text-secondary); padding-top: 16px; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">W</div><div class="logo-text">IWM Portal <span>Warehouse Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item" onclick="location='08_orders.html'"><span class="nav-icon">🛒</span> Orders</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">SG</div><div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div></div></div>
+  </aside>
+  <header class="topnav">
+    <div class="topnav-left"><div class="breadcrumb"><a href="08_orders.html">Orders</a> <span class="sep">›</span> <a href="09_order_detail.html">#ORD-1024</a> <span class="sep">›</span> <span class="current">Generate Bill</span></div></div>
+    <div class="topnav-right"><div class="topnav-avatar">SG</div></div>
+  </header>
+  <main class="main-content">
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Generate Order Bill</div><div class="page-subtitle">Bill for Order #ORD-1024 — Rahul Sharma</div></div>
+        <div class="flex gap-8">
+          <button class="btn btn-secondary" onclick="location='09_order_detail.html'">← Back</button>
+          <button class="btn btn-outline btn-sm">🖨️ Print</button>
+          <button class="btn btn-outline btn-sm">📥 Download PDF</button>
+          <button class="btn btn-primary">✅ Confirm & Save Bill</button>
+        </div>
+      </div>
+
+      <div class="bill-preview">
+        <!-- Company Header -->
+        <div class="bill-company">
+          <h2>🏭 Shridhar Warehouse</h2>
+          <p>Jamshedpur, Jharkhand — +91-7004310455</p>
+        </div>
+        <hr class="bill-divider"/>
+
+        <div style="text-align:center;font-size:16px;font-weight:700;letter-spacing:1px;margin-bottom:16px;">TAX INVOICE</div>
+
+        <div class="bill-info-grid">
+          <div><div class="bi-label">Bill No.</div><div class="bi-value" style="color:var(--primary);font-weight:700;">BILL-2026-0892</div></div>
+          <div><div class="bi-label">Bill Date</div><div class="bi-value">12 Aug 2026</div></div>
+          <div><div class="bi-label">Order ID</div><div class="bi-value">#ORD-1024</div></div>
+          <div><div class="bi-label">Payment Mode</div><div class="bi-value">Cash on Delivery (COD)</div></div>
+          <div><div class="bi-label">Customer Name</div><div class="bi-value">Rahul Sharma</div></div>
+          <div><div class="bi-label">Phone</div><div class="bi-value">+91-9876543210</div></div>
+          <div style="grid-column:span 2"><div class="bi-label">Delivery Address</div><div class="bi-value">12, MG Road, Jamshedpur, Jharkhand — 831001</div></div>
+        </div>
+        <hr class="bill-divider"/>
+
+        <div class="bill-items">
+          <table>
+            <thead><tr><th>#</th><th>Product</th><th>Qty</th><th>MRP (₹)</th><th>Disc.</th><th>Amount (₹)</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Amoxicillin 500mg (Strip/10)</td><td>2</td><td>85.00</td><td>20%</td><td style="text-align:right;">136.00</td></tr>
+              <tr><td>2</td><td>Vitamin D3 1000IU (Bottle/60)</td><td>1</td><td>280.00</td><td>20%</td><td style="text-align:right;">224.00</td></tr>
+              <tr><td>3</td><td>Paracetamol 650mg (Strip/15)</td><td>5</td><td>32.50</td><td>20%</td><td style="text-align:right;">130.00</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bill-total-section">
+          <div class="bill-total-row"><span>Sub Total</span><span>₹ 597.50</span></div>
+          <div class="bill-total-row"><span>Discount (20%)</span><span style="color:var(--success);">- ₹ 119.50</span></div>
+          <div class="bill-total-row"><span>Delivery Charges</span><span style="color:var(--success);">FREE</span></div>
+          <div class="bill-grand-total"><span>Total Payable</span><span>₹ 478.00</span></div>
+          <div style="margin-top:8px;font-size:12px;color:var(--text-secondary);">Rupees: Four Hundred Seventy Eight Only</div>
+        </div>
+
+        <div class="bill-footer">
+          <p>Thank you for your order! — Shridhar Warehouse</p>
+          <p>Generated by IWM System | Powered by SG Softech</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\sachin.gotmare\.copilot\session-state\738ef1f5-0df7-4ae6-bafe-cbe21cf89c05\files\iis-publish-20261031-153550\web.config
+C:\Users\sachin.gotmare\.copilot\session-state\738ef1f5-0df7-4ae6-bafe-cbe21cf89c05\files\iis-publish-20261031-153550\SGSoftech.Web.dll
+C:\Users\sachin.gotmare\.copilot\session-state\738ef1f5-0df7-4ae6-bafe-cbe21cf89c05\files\iis-publish-20261031-153550\SGSoftech.Web.deps.json
+C:\Users\sachin.gotmare\.copilot\session-state\738ef1f5-0df7-4ae6-bafe-cbe21cf89c05\files\iis-publish-20261031-153550\SGSoftech.Web.runtimeconfig.json
+C:\Users\sachin.gotmare\.copilot\session-state\738ef1f5-0df7-4ae6-bafe-cbe21cf89c05\files\iis-publish-20261031-153550\SGSoftech.Web.pdb

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Doctor Consultation — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item active"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">NK</div><div class="user-info"><div class="user-name">Dr. N. Kapoor</div><div class="user-role">Cardiologist</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='06_opd_queue_token.html'" style="cursor:pointer">Queue</span><span class="sep">/</span><span class="current">Consultation — Token #24</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">NK</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Ramesh Yadav</div><div class="page-subtitle">UHID-10231 · 45 / M · Token #24 · Cardiology</div></div>
+        <button class="btn btn-outline" onclick="location='04_patient_list_search.html'">View Full History</button>
+      </div>
+
+      <div class="grid-2">
+        <div class="card mb-24">
+          <div class="card-header"><div class="card-title">Vitals</div></div>
+          <div class="card-body">
+            <div class="form-row-3">
+              <div class="form-group"><label class="form-label">BP (mmHg)</label><input class="form-control" placeholder="120/80"/></div>
+              <div class="form-group"><label class="form-label">Pulse (bpm)</label><input class="form-control" placeholder="78"/></div>
+              <div class="form-group"><label class="form-label">Temp (°F)</label><input class="form-control" placeholder="98.6"/></div>
+            </div>
+            <div class="form-row-3">
+              <div class="form-group"><label class="form-label">SpO2 (%)</label><input class="form-control" placeholder="98"/></div>
+              <div class="form-group"><label class="form-label">Weight (kg)</label><input class="form-control" placeholder="72"/></div>
+              <div class="form-group"><label class="form-label">Height (cm)</label><input class="form-control" placeholder="170"/></div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-24">
+          <div class="card-header"><div class="card-title">Chief Complaint &amp; History</div></div>
+          <div class="card-body">
+            <div class="form-group"><label class="form-label">Chief Complaint</label><textarea class="form-control" rows="2">Chest discomfort since 3 days, mild breathlessness on exertion</textarea></div>
+            <div class="form-group"><label class="form-label">Past History</label><textarea class="form-control" rows="2">Hypertension (5 yrs), on Amlodipine 5mg</textarea></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Diagnosis</div></div>
+        <div class="card-body">
+          <div class="form-row">
+            <div class="form-group"><label class="form-label">Provisional Diagnosis</label><input class="form-control" placeholder="e.g. Stable Angina"/></div>
+            <div class="form-group"><label class="form-label">ICD-10 Code</label><input class="form-control" placeholder="I20.9"/></div>
+          </div>
+          <div class="form-group"><label class="form-label">Clinical Notes</label><textarea class="form-control" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Prescription</div><button class="btn btn-sm btn-outline">+ Add Medicine</button></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Medicine</th><th>Dosage</th><th>Frequency</th><th>Duration</th><th>Notes</th><th></th></tr></thead>
+            <tbody>
+              <tr><td><span class="badge badge-rx">Rx</span> Atorvastatin 20mg</td><td>1 tab</td><td>OD (Night)</td><td>30 days</td><td>After food</td><td><button class="action-btn delete">🗑</button></td></tr>
+              <tr><td><span class="badge badge-rx">Rx</span> Aspirin 75mg</td><td>1 tab</td><td>OD (Morning)</td><td>30 days</td><td>After food</td><td><button class="action-btn delete">🗑</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid-2 mb-24">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Lab / Radiology Orders</div></div>
+          <div class="card-body">
+            <label class="flex-center gap-8 mb-8"><input type="checkbox" checked/> ECG</label>
+            <label class="flex-center gap-8 mb-8"><input type="checkbox" checked/> Lipid Profile</label>
+            <label class="flex-center gap-8 mb-8"><input type="checkbox"/> 2D Echo</label>
+            <label class="flex-center gap-8"><input type="checkbox"/> Chest X-Ray</label>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Advice / Follow-up</div></div>
+          <div class="card-body">
+            <div class="form-group"><label class="form-label">Advice</label><textarea class="form-control" rows="2">Low salt diet, moderate exercise, avoid stress</textarea></div>
+            <div class="form-group"><label class="form-label">Follow-up Date</label><input type="date" class="form-control"/></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-8" style="justify-content:flex-end;">
+        <button class="btn btn-secondary" onclick="location='08_ipd_admission.html'">Admit to IPD</button>
+        <button class="btn btn-outline" onclick="location='13_lab_orders_results.html'">Send Lab Orders</button>
+        <button class="btn btn-primary" onclick="location='15_billing_invoice.html'">Complete &amp; Generate Bill</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Reports & Analytics — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item active"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">AD</div><div class="user-info"><div class="user-name">Admin</div><div class="user-role">Hospital Admin</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='02_dashboard.html'" style="cursor:pointer">Dashboard</span><span class="sep">/</span><span class="current">Reports &amp; Analytics</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">AD</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Reports &amp; Analytics</div><div class="page-subtitle">This Month — October 2026</div></div>
+        <div class="flex gap-8"><select class="form-control"><option>This Month</option><option>Last Month</option><option>This Quarter</option></select><button class="btn btn-outline">⬇ Export</button></div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-card"><div class="stat-icon" style="background:var(--blue-light); color:var(--info);">👤</div><div class="stat-info"><div class="stat-value">4,820</div><div class="stat-label">Total OPD Visits</div></div></div>
+        <div class="stat-card"><div class="stat-icon" style="background:var(--success-light); color:var(--success);">🛏️</div><div class="stat-info"><div class="stat-value">312</div><div class="stat-label">Total Admissions</div></div></div>
+        <div class="stat-card"><div class="stat-icon" style="background:var(--warning-light); color:#856404;">📤</div><div class="stat-info"><div class="stat-value">298</div><div class="stat-label">Total Discharges</div></div></div>
+        <div class="stat-card"><div class="stat-icon" style="background:var(--teal-light); color:var(--secondary);">💰</div><div class="stat-info"><div class="stat-value">₹1.26Cr</div><div class="stat-label">Total Revenue</div></div></div>
+        <div class="stat-card"><div class="stat-icon" style="background:var(--purple-light); color:var(--purple);">⏱️</div><div class="stat-info"><div class="stat-value">4.2 days</div><div class="stat-label">Avg. Length of Stay</div></div></div>
+        <div class="stat-card"><div class="stat-icon" style="background:var(--danger-light); color:var(--danger);">🛏️</div><div class="stat-info"><div class="stat-value">76%</div><div class="stat-label">Avg. Bed Occupancy</div></div></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Revenue Trend</div></div>
+          <div class="card-body chart-placeholder" style="min-height:220px; display:flex; align-items:center; justify-content:center; flex-direction:column;">
+            <div style="font-size:48px;">📈</div><p>Monthly revenue bar chart placeholder</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Department-wise Patient Load</div></div>
+          <div class="card-body">
+            <div class="legend">
+              <div class="legend-item"><span class="legend-dot" style="background:var(--warning);"></span> General Medicine <span class="legend-val">1,240</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--primary);"></span> Orthopedics <span class="legend-val">860</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--success);"></span> Pediatrics <span class="legend-val">710</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--info);"></span> Gynecology <span class="legend-val">640</span></div>
+              <div class="legend-item"><span class="legend-dot" style="background:var(--danger);"></span> Cardiology <span class="legend-val">560</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-24">
+        <div class="card-header"><div class="card-title">Available Reports</div></div>
+        <div class="card-body">
+          <div class="quick-actions">
+            <button class="quick-action-btn"><span class="qa-icon" style="background:var(--blue-light);">👤</span> Patient Census Report</button>
+            <button class="quick-action-btn"><span class="qa-icon" style="background:var(--success-light);">💰</span> Revenue &amp; Billing Report</button>
+            <button class="quick-action-btn"><span class="qa-icon" style="background:var(--warning-light);">💊</span> Pharmacy Stock Report</button>
+            <button class="quick-action-btn"><span class="qa-icon" style="background:var(--purple-light);">🧪</span> Lab Utilization Report</button>
+            <button class="quick-action-btn"><span class="qa-icon" style="background:var(--teal-light);">🛏️</span> Bed Occupancy Report</button>
+            <button class="quick-action-btn"><span class="qa-icon" style="background:var(--danger-light);">👨‍⚕️</span> Doctor Performance Report</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

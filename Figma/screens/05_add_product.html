@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Product — IWM</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .form-card { max-width: 900px; }
+    .section-card { background: white; border-radius: var(--radius-md); border: 1px solid var(--border); margin-bottom: 20px; overflow: hidden; }
+    .section-head {
+      background: var(--bg); padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .section-head .sh-icon { font-size: 18px; }
+    .section-head .sh-title { font-size: 14px; font-weight: 600; }
+    .section-head .sh-sub { font-size: 12px; color: var(--text-secondary); }
+    .section-body { padding: 20px; }
+    .sticky-footer {
+      position: sticky; bottom: 0;
+      background: white; border-top: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex; align-items: center; gap: 10px;
+      justify-content: flex-end;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">W</div>
+      <div class="logo-text">IWM Portal <span>Warehouse Management</span></div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='03_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-item active"><span class="nav-icon">📦</span> Products</div>
+      <div class="nav-item" onclick="location='07_categories.html'"><span class="nav-icon">🗂️</span> Categories</div>
+      <div class="nav-group-label">Operations</div>
+      <div class="nav-item" onclick="location='08_orders.html'"><span class="nav-icon">🛒</span> Orders <span class="nav-badge">12</span></div>
+      <div class="nav-item" onclick="location='11_prescriptions.html'"><span class="nav-icon">💊</span> Prescriptions</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='16_reports.html'"><span class="nav-icon">📋</span> Reports</div>
+      <div class="nav-item" onclick="location='14_users.html'"><span class="nav-icon">👥</span> Users</div>
+      <div class="nav-item" onclick="location='15_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="sidebar-user">
+        <div class="avatar">SG</div>
+        <div class="user-info"><div class="user-name">Admin User</div><div class="user-role">Administrator</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="topnav">
+    <div class="topnav-left">
+      <div class="breadcrumb">
+        <a href="03_dashboard.html">Dashboard</a> <span class="sep">›</span>
+        <a href="04_products.html">Products</a> <span class="sep">›</span>
+        <span class="current">Add New Product</span>
+      </div>
+    </div>
+    <div class="topnav-right">
+      <button class="icon-btn">🔔 <span class="badge"></span></button>
+      <div class="topnav-avatar">SG</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-body">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Add New Product</div>
+          <div class="page-subtitle">Fill in the details to add a new medicine or product to master</div>
+        </div>
+        <button class="btn btn-secondary" onclick="location='04_products.html'">← Back to Products</button>
+      </div>
+
+      <div class="form-card">
+
+        <!-- Section 1: Basic Info -->
+        <div class="section-card">
+          <div class="section-head">
+            <span class="sh-icon">📝</span>
+            <div><div class="sh-title">Basic Information</div><div class="sh-sub">Product name, category and description</div></div>
+          </div>
+          <div class="section-body">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Product / Medicine Name <span class="req">*</span></label>
+                <input type="text" class="form-control" placeholder="e.g., Amoxicillin 500mg"/>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Generic Name</label>
+                <input type="text" class="form-control" placeholder="e.g., Amoxicillin"/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">SKU / Product Code</label>
+                <div style="display:flex;gap:8px;">
+                  <input type="text" class="form-control" placeholder="e.g., MED-001"/>
+                  <button class="btn btn-outline btn-sm" style="white-space:nowrap;">Auto Generate</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Manufacturer / Brand</label>
+                <input type="text" class="form-control" placeholder="e.g., Sun Pharma"/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Category <span class="req">*</span></label>
+                <select class="form-control">
+                  <option value="">— Select Category —</option>
+                  <option>Antibiotics</option>
+                  <option>Analgesics</option>
+                  <option>Vitamins & Supplements</option>
+                  <option>Antacids</option>
+                  <option>Cardiovascular</option>
+                  <option>Diabetic Care</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Sub-Category</label>
+                <select class="form-control">
+                  <option value="">— Select Sub-Category —</option>
+                </select>
+                <div class="form-hint">Select a Category first</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Description</label>
+              <textarea class="form-control" rows="3" placeholder="Product description, usage, indications..."></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 2: Pricing -->
+        <div class="section-card">
+          <div class="section-head">
+            <span class="sh-icon">💰</span>
+            <div><div class="sh-title">Pricing</div><div class="sh-sub">MRP, selling price and discount</div></div>
+          </div>
+          <div class="section-body">
+            <div class="form-row-3">
+              <div class="form-group">
+                <label class="form-label">MRP (₹) <span class="req">*</span></label>
+                <input type="number" class="form-control" placeholder="0.00"/>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Discount %</label>
+                <input type="number" class="form-control" value="20" placeholder="20"/>
+                <div class="form-hint">Default: 20% as per business config</div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Selling Price (₹)</label>
+                <input type="number" class="form-control" placeholder="Auto-calculated" readonly style="background:var(--bg);"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 3: Product Details -->
+        <div class="section-card">
+          <div class="section-head">
+            <span class="sh-icon">📋</span>
+            <div><div class="sh-title">Product Details</div><div class="sh-sub">Pack size, unit, storage and prescription</div></div>
+          </div>
+          <div class="section-body">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Unit of Measure <span class="req">*</span></label>
+                <select class="form-control">
+                  <option>Strip</option>
+                  <option>Bottle</option>
+                  <option>Tablet</option>
+                  <option>Piece</option>
+                  <option>Box</option>
+                  <option>Pack</option>
+                  <option>Sachet</option>
+                  <option>Vial</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Pack Size</label>
+                <input type="text" class="form-control" placeholder="e.g., 10 Tablets per Strip"/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Storage Instructions</label>
+                <input type="text" class="form-control" placeholder="e.g., Store below 25°C, keep dry"/>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Prescription Required <span class="req">*</span></label>
+                <div style="display:flex;gap:20px;margin-top:8px;">
+                  <label style="display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer;">
+                    <input type="radio" name="rx" value="yes" style="accent-color:var(--primary);"/> Yes (Rx)
+                  </label>
+                  <label style="display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer;">
+                    <input type="radio" name="rx" value="no" checked style="accent-color:var(--primary);"/> No (OTC)
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 4: Image Upload -->
+        <div class="section-card">
+          <div class="section-head">
+            <span class="sh-icon">🖼️</span>
+            <div><div class="sh-title">Product Image</div><div class="sh-sub">Upload product photo (JPG, PNG — Max 2MB)</div></div>
+          </div>
+          <div class="section-body">
+            <div style="display:flex;gap:20px;align-items:flex-start;">
+              <div class="upload-area" style="flex:1;">
+                <div class="up-icon">📤</div>
+                <p><strong>Drag & drop</strong> or <span style="color:var(--primary);">click to upload</span></p>
+                <span>Supported: JPG, PNG — Max 2MB</span>
+              </div>
+              <div style="width:100px;height:100px;border:1px solid var(--border);border-radius:8px;display:flex;align-items:center;justify-content:center;background:var(--bg);font-size:48px;">💊</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 5: Availability -->
+        <div class="section-card">
+          <div class="section-head">
+            <span class="sh-icon">✅</span>
+            <div><div class="sh-title">Availability Status</div><div class="sh-sub">Control product visibility to customers</div></div>
+          </div>
+          <div class="section-body">
+            <div class="toggle-wrap">
+              <div class="toggle on"></div>
+              <span style="font-size:13.5px;font-weight:500;">Product is <strong>Active</strong> and visible to customers</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /form-card -->
+    </div>
+  </main>
+
+  <!-- Sticky Footer -->
+  <div class="sticky-footer">
+    <button class="btn btn-secondary" onclick="location='04_products.html'">Cancel</button>
+    <button class="btn btn-outline">Save as Draft</button>
+    <button class="btn btn-primary" onclick="location='04_products.html'">✅ Add Product</button>
+  </div>
+</div>
+</body>
+</html>

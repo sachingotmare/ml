@@ -1,0 +1,69 @@
+{
+  "timestamp": "20260925_115454",
+  "base_url": "http://localhost:1005/login",
+  "options": {
+    "all_cases": false,
+    "masters_accounts": true,
+    "masters_tests": true,
+    "masters_rates": true,
+    "masters_doctors": true,
+    "main_patient_entry": true,
+    "main_readings": true,
+    "main_receipt_entry": true,
+    "reports_all": true,
+    "headless": false,
+    "manual_login_fallback": false,
+    "manual_login_timeout_sec": 120,
+    "manual_pause_mode": false,
+    "browser": "edge"
+  },
+  "results": [
+    {
+      "name": "Masters: Accounts",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Masters: Tests",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Masters: Rates",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Masters: Doctors",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Main: Patient Entry",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Main: Receipt Entry",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Main: Readings",
+      "status": "PASS",
+      "details": "Completed"
+    },
+    {
+      "name": "Reports: All",
+      "status": "PASS",
+      "details": "Completed"
+    }
+  ],
+  "context_data": {
+    "account_name": "QA COMPANY QA09251154",
+    "test_code": "QAT09251154",
+    "test_name": "QA TEST QAT09251154",
+    "doctor_name": "DR QA 09251154",
+    "patient_name": "QA PATIENT 09251154"
+  }
+}

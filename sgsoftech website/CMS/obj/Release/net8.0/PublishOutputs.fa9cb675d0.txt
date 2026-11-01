@@ -1,0 +1,5 @@
+C:\Users\sachin.gotmare\AppData\Local\Temp\sgsoftech-iis-publish-0ebdb8809c6f449d853f0d0108263ee3\SGSoftech.Web.exe
+C:\Users\sachin.gotmare\AppData\Local\Temp\sgsoftech-iis-publish-0ebdb8809c6f449d853f0d0108263ee3\SGSoftech.Web.dll
+C:\Users\sachin.gotmare\AppData\Local\Temp\sgsoftech-iis-publish-0ebdb8809c6f449d853f0d0108263ee3\SGSoftech.Web.deps.json
+C:\Users\sachin.gotmare\AppData\Local\Temp\sgsoftech-iis-publish-0ebdb8809c6f449d853f0d0108263ee3\SGSoftech.Web.runtimeconfig.json
+C:\Users\sachin.gotmare\AppData\Local\Temp\sgsoftech-iis-publish-0ebdb8809c6f449d853f0d0108263ee3\SGSoftech.Web.pdb

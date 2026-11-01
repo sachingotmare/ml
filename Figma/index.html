@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IWM — Figma Screen Index</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <style>
+    body { background: linear-gradient(135deg, #0F2744 0%, #1A3C6E 50%, #0F9B8E 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px 20px; }
+    .hub { background: white; border-radius: 16px; padding: 40px; width: 100%; max-width: 1000px; box-shadow: 0 24px 80px rgba(0,0,0,0.3); }
+    .hub-header { text-align: center; margin-bottom: 36px; }
+    .hub-logo { width: 64px; height: 64px; background: var(--accent); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 30px; font-weight: 800; color: white; margin: 0 auto 16px; }
+    .hub-title { font-size: 26px; font-weight: 800; color: var(--text-primary); }
+    .hub-sub   { font-size: 14px; color: var(--text-secondary); margin-top: 4px; }
+    .hub-meta  { display: flex; gap: 16px; justify-content: center; margin-top: 16px; flex-wrap: wrap; }
+    .hub-meta span { background: var(--bg); border-radius: var(--radius-pill); padding: 4px 14px; font-size: 12px; color: var(--text-secondary); }
+
+    .screens-section { margin-bottom: 28px; }
+    .section-label {
+      font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;
+      color: var(--text-secondary); margin-bottom: 12px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    .screen-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .screen-card {
+      border: 1.5px solid var(--border); border-radius: var(--radius-md);
+      overflow: hidden; cursor: pointer; transition: all 0.15s;
+      text-decoration: none; color: inherit; display: block;
+    }
+    .screen-card:hover { border-color: var(--primary); box-shadow: 0 4px 16px rgba(26,60,110,0.15); transform: translateY(-2px); }
+    .screen-thumb {
+      background: var(--bg); height: 90px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 36px; border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+    .screen-thumb .screen-num {
+      position: absolute; top: 6px; left: 8px;
+      font-size: 10px; font-weight: 700; color: var(--text-secondary);
+      background: white; border: 1px solid var(--border);
+      border-radius: var(--radius-pill); padding: 1px 7px;
+    }
+    .screen-info { padding: 10px 12px; }
+    .screen-name { font-size: 12.5px; font-weight: 600; }
+    .screen-route { font-size: 11px; color: var(--text-secondary); margin-top: 2px; font-family: monospace; }
+    .screen-tag { margin-top: 6px; }
+
+    .p2-card { opacity: 0.6; }
+    .p2-card .screen-thumb { background: #F3F4F6; }
+
+    .hub-footer { text-align: center; padding-top: 20px; border-top: 1px solid var(--border); }
+    .hub-footer p { font-size: 12px; color: var(--text-secondary); }
+    .hub-footer a { color: var(--primary); }
+  </style>
+</head>
+<body>
+<div class="hub">
+  <div class="hub-header">
+    <div class="hub-logo">W</div>
+    <div class="hub-title">IWM — Inventory & Warehouse Management</div>
+    <div class="hub-sub">Figma Design Prototype — All Screens</div>
+    <div class="hub-meta">
+      <span>👤 Client: Mr. Shridhar, Jamshedpur</span>
+      <span>🏢 By: SG Softech</span>
+      <span>📅 Aug 2026</span>
+      <span>📱 Web Application</span>
+    </div>
+  </div>
+
+  <!-- Authentication -->
+  <div class="screens-section">
+    <div class="section-label">🔐 Authentication</div>
+    <div class="screen-grid">
+      <a href="screens/01_login.html" class="screen-card">
+        <div class="screen-thumb" style="background:linear-gradient(135deg,#1A3C6E,#0F9B8E);">
+          <span class="screen-num">01</span><span style="font-size:40px;">🔑</span>
+        </div>
+        <div class="screen-info">
+          <div class="screen-name">Login</div>
+          <div class="screen-route">/login</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/02_forgot_password.html" class="screen-card">
+        <div class="screen-thumb"><span class="screen-num">02</span>🔓</div>
+        <div class="screen-info">
+          <div class="screen-name">Forgot Password</div>
+          <div class="screen-route">/forgot-password</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="screens-section">
+    <div class="section-label">🏠 Dashboard</div>
+    <div class="screen-grid">
+      <a href="screens/03_dashboard.html" class="screen-card">
+        <div class="screen-thumb" style="background:#EFF6FF;"><span class="screen-num">03</span>📊</div>
+        <div class="screen-info">
+          <div class="screen-name">Main Dashboard</div>
+          <div class="screen-route">/dashboard</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Product Management -->
+  <div class="screens-section">
+    <div class="section-label">📦 Product Management</div>
+    <div class="screen-grid">
+      <a href="screens/04_products.html" class="screen-card">
+        <div class="screen-thumb" style="background:#FFF7ED;"><span class="screen-num">04</span>📦</div>
+        <div class="screen-info">
+          <div class="screen-name">Products List</div>
+          <div class="screen-route">/products</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/05_add_product.html" class="screen-card">
+        <div class="screen-thumb" style="background:#F0FDF4;"><span class="screen-num">05</span>➕</div>
+        <div class="screen-info">
+          <div class="screen-name">Add Product</div>
+          <div class="screen-route">/products/add</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/05_add_product.html" class="screen-card">
+        <div class="screen-thumb" style="background:#FFF3CD;"><span class="screen-num">06</span>✏️</div>
+        <div class="screen-info">
+          <div class="screen-name">Edit Product</div>
+          <div class="screen-route">/products/edit/:id</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/07_categories.html" class="screen-card">
+        <div class="screen-thumb" style="background:#EDE9FE;"><span class="screen-num">07</span>🗂️</div>
+        <div class="screen-info">
+          <div class="screen-name">Categories</div>
+          <div class="screen-route">/categories</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Order Management -->
+  <div class="screens-section">
+    <div class="section-label">🛒 Order Management</div>
+    <div class="screen-grid">
+      <a href="screens/08_orders.html" class="screen-card">
+        <div class="screen-thumb" style="background:#DBEAFE;"><span class="screen-num">08</span>🛒</div>
+        <div class="screen-info">
+          <div class="screen-name">Orders List</div>
+          <div class="screen-route">/orders</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/09_order_detail.html" class="screen-card">
+        <div class="screen-thumb" style="background:#D1FAE5;"><span class="screen-num">09</span>📄</div>
+        <div class="screen-info">
+          <div class="screen-name">Order Detail</div>
+          <div class="screen-route">/orders/:id</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/10_generate_bill.html" class="screen-card">
+        <div class="screen-thumb" style="background:#FEF9C3;"><span class="screen-num">10</span>🧾</div>
+        <div class="screen-info">
+          <div class="screen-name">Generate Bill</div>
+          <div class="screen-route">/orders/:id/bill</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Prescriptions -->
+  <div class="screens-section">
+    <div class="section-label">💊 Prescription Management</div>
+    <div class="screen-grid">
+      <a href="screens/11_prescriptions.html" class="screen-card">
+        <div class="screen-thumb" style="background:var(--purple-light);"><span class="screen-num">11</span>💊</div>
+        <div class="screen-info">
+          <div class="screen-name">Prescriptions List</div>
+          <div class="screen-route">/prescriptions</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/11_prescriptions.html" class="screen-card">
+        <div class="screen-thumb" style="background:#FEF3C7;"><span class="screen-num">12</span>🔍</div>
+        <div class="screen-info">
+          <div class="screen-name">Prescription Review</div>
+          <div class="screen-route">/prescriptions/:id</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Settings & Admin -->
+  <div class="screens-section">
+    <div class="section-label">⚙️ Settings & Admin</div>
+    <div class="screen-grid">
+      <a href="screens/13_profile.html" class="screen-card">
+        <div class="screen-thumb" style="background:#F0FDF4;"><span class="screen-num">13</span>🏭</div>
+        <div class="screen-info">
+          <div class="screen-name">Warehouse Profile</div>
+          <div class="screen-route">/profile</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/14_users.html" class="screen-card">
+        <div class="screen-thumb" style="background:#EFF6FF;"><span class="screen-num">14</span>👥</div>
+        <div class="screen-info">
+          <div class="screen-name">User Management</div>
+          <div class="screen-route">/settings/users</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/15_settings.html" class="screen-card">
+        <div class="screen-thumb" style="background:#F5F3FF;"><span class="screen-num">15</span>⚙️</div>
+        <div class="screen-info">
+          <div class="screen-name">System Settings</div>
+          <div class="screen-route">/settings/system</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+      <a href="screens/16_reports.html" class="screen-card">
+        <div class="screen-thumb" style="background:var(--teal-light);"><span class="screen-num">16</span>📋</div>
+        <div class="screen-info">
+          <div class="screen-name">Reports</div>
+          <div class="screen-route">/reports</div>
+          <div class="screen-tag"><span class="badge badge-active">Phase 1</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Phase 2 Wireframes -->
+  <div class="screens-section">
+    <div class="section-label">🚧 Phase 2 Wireframes (Placeholders)</div>
+    <div class="screen-grid">
+      <div class="screen-card p2-card">
+        <div class="screen-thumb"><span class="screen-num">P2</span>🛒</div>
+        <div class="screen-info"><div class="screen-name">Purchase Management</div><div class="screen-route">/purchase</div><div class="screen-tag"><span class="badge badge-inactive">Phase 2</span></div></div>
+      </div>
+      <div class="screen-card p2-card">
+        <div class="screen-thumb"><span class="screen-num">P2</span>🏭</div>
+        <div class="screen-info"><div class="screen-name">Inventory Management</div><div class="screen-route">/inventory</div><div class="screen-tag"><span class="badge badge-inactive">Phase 2</span></div></div>
+      </div>
+      <div class="screen-card p2-card">
+        <div class="screen-thumb"><span class="screen-num">P2</span>🚚</div>
+        <div class="screen-info"><div class="screen-name">Delivery Management</div><div class="screen-route">/delivery</div><div class="screen-tag"><span class="badge badge-inactive">Phase 2</span></div></div>
+      </div>
+      <div class="screen-card p2-card">
+        <div class="screen-thumb"><span class="screen-num">P2</span>💰</div>
+        <div class="screen-info"><div class="screen-name">Accounting & GST</div><div class="screen-route">/accounting</div><div class="screen-tag"><span class="badge badge-inactive">Phase 2</span></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hub-footer">
+    <p>IWM — Inventory & Warehouse Management | <a href="#">SG Softech</a> | support@sgsoftech.in | +91-8669193952</p>
+    <p style="margin-top:4px;">Open each screen in browser → Use <strong>"HTML to Figma"</strong> plugin to import into Figma</p>
+  </div>
+</div>
+</body>
+</html>

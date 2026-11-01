@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Bed / Ward Management — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+<style>
+  .ward-grid { display:grid; grid-template-columns: repeat(6, 1fr); gap:12px; }
+  .bed-card { border-radius: var(--radius-md); padding:14px 10px; text-align:center; font-size:12px; font-weight:600; border:1.5px solid var(--border); cursor:pointer; }
+  .bed-card .bn { font-size:18px; margin-bottom:6px; }
+  .bed-occupied { background: var(--danger-light); color:#721C24; border-color:#f3b5b5; }
+  .bed-available { background: var(--success-light); color:#155724; border-color:#a9dcb0; }
+  .bed-cleaning  { background: var(--warning-light); color:#856404; border-color:#f0dca0; }
+  .bed-reserved  { background: var(--blue-light); color:#004085; border-color:#b6d4fe; }
+  .legend-row { display:flex; gap:16px; margin-bottom:16px; flex-wrap:wrap; }
+  .legend-chip { display:flex; align-items:center; gap:6px; font-size:12px; }
+  .legend-chip .dot { width:12px; height:12px; border-radius:3px; }
+</style>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item active"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item" onclick="location='10_ipd_nursing_station.html'"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">RS</div><div class="user-info"><div class="user-name">Front Desk</div><div class="user-role">Receptionist</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='02_dashboard.html'" style="cursor:pointer">Dashboard</span><span class="sep">/</span><span class="current">Bed / Ward Management</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">RS</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Bed &amp; Ward Occupancy Board</div><div class="page-subtitle">120 total beds · 86 occupied · 72% occupancy</div></div>
+        <select class="form-control" style="width:200px;"><option>All Wards</option><option>Ward A — General</option><option>Ward B — General</option><option>ICU</option><option>Private Rooms</option></select>
+      </div>
+
+      <div class="legend-row">
+        <div class="legend-chip"><span class="dot" style="background:#a9dcb0;"></span> Available</div>
+        <div class="legend-chip"><span class="dot" style="background:#f3b5b5;"></span> Occupied</div>
+        <div class="legend-chip"><span class="dot" style="background:#f0dca0;"></span> Cleaning / Maintenance</div>
+        <div class="legend-chip"><span class="dot" style="background:#b6d4fe;"></span> Reserved</div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Ward A — General (20 beds)</div><span class="text-sm text-secondary">16 occupied / 4 available</span></div>
+        <div class="card-body">
+          <div class="ward-grid">
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ A-01</div>Priya Singh</div>
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ A-02</div>Mohan Lal</div>
+            <div class="bed-card bed-available"><div class="bn">🛏️ A-03</div>Available</div>
+            <div class="bed-card bed-cleaning"><div class="bn">🛏️ A-04</div>Cleaning</div>
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ A-05</div>Geeta Rani</div>
+            <div class="bed-card bed-reserved"><div class="bn">🛏️ A-06</div>Reserved</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Ward B — General (20 beds)</div><span class="text-sm text-secondary">14 occupied / 6 available</span></div>
+        <div class="card-body">
+          <div class="ward-grid">
+            <div class="bed-card bed-available" onclick="location='08_ipd_admission.html'"><div class="bn">🛏️ B-12</div>Available</div>
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ B-13</div>Sunita Devi</div>
+            <div class="bed-card bed-available" onclick="location='08_ipd_admission.html'"><div class="bn">🛏️ B-14</div>Available</div>
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ B-15</div>Harish Kumar</div>
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ B-16</div>Ravi Teja</div>
+            <div class="bed-card bed-cleaning"><div class="bn">🛏️ B-17</div>Cleaning</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><div class="card-title">ICU (12 beds)</div><span class="text-sm text-secondary">10 occupied / 2 available</span></div>
+        <div class="card-body">
+          <div class="ward-grid">
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ ICU-1</div>Critical</div>
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ ICU-2</div>Critical</div>
+            <div class="bed-card bed-available"><div class="bn">🛏️ ICU-3</div>Available</div>
+            <div class="bed-card bed-occupied"><div class="bn">🛏️ ICU-4</div>Stable</div>
+            <div class="bed-card bed-reserved"><div class="bn">🛏️ ICU-5</div>Reserved</div>
+            <div class="bed-card bed-available"><div class="bn">🛏️ ICU-6</div>Available</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>IPD Nursing Station — HIMS</title>
+<link rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo"><div class="logo-icon">H</div><div class="logo-text">HIMS Portal <span>Hospital Management</span></div></div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Main</div>
+      <div class="nav-item" onclick="location='02_dashboard.html'"><span class="nav-icon">🏠</span> Dashboard</div>
+      <div class="nav-group-label">Patient</div>
+      <div class="nav-item" onclick="location='03_patient_registration.html'"><span class="nav-icon">📝</span> Registration</div>
+      <div class="nav-item" onclick="location='04_patient_list_search.html'"><span class="nav-icon">🔍</span> Patient Search</div>
+      <div class="nav-group-label">OPD</div>
+      <div class="nav-item" onclick="location='05_opd_appointment_booking.html'"><span class="nav-icon">📅</span> Appointments</div>
+      <div class="nav-item" onclick="location='06_opd_queue_token.html'"><span class="nav-icon">🎫</span> Queue / Token</div>
+      <div class="nav-item" onclick="location='07_doctor_consultation.html'"><span class="nav-icon">🩺</span> Consultation</div>
+      <div class="nav-group-label">IPD</div>
+      <div class="nav-item" onclick="location='08_ipd_admission.html'"><span class="nav-icon">🛏️</span> Admission</div>
+      <div class="nav-item" onclick="location='09_bed_ward_management.html'"><span class="nav-icon">🏥</span> Bed / Ward Mgmt</div>
+      <div class="nav-item active"><span class="nav-icon">💉</span> Nursing Station</div>
+      <div class="nav-item" onclick="location='11_doctor_rounds_notes.html'"><span class="nav-icon">📋</span> Doctor Rounds</div>
+      <div class="nav-item" onclick="location='14_ipd_discharge_summary.html'"><span class="nav-icon">📤</span> Discharge</div>
+      <div class="nav-group-label">Pharmacy &amp; Lab</div>
+      <div class="nav-item" onclick="location='12_pharmacy_dispense.html'"><span class="nav-icon">💊</span> Pharmacy</div>
+      <div class="nav-item" onclick="location='13_lab_orders_results.html'"><span class="nav-icon">🧪</span> Lab Orders &amp; Results</div>
+      <div class="nav-group-label">Billing</div>
+      <div class="nav-item" onclick="location='15_billing_invoice.html'"><span class="nav-icon">🧾</span> Invoice</div>
+      <div class="nav-item" onclick="location='16_payment_collection.html'"><span class="nav-icon">💰</span> Payment</div>
+      <div class="nav-group-label">Admin</div>
+      <div class="nav-item" onclick="location='17_doctor_schedule.html'"><span class="nav-icon">👨‍⚕️</span> Doctor Schedule</div>
+      <div class="nav-item" onclick="location='18_reports_analytics.html'"><span class="nav-icon">📊</span> Reports</div>
+      <div class="nav-item" onclick="location='19_user_roles.html'"><span class="nav-icon">👥</span> Users &amp; Roles</div>
+      <div class="nav-item" onclick="location='20_settings.html'"><span class="nav-icon">⚙️</span> Settings</div>
+    </nav>
+    <div class="sidebar-footer"><div class="sidebar-user"><div class="avatar">AN</div><div class="user-info"><div class="user-name">Nurse Anita</div><div class="user-role">Ward B</div></div></div></div>
+  </aside>
+
+  <div class="main-content">
+    <header class="topnav">
+      <div class="topnav-left"><div class="breadcrumb"><span onclick="location='09_bed_ward_management.html'" style="cursor:pointer">Bed Mgmt</span><span class="sep">/</span><span class="current">Nursing Station — Bed B-12</span></div></div>
+      <div class="topnav-right"><button class="icon-btn">🔔</button><div class="topnav-avatar">AN</div></div>
+    </header>
+
+    <div class="page-body">
+      <div class="page-header">
+        <div><div class="page-title">Ramesh Yadav</div><div class="page-subtitle">UHID-10231 · IPD-2026-00458 · Bed B-12 · Day 1 of Admission</div></div>
+        <span class="badge badge-preparing">Under Treatment</span>
+      </div>
+
+      <div class="grid-2 mb-24">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Record Vitals</div></div>
+          <div class="card-body">
+            <div class="form-row-3">
+              <div class="form-group"><label class="form-label">Time</label><input type="time" class="form-control"/></div>
+              <div class="form-group"><label class="form-label">BP</label><input class="form-control" placeholder="118/76"/></div>
+              <div class="form-group"><label class="form-label">Pulse</label><input class="form-control" placeholder="74"/></div>
+            </div>
+            <div class="form-row-3">
+              <div class="form-group"><label class="form-label">Temp</label><input class="form-control" placeholder="98.4°F"/></div>
+              <div class="form-group"><label class="form-label">SpO2</label><input class="form-control" placeholder="97%"/></div>
+              <div class="form-group"><label class="form-label">RR</label><input class="form-control" placeholder="18/min"/></div>
+            </div>
+            <button class="btn btn-primary w-100" style="justify-content:center;">+ Save Vitals Entry</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Vitals Trend (Last 24h)</div></div>
+          <div class="card-body">
+            <table>
+              <thead><tr><th>Time</th><th>BP</th><th>Pulse</th><th>Temp</th><th>SpO2</th></tr></thead>
+              <tbody>
+                <tr><td>08:00</td><td>118/76</td><td>74</td><td>98.4°F</td><td>97%</td></tr>
+                <tr><td>04:00</td><td>122/80</td><td>78</td><td>99.1°F</td><td>96%</td></tr>
+                <tr><td>00:00</td><td>120/78</td><td>76</td><td>98.8°F</td><td>97%</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="card-header"><div class="card-title">Medication Administration Record (MAR)</div></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Medicine</th><th>Dose</th><th>Scheduled Time</th><th>Status</th><th>Given By</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>Atorvastatin 20mg</td><td>1 tab</td><td>09:00 PM</td><td><span class="badge badge-completed">Administered</span></td><td>Nurse Anita</td><td><button class="action-btn view">👁</button></td></tr>
+              <tr><td>Aspirin 75mg</td><td>1 tab</td><td>08:00 AM</td><td><span class="badge badge-completed">Administered</span></td><td>Nurse Anita</td><td><button class="action-btn view">👁</button></td></tr>
+              <tr><td>IV Saline NS 500ml</td><td>500ml</td><td>02:00 PM</td><td><span class="badge badge-pending">Due</span></td><td>—</td><td><button class="action-btn accept">✓ Mark Given</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><div class="card-title">Nursing Notes</div></div>
+        <div class="card-body">
+          <div class="timeline">
+            <div class="timeline-item"><div class="timeline-dot done"></div><div class="timeline-content"><div class="tl-title">Patient resting comfortably, no complaints of chest pain.</div><div class="tl-time">Nurse Anita · Today 08:10 AM</div></div></div>
+            <div class="timeline-item"><div class="timeline-dot done"></div><div class="timeline-content"><div class="tl-title">Admitted to Bed B-12, IV line secured, initial vitals stable.</div><div class="tl-time">Nurse Anita · Yesterday 06:30 PM</div></div></div>
+          </div>
+          <textarea class="form-control mt-16" rows="2" placeholder="Add new nursing note..."></textarea>
+          <button class="btn btn-sm btn-primary mt-8">+ Add Note</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

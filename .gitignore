@@ -1,0 +1,20 @@
+# Saved credentials — never commit
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Playwright artefacts
+.playwright-mcp/
+
+# DB dumps and build artefacts (large files)
+DB-Archives/*.backup
+DB-Archives/*.sql
+migration-utility.zip
