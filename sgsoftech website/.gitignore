@@ -1,0 +1,6 @@
+node_modules/
+.tools/
+CMS/bin/
+CMS/obj/
+**/__pycache__/
+**/*.pyc

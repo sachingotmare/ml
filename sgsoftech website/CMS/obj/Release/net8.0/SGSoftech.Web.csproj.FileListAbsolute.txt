@@ -22,3 +22,5 @@ C:\GitRepo\ml\sgsoftech website\CMS\obj\Release\net8.0\SGSoftech.Web.pdb
 C:\GitRepo\ml\sgsoftech website\CMS\obj\Release\net8.0\SGSoftech.Web.genruntimeconfig.cache
 C:\GitRepo\ml\sgsoftech website\CMS\obj\Release\net8.0\ref\SGSoftech.Web.dll
 C:\GitRepo\ml\sgsoftech website\CMS\bin\Release\net8.0\web.config
+C:\GitRepo\ml\sgsoftech website\CMS\bin\Release\net8.0\SGSoftech.Web.exe
+C:\GitRepo\ml\sgsoftech website\CMS\obj\Release\net8.0\SGSoftech.Web.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SGSoftech.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb150fa896e44d621d47eb6a15980ae508bdd6cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SGSoftech.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SGSoftech.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
