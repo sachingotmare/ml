@@ -119,19 +119,13 @@ if (-not (Test-Path -LiteralPath $livePublishPath -PathType Container)) {
 
 if ([string]::IsNullOrWhiteSpace($ArchivePath)) {
     $today = (Get-Date).Date
-    $todayFileToken = Get-Date -Format 'ddMMyyyy'
     $archives = @(
         Get-ChildItem -LiteralPath $exePath -File -Filter '*.zip' |
-            Where-Object {
-                $_.LastWriteTime.Date -eq $today -or
-                $_.BaseName -match "(?:^|[_-])$todayFileToken$"
-            } |
-            Sort-Object -Property `
-                @{ Expression = { if ($_.BaseName -match "(?:^|[_-])$todayFileToken$") { 1 } else { 0 } }; Descending = $true },
-                @{ Expression = { $_.LastWriteTime }; Descending = $true }
+            Where-Object { $_.LastWriteTime.Date -eq $today } |
+            Sort-Object -Property LastWriteTime -Descending
     )
     if ($archives.Count -eq 0) {
-        throw "No ZIP matching today's date ($todayFileToken in the filename or today's modified date) was found in $exePath. Pass -ArchivePath to select a ZIP explicitly."
+        throw "No ZIP modified today was found in $exePath. Pass -ArchivePath to select a ZIP explicitly."
     }
     $ArchivePath = $archives[0].FullName
     Write-Host "Found today's ZIP: $ArchivePath (modified $($archives[0].LastWriteTime))"
