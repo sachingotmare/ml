@@ -1,0 +1,887 @@
+Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+[10/11/26, 6:48:16 PM] You: <image omitted>
+[10/11/26, 7:02:19 PM] You: https://www.amazon.in/Seagate-Barracuda-Internal-Hard-Drive/dp/B07FFVYDF3/ref=sr_1_3?crid=14DEBI44XWP6U&dib=eyJ2IjoiMSJ9.5Dwl97HJY85gBTuW7KMV7jZrwDTRFDw-j_Ym-frH8bBpBDg8j3fsnnji4j_z7xrNvi9wFMJGCqijriFNcov39yK-FWnFNjbJBDSMdnBaSamTx8yVJZ3-z0g9eY_lNfV6UvNRk3S27nzpKE9FGyBLJtTVnxsDV2p8sQVPxa6BOI0d0_tTzIAVppxoIccA43_Dqbj3yX-X_ksL9ri83NwnZhFzBnHFDBradWUZGrmGTqI.Qgf0TSYtGfoFnX__pjsT55CJLZdCJEGQ28z-YaRmEcs&dib_tag=se&keywords=Seagate+BarraCuda+2TB+3.5-inch+SATA+HDD&qid=1791725442&sprefix=seagate+barracuda+2tb+3.5-inch+sata+hdd%2Caps%2C403&sr=8-3
+[10/11/26, 10:15:08 PM] Manish Gedam: 2Tb khup mahag ahe
+[10/11/26, 10:32:08 PM] Sachin Gotmare: Konti gheu mg??
+[10/11/26, 10:32:24 PM] Manish Gedam: 1TB pah
+[10/11/26, 10:33:57 PM] Sachin Gotmare: Shop on Amazon
+https://amzn.in/d/0eaWXZnZ
+Product questions? Ask here:
+https://amzn.in/d/0aUvfdCz
+[10/11/26, 10:34:36 PM] Sachin Gotmare: 1tb n 2 tb mdhe 4k difference aahe fkta
+[10/11/26, 10:35:07 PM] Manish Gedam: Servilence wali nko
+[10/11/26, 10:35:20 PM] Sachin Gotmare: Shop on Amazon
+https://amzn.in/d/0gyieN0I
+Product questions? Ask here:
+https://amzn.in/d/0dD7DWxF
+[10/11/26, 10:36:31 PM] Sachin Gotmare: Hey sahi aahe 7200 rpm
+[10/11/26, 10:36:38 PM] Manish Gedam: Me pan pahto, ankhi swast milu shkte
+[10/11/26, 10:36:41 PM] Sachin Gotmare: Hi 5400 rpm hoti
+[10/11/26, 10:36:46 PM] Sachin Gotmare: Ok
+[10/11/26, 10:41:25 PM] Manish Gedam: Take a look at this Seagate BarraCuda 1000 GB Desktop, All in One PC's Multicolor SATA Internal Hard Disk Drive (HDD) (ST1000DM010) on Flipkart
+https://dl.flipkart.com/s/KypIUsuuuN
+[10/11/26, 10:41:35 PM] Manish Gedam: 6k mdhe ahe
+[10/11/26, 10:42:22 PM] Sachin Gotmare: Amazon pekshya swasta ahe
+[10/11/26, 10:42:34 PM] Sachin Gotmare: Hi kashi aahe
+[10/11/26, 10:42:44 PM] Sachin Gotmare: Yache rpm high aahw
+[10/11/26, 10:43:59 PM] Manish Gedam: But seller barobar nai watat ahe
+[10/11/26, 10:44:36 PM] Sachin Gotmare: Ti wali flipkart vr baghto
+[10/11/26, 10:44:43 PM] Manish Gedam: Servilence wali nai jamnar pc sathi
+[10/11/26, 10:45:05 PM] Sachin Gotmare: Ok
+[10/11/26, 10:45:34 PM] Sachin Gotmare: Hi final kay mg??
+[10/11/26, 10:45:51 PM] Manish Gedam: ..
+[10/11/26, 10:46:43 PM] Sachin Gotmare: Acha mala watla hichya sathi mhtla
+[10/11/26, 10:46:50 PM] Sachin Gotmare: Local madhe vicharto
+[10/11/26, 11:01:04 PM] Manish Gedam: Yacha swast ahet but ha brand frst time aikto ahe
+[10/11/26, 11:01:45 PM] Manish Gedam: Reviews pn kharab ahe
+[10/11/26, 11:02:18 PM] Manish Gedam: A i flipkart war tr veglach item ahe seller may be kadhun anlelya hdd vikt ahe new cha navavar
+[10/12/26, 12:20:30 AM] Manish Gedam: <image omitted> New print format with receipt entries
+[10/12/26, 12:20:31 AM] Manish Gedam: <unknown message>
+[10/12/26, 12:21:02 AM] Manish Gedam: Also added receipt modify facility. Test it properly. Changes are deployed
+[10/12/26, 12:22:03 AM] Manish Gedam: Also changed patient info header text color(which was gray earlier)
+[10/12/26, 9:23:11 AM] Sachin Gotmare: Ok
+[10/12/26, 9:23:15 AM] Sachin Gotmare: Ok
+[10/12/26, 9:46:37 AM] Sachin Gotmare: Sir found one bug in newly created report
+[10/12/26, 9:46:42 AM] Sachin Gotmare: Call me once you get available
+[10/12/26, 10:57:59 AM] You: <image omitted> 1. RCPT ENTRY 0 ghet nahi, min value 0.01 ghete
+[10/12/26, 11:22:11 AM] You: <image omitted> User wants to add reception phone number and Gunjan logo on below pt entry print
+[10/12/26, 11:22:35 AM] You: 7320050911
+[10/12/26, 2:29:22 PM] Manish Gedam: <document omitted> MLab_12102026.zip
+[10/12/26, 2:29:23 PM] Manish Gedam: in collection first 4 report Doc Type (Payment mode) added
+[10/12/26, 2:29:23 PM] Manish Gedam: <document omitted> MLab_12102026.zip
+[10/12/26, 2:40:56 PM] Sachin Gotmare: Ok will test
+[10/12/26, 5:39:03 PM] Sachin Gotmare: Sir gunjan will required pndt, for now i asked them to copy patient phone number from pt entry print
+[10/12/26, 5:39:51 PM] Manish Gedam: ?
+[10/12/26, 5:40:20 PM] Manish Gedam: Taklya ahet na fields apan pndt sathi saglya
+[10/12/26, 6:03:55 PM] Sachin Gotmare: Need to check once again
+[10/12/26, 6:21:31 PM] You: <image omitted>
+[10/12/26, 6:22:39 PM] Manish Gedam: ?
+[10/12/26, 6:22:51 PM] You: <image omitted>
+[10/12/26, 6:23:17 PM] You: check krt aaho kon kontya fields aste
+[10/12/26, 6:26:04 PM] Manish Gedam: Tas nko mhnu jar te use nvhte krt tr
+[10/12/26, 6:26:25 PM] Manish Gedam: Tyanna as a module viku auto pndt upload wala
+[10/12/26, 6:26:41 PM] Sachin Gotmare: 🤣🤣🤣🤣🤣
+[10/12/26, 6:26:53 PM] Sachin Gotmare: Ok
+[10/12/26, 6:27:13 PM] Manish Gedam: Mlab mdhe je te use krt hote tech deu, baki sagl extra paise gheu
+[10/12/26, 6:27:41 PM] Sachin Gotmare: Ok
+[10/12/26, 10:16:54 PM] Manish Gedam: Following Changes done and deployed
+1. Phone number in patient entry readonly mode
+2. Lab reports category column and filter added for test and patient wise test report
+3. Collection report total removed for entry amount
+[10/12/26, 10:44:34 PM] You: <image omitted> point 1 and 3 working fine but in point 2 filter not working,
+
+i'v selected department pathology but result showing radiology, cardiology and microbiology too
+[10/12/26, 10:45:26 PM] You: <image omitted>
+[10/12/26, 10:48:57 PM] Manish Gedam: Ok ha existing bug asel, bcoz ata fkt category takli. Fix krel
+[10/12/26, 11:45:56 PM] You: <image omitted>
+[10/12/26, 11:45:56 PM] You: <image omitted>
+[10/12/26, 11:45:56 PM] You: <image omitted>
+[10/13/26, 12:00:59 AM] You: massage center wireframe and requirements 
+
+https://www.figma.com/proto/UfgNO2r9cNn3Ym6HOaSOZM/Massage-Center?node-id=2-14550&p=f&t=L5FFYLtpzFFbQRWS-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A14550
+
+1. owner can login software
+2. patient management page by adding their name whatsapp number, alternate and address and field to add medical history of patient
+3. sale management page to sale service and some inventory.
+4. service creation page where user can create service like foot massage, back massage and weight loose pacakge
+5. inventory page where user and add inventory by adding purchase of those items.
+6. notification page where user can automate whatsapp notification of new offers in massage center as well as if someone purchase weight loose package then that patient got 10 to 15 visit's and he/she will get notified how many appointments lefts
+7. user right page where owner can create multiple users in app where he can only share patient entry and sale entry right to user's
+8. Owner has three different branches of massage center so while login he could able to login each branch using branch code as well as he can use master login to see all 3 branches reports like  sale, outstanding, purchase, payment
+9. in app there should be dashboard where all graphical data should available on both master login and branch login where user can see service sale, inventory sale, highlights, month wise sale, day wise sale of individual branch using branch login or all branches using master login
+[10/13/26, 2:02:24 AM] You: Staff login view
+
+https://www.figma.com/proto/Yz749Q9Jj60p6NbxJ6SFZS/Massage-Center---Staff?node-id=2-14550&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A14550
+[10/13/26, 11:47:38 AM] Sachin Gotmare: Mlab web requirements:
+
+1. If user don’t have rights to download or export Excel, then he or she should get proper message instead of error occurred message.
+2. ⁠ if user deleted from master login and respective lab too, then it should not be able to login
+[10/13/26, 1:17:50 PM] You: Deleted user testing result:
+1. user deleted from master login - user can login
+2. user deleted from lab admin user - user can login
+3. when tried to create new user with same name then getting exception occurred error
+[10/13/26, 1:54:35 PM] Manish Gedam: Ok
+[10/13/26, 7:26:47 PM] Sachin Gotmare: Sir all todays patient entries in gunjan took code 12 instead 13 call me when you available
+[10/13/26, 10:09:33 PM] Sachin Gotmare: Mlab web requirements: 
+1. If user deleted test from patient entry and balance amount came in negative, then receipt entry allow user to add new entry.
+[10/14/26, 6:11:21 AM] Manish Gedam: Timezone and user issue resolved and deployed
+[10/14/26, 9:28:34 AM] Sachin Gotmare: Thanks
+[10/14/26, 11:56:12 AM] Manish Gedam: Based on google developer account purchase,he revise krun transfer kar barr, nill zalo😅
+[10/14/26, 11:57:21 AM] Sachin Gotmare: Okay
+[10/14/26, 11:59:57 AM] Sachin Gotmare: 10k send karun deto mg nantr detail hishob karu. Ok?
+[10/14/26, 12:00:35 PM] Manish Gedam: 10k nko
+[10/14/26, 12:07:06 PM] You: <image omitted> mlab web requirements:
+1. add time beside date in receipt column on print as well as PE view mode
+2. add date and time of PE on PE view mode
+[10/14/26, 12:09:53 PM] You: <image omitted>
+[10/14/26, 12:32:21 PM] You: Tatanagar client total: 2,20,000/-
+Shridhar: 10,000/-
+
+Remaining 2,10,000/-
+
+Sachin 20% =42,000/-
+Manish 80%=1,68,000/-
+
+1st payment 90,000/-
+
+Sachin = 18,000/-
+Manish = 72,000/-
+
+New payment received 37,000/-
+A. Development 20k
+B. Domain n account purchase 17k
+     1. Google App Console: 5k = purchase 2500/- = M: 1250 S: 1250
+
+Manish:
+1. Server purchase: 8743
+2. ⁠credit: 15000
+3. ⁠active balancer: 1000
+Total: 24,743/-
+
+Gunjan web payment received: 20,000/- (10k remaining)
+
+M: 10k S: 10k
+
+Tatanagar client new payment : 20k
+
+M: 16,000/- (80%) 
+S: 4,000/- (20%)
+
+Manish Total: 10,000 (Gunjan) + 16,000 (Tatanagar) = 26k
+
+26,000/- - 24,743/- = 1257/- + 1250/- (google account remaining) = 2507/-
+[10/14/26, 12:34:56 PM] You: <image omitted> Send krto after 24 hrs
+[10/14/26, 12:35:54 PM] Manish Gedam: Max 5k send kru shkto mhnte n within 24hrs
+[10/14/26, 12:36:38 PM] Sachin Gotmare: Ho tri pn 2507 send nahi hot aahe via sbi and hdfc too
+[10/14/26, 12:36:46 PM] Sachin Gotmare: Gpay krun baghto
+[10/14/26, 12:37:05 PM] Manish Gedam: Ok, sbi che aajkal jast issue suru ahe
+[10/14/26, 12:38:29 PM] Sachin Gotmare: This message was deleted
+[10/14/26, 12:39:31 PM] Sachin Gotmare: <image omitted>
+[10/14/26, 12:42:46 PM] You: <image omitted> google play account successfully verified and now ready for publishing apps
+[10/14/26, 2:08:56 PM] You: You deleted this message
+[10/14/26, 2:08:57 PM] You: You deleted this message
+[10/14/26, 8:47:37 PM] Sachin Gotmare: <image omitted> Hard disk 1 tb
+[10/14/26, 9:14:00 PM] Manish Gedam: Test keli ka?
+[10/14/26, 9:39:00 PM] You: <image omitted>
+[10/14/26, 9:39:27 PM] You: Ho test keli 100% health aahe n no bad sectors
+[10/14/26, 9:47:38 PM] You: <image omitted>
+[10/14/26, 9:49:10 PM] You: <image omitted>
+[10/14/26, 9:50:03 PM] Manish Gedam: Date of manufacturing nai dakhvat ka
+[10/14/26, 10:34:37 PM] Sachin Gotmare: <image omitted>
+[10/14/26, 10:34:39 PM] Sachin Gotmare: <unknown message>
+[10/14/26, 11:07:07 PM] You: https://www.lpu.in/
+[10/14/26, 11:11:46 PM] You: <image omitted>
+[10/14/26, 11:14:45 PM] You: <image omitted>
+[10/14/26, 11:15:50 PM] Manish Gedam: <image omitted>
+[10/14/26, 11:15:51 PM] Manish Gedam: <unknown message>
+[10/14/26, 11:18:11 PM] You: <image omitted>
+[10/14/26, 11:18:56 PM] You: <image omitted>
+[10/14/26, 11:19:48 PM] You: <image omitted>
+[10/14/26, 11:20:21 PM] You: <image omitted>
+[10/15/26, 12:04:07 AM] You: <image omitted>
+[10/15/26, 12:05:02 AM] You: <image omitted>
+[10/15/26, 12:13:55 PM] You: @Manish Gedam sir generate lic for "SG Softech MLab Web Demo" in cms
+[10/15/26, 12:14:09 PM] Manish Gedam: Ok
+[10/15/26, 12:16:25 PM] Manish Gedam: Done
+[10/15/26, 12:17:37 PM] You: <image omitted> unable to see lic key
+[10/15/26, 12:19:53 PM] You: client name in cms: SG Softech MLab Web Demo
+[10/15/26, 12:23:23 PM] Manish Gedam: Ohk i updated in mlab web
+[10/15/26, 12:25:36 PM] You: Gunjan business till today using mlab web 10,28,530.00/-😳
+[10/15/26, 12:27:46 PM] You: <image omitted>
+[10/15/26, 12:27:47 PM] You: <image omitted>
+[10/15/26, 12:28:04 PM] Manish Gedam: Ho me pan check kela bharpur busness hoto tyancha, ani evdhese paise dyayla kajusi kratat
+[10/15/26, 12:28:24 PM] Manish Gedam: ?
+[10/15/26, 12:28:59 PM] You: every sale cha 1% magycha ka, no software cost no amc, only 1% 🤣
+[10/15/26, 12:29:27 PM] You: checking website reliability and security
+[10/15/26, 12:30:56 PM] You: <image omitted> login page vr left side la blue colour jasta vel ghete page loading sathi, if someone browser cache not saved
+[10/15/26, 12:31:49 PM] Manish Gedam: Ohh to real data ahe watte, kadhun takto data
+[10/15/26, 12:32:05 PM] Manish Gedam: Hardcoded data takto tith
+[10/15/26, 12:32:37 PM] You: ok
+[10/15/26, 12:33:05 PM] You: pls generate key
+[10/15/26, 12:40:12 PM] Manish Gedam: Done
+[10/16/26, 10:12:40 AM] You: @Manish Gedam sir I'll go to Gondia on 24th and 25th this month, to convenes  Dr. Vinay Pande (Nidan) for our Mlab web and pathology machine integration, had a call from Dr. Yogesh Deshmukh for the same. Call me once you get available
+[10/16/26, 10:53:27 AM] You: Mlab web requirement:
+1. gunjan want to add exact amount as discount for e.g 400/- on amount 1200/- but patient entry not allow to add 33.33%
+2. change live data from login page on blue screen, to decrease login page loading time
+[10/16/26, 11:36:26 AM] Sachin Gotmare: Could you pls resend this?
+[10/16/26, 12:07:17 PM] Manish Gedam: Ok
+[10/16/26, 12:58:55 PM] You: <image omitted>
+[10/16/26, 12:58:55 PM] You: <image omitted> fail: WASP.Controllers.WASenderController[0]
+      Error in SendMessage (InstanceId:F4B1A7A5F9954BC189B47FF0FF5CE7FF ContactNumber:918789600569)
+System.TimeoutException: Timeout of 180000 ms exceeded
+   at PuppeteerSharp.Helpers.TaskHelper.WithTimeout[T](Task`1 task, TimeSpan timeout, Func`2 exceptionFactory) in /home/runner/work/puppeteer-sharp/puppeteer-sharp/lib/PuppeteerSharp/Helpers/TaskHelper.cs:line 184
+   at PuppeteerSharp.Cdp.CdpCDPSession.SendAsync(String method, Object args, Boolean waitForCallback, CommandOptions options) in /home/runner/work/puppeteer-sharp/puppeteer-sharp/lib/PuppeteerSharp/Cdp/CdpCDPSession.cs:line 113
+   at PuppeteerSharp.CDPSession.SendAsync[T](String method, Object args, CommandOptions options) in /home/runner/work/puppeteer-sharp/puppeteer-sharp/lib/PuppeteerSharp/CDPSession.cs:line 46
+   at PuppeteerSharp.ExecutionContext.ExecuteEvaluationAsync(String method, Object args) in /home/runner/work/puppeteer-sharp/puppeteer-sharp/lib/PuppeteerSharp/ExecutionContext.cs:line 223
+[10/16/26, 12:59:03 PM] You: whatsapp service is down
+[10/16/26, 12:59:50 PM] You: <image omitted>
+[10/16/26, 1:29:07 PM] Manish Gedam: Ok will fix it, msg challe but error retun yet ahe
+[10/16/26, 1:29:21 PM] Manish Gedam: So stop krun thev nai tr repete jail msg clint la
+[10/16/26, 1:30:45 PM] Sachin Gotmare: Msg pn nahi chalale, mala ajun msg nahi aala, above screenshot is from our server mlab
+[10/16/26, 1:33:38 PM] Manish Gedam: Ok but me api test keli tr mala msg ala
+[10/16/26, 1:33:59 PM] Manish Gedam: Better stop krun thev
+[10/16/26, 1:34:15 PM] Sachin Gotmare: Hmm ok
+[10/16/26, 1:34:45 PM] Sachin Gotmare: Hi shortcut.zip resend kara
+[10/16/26, 1:35:31 PM] Manish Gedam: curl https://api.sgsoftech.in/waSender/sendMessage?contactNumber=917620803090&message=TestMsg&instanceId=E9B606BD2BCD4B2DAA788E36CBFD7BC5 -X POST -H "RequestId: 31FFF-2D341-D24BA-05BA7-854EA-F5EF3" -H "mediaType: application/json" -H "Content-Type: application/json" -d {}
+[10/16/26, 1:36:30 PM] Manish Gedam: He command ahe, jar command prompt war hit krsil tr msg jail
+[10/16/26, 1:37:04 PM] Sachin Gotmare: Ok
+[10/16/26, 1:37:10 PM] Sachin Gotmare: Stopped
+[10/16/26, 1:37:55 PM] Sachin Gotmare: Me monitor enable krt hoto for whtsapp service but ti shortcut.zip atta download nahi hot aahe
+[10/16/26, 1:48:29 PM] You: <image omitted>
+[10/18/26, 10:35:49 AM] You: <image omitted> @Manish Gedam sir, I've scheduled monitoring for whatsapp service in sever task scheduler using your shared command.
+[10/18/26, 10:36:36 AM] Manish Gedam: Great 👍
+[10/18/26, 10:37:06 AM] You: Gunjan cha discount rate along with percentage wala deployment zala ka?
+[10/18/26, 10:48:30 AM] Manish Gedam: Nai aaj krto
+[10/18/26, 10:48:38 AM] You: ok
+[10/18/26, 11:40:24 AM] You: mlab web requirements:
+
+mlab desktop vs web reports
+
+1. dedicated report to see complete billing and test history of any respective patient
+2. in "Patient Report" there is a filter available for Doctors but no column found of doctor in fetched report
+       a.title of doctor filter should Ref. Doctor
+       b. multiple doctor selection should be enable in doctor filter bcz client have multiple doctors with same name   and therefore many entries created with same doctor name but code is different 
+      c. Ref Doctor column should be in "Patient Report"
+3. report missing for internal doctor (signatory doctor)
+4. in "Patient Wise Test Report" Test filter not working (actually looking for Test wise report)
+5. in "Test Report" should have test name filter to get report of particular test
+6. MIS report missing if it is in Financial Report section then all report in this section throwing error
+7. commission report missing
+
+
+mlab desktop vs web Features
+
+1. PNDT direct submit
+2. Registration transfer
+3. Payment Refund functionality (if user add receipt against the patient entry and later patient denied to do the test)
+4. email configuration setting to send report directly on email
+5. report template customization for all type template available in software
+6. package functionality (we can create package also can give it to patient in pt entry but rates of those tests of package showing zero bcz there is no option to add package rates for test)
+7. Dependent Patient functionality
+8. company wise fixed ref. doctor
+9. company name initial wise voucher code
+10. WhatsApp notification functionality
+11. Bulk WhatsApp notification function for offer announcement to all existing patients 
+12. Bulk patient registration for camp
+[10/19/26, 12:42:47 AM] Sachin Gotmare: [Forwarded] maza kade 7 8 piece ahe 1tb 
+500gb 10+
+[10/19/26, 12:42:48 AM] Sachin Gotmare: Msg from that guy, from whom we purchased hhd
+[10/19/26, 8:07:33 AM] Manish Gedam: Aplyala garaj nai
+[10/19/26, 8:32:43 AM] Sachin Gotmare: <image omitted> Generate rnwl lic for HRIDAY PATHOLOGY LABORATORY,
+[10/19/26, 8:41:39 AM] Manish Gedam: Ok
+[10/19/26, 8:43:19 AM] Manish Gedam: Done
+[10/19/26, 8:43:59 AM] Sachin Gotmare: Thanks
+[10/19/26, 2:11:49 PM] Sachin Gotmare: Sir Ramayana hospital madhun hospital software chi requirement aali aahe, ipd, opd, lab and pharmacy all in one
+[10/19/26, 2:11:54 PM] Sachin Gotmare: Call me when you available
+[10/19/26, 2:58:59 PM] You: I'm creating figma for him
+[10/19/26, 3:24:27 PM] You: https://poc.sgsoftech.in/
+[10/19/26, 3:37:13 PM] You: Hello Anshul Sir,
+
+Sachin this side. As discussed regarding the IPD/OPD Software (HIMS), please find the below link for a basic overview of how our software may look and function once developed.
+
+Note: The UI, features, and functionality may be modified or enhanced in the final product based on the requirements.
+
+
+https://poc.sgsoftech.in
+
+Thanks,
+SG Softech
+[10/19/26, 3:37:57 PM] You: Hello 👋,
+Thank you for contacting SG Softech.
+
+We will get back to you shortly.
+If your query is urgent, you can also reach us at our alternate number: +91-8983212621
+
+📧 You may also email us at: support@sgsoftech.in | sales@sgsoftech.in
+🌐 Visit us at: https://sgsoftech.in
+
+We appreciate your patience and look forward to assisting you!
+
+Thanks & Regards,
+SG Softech
+[10/19/26, 5:18:12 PM] You: url: https://test.sgsoftech.in/login
+path: D:\SG-SOFTECH\Demo\MLab_Web_Test
+[10/19/26, 5:22:28 PM] Sachin Gotmare: [Forwarded] <image omitted>
+[10/19/26, 10:24:10 PM] Manish Gedam: [Forwarded] url = new Uri(baseUri, string.Format("/WASender/SendMessageAttachment?contactNumber=91{0}&message={1}&instanceId={2}",
+                                    number, encodedMessage, GbVariables.WAInstanceId));
+                                    using (var content = new MultipartFormDataContent())
+                                    {
+                                        using (FileStream fs = File.OpenRead(attachmentPath))
+                                        {
+                                            var streamContent = new StreamContent(fs);
+                                            streamContent.Headers.Add("Content-Type", "application/pdf");
+                                            streamContent.Headers.Add("Content-Disposition", "form-data; name=\"file\"; filename=\"" + Path.GetFileName(attachmentPath) + "\"");
+                                            content.Add(streamContent, "file", Path.GetFileName(attachmentPath));
+
+                                            using (HttpResponseMessage response = await client.PostAsync(url, content))
+                                            {
+                                                response.EnsureSuccessStatusCode();
+                                                using (HttpContent rcontent = response.Content)
+                                                {
+                                                    var jsonResult = await rcontent.ReadAsStringAsync();
+                                                    var result = JsonConvert.DeserializeObject<APIResponse>(jsonResult);
+                                                    status = result.Status;
+                                                }
+                                            }
+                                        }
+                                    }
+[10/19/26, 10:24:27 PM] Manish Gedam: This is .net code to send attachment
+[10/19/26, 10:25:09 PM] You: ok thanks
+[10/19/26, 10:25:46 PM] Manish Gedam: Replace the instance id request id, number and message
+[10/19/26, 10:26:09 PM] You: ok
+[10/19/26, 10:26:12 PM] Manish Gedam: Same like our normal msg send api call
+[10/19/26, 10:27:01 PM] You: sure
+[10/19/26, 10:58:58 PM] You: <image omitted> @Manish Gedam  sir
+[10/19/26, 10:59:33 PM] You: <image omitted>
+[10/20/26, 1:41:07 AM] You: <image omitted>
+[10/20/26, 11:36:36 AM] You: <image omitted>
+[10/20/26, 11:45:43 AM] Sachin Gotmare: @Manish Gedam  sir gunjan wale cash discount update cha wait krt aahe
+[10/20/26, 12:43:53 PM] Manish Gedam: Ready ahe ani report changes pan, deploy karyach baki ahe krto in 1hr
+[10/20/26, 1:03:15 PM] Sachin Gotmare: Ok
+[10/20/26, 3:59:30 PM] Manish Gedam: And between each msg send add random pause varies from 1-5seconds. Otherwise watsap will detect as bot and can block the number
+[10/20/26, 4:37:21 PM] Sachin Gotmare: Ok
+[10/21/26, 4:37:11 PM] Manish Gedam: <image omitted> Jar bottle or liquid wale item select kele tr he tital change hote ki asech distat
+[10/21/26, 4:37:13 PM] Manish Gedam: <unknown message>
+[10/21/26, 4:40:16 PM] Sachin Gotmare: Don’t know which software is this 
+Ani jar list madhe bottle ani tablet dile asle tar ?
+[10/21/26, 4:41:51 PM] Manish Gedam: Marg
+[10/21/26, 4:42:22 PM] Manish Gedam: Shridhar la vicharsil ekda
+[10/21/26, 4:53:46 PM] You: Ok
+[10/22/26, 9:39:10 PM] You: <document omitted>
+[10/22/26, 9:39:57 PM] Manish Gedam: ?
+[10/22/26, 9:40:55 PM] You: mlab desktop complete feature and function xmind
+[10/23/26, 8:28:45 PM] Sachin Gotmare: Sir udya sakali gondia chalalo, registration transfer functionality zali kay????
+[10/23/26, 11:13:56 PM] Manish Gedam: Ho zali ahe
+[10/23/26, 11:14:52 PM] Manish Gedam: Reg transfer,  bulk registration, pndt submit and reports sagl zal ahe
+[10/23/26, 11:15:02 PM] Manish Gedam: Udya deploy krun deil
+[10/24/26, 5:47:36 AM] Sachin Gotmare: Ok
+[10/24/26, 7:27:08 AM] Sachin Gotmare: @Manish Gedamsir Nighalo mi gondiya sathi, will call you arund 9 for machine integration
+[10/24/26, 9:08:30 AM] Sachin Gotmare: https://youtu.be/EQerq8N2PAE?si=rKVh6_sVVSopQX-F
+[10/24/26, 9:08:53 AM] Sachin Gotmare: https://youtu.be/QZyqeosmvdk?si=WaauPT8UMFLf7KSL
+[10/24/26, 9:09:03 AM] Sachin Gotmare: Hi machine aahe nidan madhe
+[10/24/26, 10:31:26 AM] Manish Gedam: <document omitted> HematologyReader.exe
+[10/24/26, 10:31:33 AM] Manish Gedam: <document omitted> data from machine.txt
+[10/24/26, 11:32:40 AM] Manish Gedam: New changes are deployed including analyzers
+[10/24/26, 11:50:15 AM] Sachin Gotmare: Nidan Daignostic Web
+
+Generate lic for this in cms, rqst number added
+[10/24/26, 11:52:30 AM] Manish Gedam: Done
+[10/24/26, 3:15:54 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 3:20:01 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:20:02 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:20:02 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:20:02 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:20:03 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:20:03 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:25:36 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 3:29:53 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:29:54 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:31:04 PM] Manish Gedam: [Forwarded] <video omitted>
+[10/24/26, 3:31:04 PM] Manish Gedam: [Forwarded] <image omitted>
+[10/24/26, 3:32:21 PM] Manish Gedam: Old msg
+[10/24/26, 3:39:08 PM] Manish Gedam: Comm
+[10/24/26, 4:24:58 PM] You: <document omitted>
+[10/24/26, 5:15:28 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 5:18:46 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 5:19:39 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 5:33:05 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 5:54:19 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 5:57:41 PM] You: <document omitted> nidan cbc machine dump.txt
+[10/24/26, 5:57:58 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 5:58:06 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 5:58:36 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 6:01:01 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 6:25:13 PM] Sachin Gotmare: Mlab web requirements:
+1. Intest, master, every test should have CGHS code and while searching test it should search by cghs code
+2. ⁠ if report printed for IPD patient, then along with current report result, report should print last previous two days report result beside current day report
+[10/24/26, 6:25:40 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 6:26:01 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 6:27:26 PM] Sachin Gotmare: <image omitted>
+[10/24/26, 7:21:27 PM] You: <document omitted> this is the backup of biochemistery machine. they are using SQL
+[10/24/26, 7:22:44 PM] Sachin Gotmare: <image omitted>
+[10/25/26, 2:27:23 AM] You: <document omitted>
+[10/25/26, 7:10:14 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:10:28 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:11:03 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:13:55 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:15:36 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:15:43 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:16:03 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:16:20 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:16:44 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 7:18:48 AM] You: <image omitted>
+[10/25/26, 7:19:14 AM] You: <image omitted>
+[10/25/26, 7:21:10 AM] You: <document omitted> cbc_machine_dump.zip
+[10/25/26, 8:01:46 AM] Sachin Gotmare: <image omitted>
+[10/25/26, 1:25:21 PM] Manish Gedam: <album message>
+[10/25/26, 1:25:21 PM] Manish Gedam: <image omitted>
+[10/25/26, 1:25:22 PM] Manish Gedam: <image omitted>
+[10/25/26, 1:32:53 PM] You: Badhiya 👍👍
+[10/25/26, 1:37:15 PM] You: <image omitted> @Manish Gedam
+[10/25/26, 1:46:02 PM] Sachin Gotmare: [Forwarded] <image omitted>
+[10/25/26, 1:56:29 PM] You: <image omitted>
+[10/25/26, 3:09:51 PM] You: lab code: gunjanadmin
+gunjanadmin
+Admin@123
+[10/25/26, 3:55:40 PM] You: mlab web requirements:
+1. while creating lab when password policy fail to created user but lab is getting created and in second attempt it is showing lab code already exists
+2. when lic expired then org user should also lock
+[10/25/26, 4:12:26 PM] You: mlab web requirements:
+1. if lab getting failed while creation then its not loading in org login
+2. org login getting failed and shows "{"success":false,"message":"Organization administrators can access reporting features only."}" on page refresh
+[10/25/26, 4:44:09 PM] Manish Gedam: Apan deun deu complete kelyavar revert karaych option
+[10/25/26, 4:44:29 PM] Manish Gedam: Ani kai tri issue watat ahe receipt marlyavar pan pending dakhvat ahe
+[10/25/26, 4:44:47 PM] Sachin Gotmare: Ho
+[10/25/26, 4:44:49 PM] Sachin Gotmare: Ok
+[10/25/26, 5:28:37 PM] You: mlab web requirements:
+1. in audit report data change is unable to show if any test deleted and other test added in place of it in pt entry
+2. if reading entry set as mark complete then pt entry should be editable to add discount
+3. even after rcpt entry amout showing balance in peding report and on pt entry (this issue happened when pay type changed)
+[10/25/26, 6:43:41 PM] You: <image omitted> New issue, requirements:
+
+1. when created new lab and data migration utility not ran but still seed data not loaded and found
+[10/25/26, 7:52:49 PM] You: <document omitted>
+[10/25/26, 7:59:41 PM] You: <document omitted> https://faq.whatsapp.com/1356785542323967/?cms_platform=web&helpref=platform_switcher
+[10/25/26, 8:43:10 PM] You: <image omitted>
+[10/25/26, 10:12:23 PM] You: <image omitted> What should be our HIMS Costing.
+[10/25/26, 10:12:23 PM] You: <image omitted>
+[10/25/26, 10:13:35 PM] You: What should be our HIMS Costing ☝️
+
+and
+ 
+HIMS modules:
+
+1. OPD Management
+- Patient registration / UHID
+- Appointment management
+- Token / queue management
+- Doctor consultation
+- Prescription
+- Patient history
+- Follow-up
+- OPD billing
+- Doctor schedule
+2. IPD Management
+- Admission
+- Bed / ward management
+- Patient transfer
+- Nursing station
+- Doctor rounds
+- Treatment / medication records
+- Advance collection
+- IPD billing
+- Discharge summary
+- Final billing
+3. Diagnostic Center
+- Diagnostic test master
+- Test booking / orders
+- Sample collection
+- Pathology workflow
+- Result entry
+- Report generation
+- Doctor-wise / patient-wise reports
+- Diagnostic billing
+- Lab report printing/sharing
+- Analyzer integration — if applicable / separately scoped
+4. Pharmacy
+- Medicine master
+- Purchase
+- Supplier management
+- GRN
+- Batch management
+- Expiry tracking
+- Stock management
+- Sales / dispensing
+- Returns
+- Purchase/sales reports
+- Low-stock alerts
+5. Billing & Accounts
+- OPD billing
+- IPD billing
+- Pharmacy billing
+- Diagnostic billing
+- Discounts
+- Payments
+- Refunds
+- Daily collection
+- Outstanding reports
+6. Reports & Administration
+- MIS dashboards
+- Revenue reports
+- Department-wise reports
+- Doctor-wise reports
+- User management
+- Roles & permissions
+- Audit trail
+- Backup/restore
+[10/25/26, 10:14:19 PM] You: if this is ok, then accordingly i'll start preparing the quotation for RAMAYANA HOSPITAL
+[10/25/26, 10:26:29 PM] Manish Gedam: Looks good
+[10/25/26, 10:28:13 PM] Manish Gedam: 2.7L quote karu mag discount vagire deun 2.3-2.5L cha mdhe final krta u eil
+[10/25/26, 10:30:11 PM] Manish Gedam: Badhiya ahe, images thodya ankhi relevent tak, ani main complete software solutions hi line change kru goyal sarkhi watte
+[10/25/26, 10:30:32 PM] Manish Gedam: AI vagire taku slogan mdhe
+[10/25/26, 10:32:03 PM] Sachin Gotmare: Aplya case madhe complete software solution proper relate krte, banner print krt aahe yache 5”x3” madhe, gondia currier kryche aahe
+[10/25/26, 10:32:14 PM] Sachin Gotmare: Okay
+[10/25/26, 10:42:53 PM] Sachin Gotmare: <image omitted>
+[10/25/26, 10:57:45 PM] Manish Gedam: Beyond Software, Beyond Limits.”
+[10/25/26, 10:58:43 PM] Manish Gedam: Complete AI Software Solutions
+[10/25/26, 11:00:28 PM] Sachin Gotmare: Mala existing line straight and crisps clear watate. Tasa tithe Gondia la yevadhi English koni nahi smjt. Hindi mai banakar bhejo mhne sir😄
+[10/25/26, 11:00:31 PM] Manish Gedam: Technology That Thinks Ahead.”
+[10/25/26, 11:01:13 PM] Manish Gedam: Hindi madhe pan translate krun banvu ek
+[10/25/26, 11:01:32 PM] Manish Gedam: He tak minor change
+[10/26/26, 8:16:24 AM] - Sachin Gotmare changed the group icon
+[10/26/26, 12:35:30 PM] You: mlab web requirement:
+1. in receipt entry patient should also search by UHUID
+2. if one patient has 10 pt entry then user should be able to paid all off them in one shot via receipt entry
+[10/26/26, 12:49:57 PM] You: <document omitted> @Manish Gedam sir pls review
+[10/26/26, 1:14:01 PM] You: 3. add UHID filter in patient wise test report
+[10/26/26, 1:18:08 PM] You: SG Softech Server
+
+Ultra viewer: 91511953
+[10/26/26, 6:22:57 PM] Sachin Gotmare: Mlab web requirements:
+1. In every report where patients name getting in list add patient and uhid filter for e.g patient report in lab report
+2. ⁠add balance amount total in patient wise test report
+3. ⁠in every report add total of balance amount if bal amount column showing in report
+[10/26/26, 6:24:02 PM] Sachin Gotmare: <image omitted> Need total of balance column
+[10/26/26, 6:47:56 PM] Manish Gedam: Te nai dakhu shakt bcoz entry walya fields duplicate data dakhvtat
+[10/26/26, 6:48:13 PM] Manish Gedam: Balance pahasathi dusri report use krav lagel
+[10/26/26, 8:44:12 PM] Manish Gedam: New changes are deployed, now ask them to use pending or user report
+[10/26/26, 8:44:27 PM] Manish Gedam: Patient search with uhid filter added
+[10/26/26, 8:45:08 PM] Manish Gedam: Also provide reopen option to admin on reading for the entry mark completed
+[10/26/26, 8:49:17 PM] Manish Gedam: Done
+[10/26/26, 8:49:21 PM] Manish Gedam: Done
+[10/26/26, 9:24:11 PM] Sachin Gotmare: Okay
+[10/26/26, 9:25:23 PM] Sachin Gotmare: Sir Tatanagar client sathi progress che 3 or 4 points share kara ithe
+[10/26/26, 9:33:03 PM] Manish Gedam: 1.Android and ios app development is completed and currently under testing.
+2.Inventory application is in development phase, masters (item, account, hsn etc) are completed.
+3.purchase entry is 90% done
+4. Sale entry development is about to start
+[10/26/26, 9:33:51 PM] Sachin Gotmare: Thanks
+[10/26/26, 10:30:41 PM] Sachin Gotmare: Mlab web requirements:
+1. If reading entry mark as completed then it won’t be able to delete from pt entry
+2. ⁠if full balance amount paid by receipt entry then discount on pt entry will block else remaining balance amount can be added in discount 
+3. ⁠for company change client have to. Registration transfer only
+4. ⁠if no reading entry or no receipt entry found then user can change company from pt entry
+5. ⁠when all test results added in reading entry and clicked save button but mark complete option not visible, use need to again search that patient to click on mark complete but, but once it reopen and modify and save that time mark complete button is visible
+[10/26/26, 10:42:11 PM] Sachin Gotmare: Mlab web requirements:
+1. If user save all test of all department then status of that respective reading entry will change to completed and if user again click modify button then status will change to pending
+2. ⁠remove mark complete button and automate it
+[10/26/26, 11:16:02 PM] You: pls review ☝️
+[10/26/26, 11:19:35 PM] You: pls check this issue, due to this my lab code change testing is blocked, because i need to add few entries in all newly created labs (test1, test2 and test3)
+
+
+TEST
+TESTORG
+Admin@1234
+
+test1
+test1
+Admin@1234
+
+test2
+test2
+Admin@1234
+
+test3
+test3
+[10/26/26, 11:26:32 PM] You: <image omitted>
+[10/26/26, 11:26:32 PM] You: <image omitted>
+[10/26/26, 11:26:32 PM] You: <image omitted> Third_party WA Business Pricing
+[10/27/26, 12:09:26 AM] Manish Gedam: All good, go ahead
+[10/27/26, 12:14:47 AM] Sachin Gotmare: Sent, added you in cc
+[10/27/26, 9:25:54 AM] Manish Gedam: Reading entry and patient entry auto complete changes are done, ekda proper test krun ghe. Mag udya pasun 3 diwas of rahil
+[10/27/26, 9:54:58 AM] Sachin Gotmare: Okay 👍🏻
+[10/28/26, 11:26:54 AM] You: @Manish Gedam sir Generate rnwl lic for Lifecare Pathology Lab
+[10/28/26, 11:29:15 AM] Manish Gedam: Done
+[10/28/26, 11:29:53 AM] You: Thanks
+[10/28/26, 11:31:19 AM] Sachin Gotmare: <image omitted> Lifecare Pathology Lab renewal
+[10/28/26, 8:49:58 PM] You: @Manish Gedam sir generate lic for 1042- GUNJAN DIAGNOSTIC GUNJAN Web	and 1043-GUNJAN DIAGNOSTIC RAILWAY Web.
+
+request id updated in cms
+[10/28/26, 8:51:08 PM] Manish Gedam: Ok
+[10/28/26, 8:52:37 PM] You: later we will convert gunjan existing code "GUNJANGG" GANGOTRI
+[10/28/26, 8:53:07 PM] You: keep expiry date 1/10/2027
+[10/28/26, 9:31:02 PM] You: let me know once lic generated
+[10/28/26, 9:33:33 PM] You: <image omitted> for gunjan org showing below message
+
+"GUNJAN DIAGNOSTIC: License is not active. Please activate or renew."
+[10/28/26, 10:09:30 PM] Manish Gedam: Generated
+[10/28/26, 10:09:51 PM] You: Ok
+[10/28/26, 10:14:42 PM] You: <image omitted> @Manish Gedam mistakenly mi key validity chya jagevr expiry date sangitli. 
+
+lic validity date for below labs should be 30/04/2027 bcz 10k is pending 
+1042 GUNJAN DIAGNOSTIC GUNJAN Web	
+1043 GUNJAN DIAGNOSTIC RAILWAY Web
+[10/28/26, 11:36:35 PM] Manish Gedam: Mlab web madhe username duplicate rahu shakte ata, unique key username + lab ahe
+[10/28/26, 11:36:57 PM] Manish Gedam: So within lab same username nai rahu shkt but for different lab rahu skte
+[10/29/26, 8:29:18 AM] You: Geneate lic for 
+
+1039	GUNJAN DIAGNOSTIC GANGOTRI Web
+[10/29/26, 8:29:47 AM] You: Ok
+[10/29/26, 8:31:25 AM] Manish Gedam: Done
+[10/29/26, 8:31:34 AM] Manish Gedam: Done
+[10/29/26, 8:32:06 AM] Sachin Gotmare: Ok
+[10/29/26, 8:32:12 AM] Manish Gedam: 3 chi pan key update krun ghe
+[10/29/26, 8:32:39 AM] Sachin Gotmare: Ok
+[10/29/26, 8:36:16 AM] Sachin Gotmare: Done
+[10/29/26, 8:38:08 AM] Sachin Gotmare: 👆🏻
+[10/29/26, 8:38:30 AM] Sachin Gotmare: GUNJANADMIN
+gunjanorg
+Admin@123
+[10/29/26, 8:50:51 AM] Manish Gedam: Ha tyanna share nko karu sddhya joprynt te magat nai
+[10/29/26, 8:52:15 AM] Sachin Gotmare: Okay
+[10/29/26, 8:44:20 PM] Sachin Gotmare: <image omitted>
+[10/29/26, 8:44:22 PM] Sachin Gotmare: <image omitted>
+[10/29/26, 10:38:09 PM] You: <document omitted>
+[10/29/26, 10:43:14 PM] You: mlab web requirements:
+1. add active inactive option in accounts/company
+2. add company wise voucher number series for e.g company name General Patient then voucher user will add GP in account setting and voucher number will generate GPXXXXXXXXXX
+3. add whole lab wise voucher number for e.g if client don't want company wise voucher number but required voucher number like business initial for e.g Lab name Sai Scan and voucher SCXXXXXXXXXX
+[10/30/26, 9:30:05 AM] Sachin Gotmare: Sir aapli www.sgsoftech.in website update krychi aahe
+[10/30/26, 9:30:12 AM] Sachin Gotmare: Pls share access
+[10/30/26, 10:22:30 AM] Manish Gedam: Ok
+[10/30/26, 5:50:05 PM] You: <image omitted>
+[10/30/26, 5:50:05 PM] You: <image omitted>
+[10/30/26, 11:07:49 PM] You: Windows PC
+   │
+   └── Task Scheduler
+         │
+         ├── Trigger: At system boot
+         ├── Delay: 30 seconds
+         ├── Account: SYSTEM
+         ├── Privileges: Highest
+         ├── Execution limit: NONE ✅
+         │
+         └── PowerShell Failover Monitor
+                │
+                ├── Check Airtel every 5 sec
+                │
+                ├── Airtel DOWN
+                │      └── Switch → Jio
+                │           └── WhatsApp alert
+                │
+                └── Airtel RECOVERED
+                       └── Switch → Airtel
+                            └── WhatsApp alert
+[10/30/26, 11:10:32 PM] Manish Gedam: Let's connect now
+[10/30/26, 11:46:34 PM] Manish Gedam: <document omitted> CMS.zip
+[10/31/26, 8:58:44 AM] Sachin Gotmare: <image omitted>
+[10/31/26, 9:03:18 AM] Manish Gedam: Mast 👌🏼 points madhe , Auto PNDT upload,  Analyzer Machin Integration & Full featured Accounting
+[10/31/26, 9:11:15 AM] Sachin Gotmare: <image omitted>
+[10/31/26, 10:04:52 AM] Manish Gedam: Same baki products sathi pan banv ani veg veglya color them mdhe
+[10/31/26, 10:05:36 AM] Sachin Gotmare: In progress
+[10/31/26, 10:41:59 AM] Sachin Gotmare: <image omitted>
+[10/31/26, 10:42:01 AM] Sachin Gotmare: <image omitted>
+[10/31/26, 10:42:22 AM] Sachin Gotmare: <image omitted>
+[10/31/26, 10:42:23 AM] Sachin Gotmare: <image omitted>
+[10/31/26, 10:42:41 AM] Sachin Gotmare: Utility working as expected, tested by switching off airtel router
+[10/31/26, 11:14:42 AM] You: please check suggested website's in below link, i'll update our as per respective website
+
+https://chatgpt.com/s/t_6ae58016e06c81918eedd4811a5b8b8e
+[10/31/26, 11:16:55 AM] You: 1. https://www.globant.com/?utm_source=chatgpt.com
+2. https://www.thoughtworks.com/?utm_source=chatgpt.com
+3. https://www.endava.com/?utm_source=chatgpt.com
+4. https://www.thewebpagebuilder.in/?utm_source=chatgpt.com
+[10/31/26, 11:26:50 AM] You: konti website?
+[10/31/26, 11:32:08 AM] Manish Gedam: https://www.thoughtworks.com/?utm_source=chatgpt.com
+[10/31/26, 11:32:22 AM] Manish Gedam: Hi wali better watat ahe as per our usecase
+[10/31/26, 11:32:44 AM] Sachin Gotmare: Okay
+[10/31/26, 11:32:56 AM] Manish Gedam: Tula konti watat ahe
+[10/31/26, 11:34:49 AM] You: endava.com
+[10/31/26, 11:35:16 AM] You: thewebpagebuilder.in
+[10/31/26, 11:36:00 AM] Manish Gedam: Hi pan good looking ahe but aple products kuthe taku te section khas nai ahe
+[10/31/26, 11:36:30 AM] You: hi wali jasta aaplya business oriented watat aahe
+[10/31/26, 11:37:00 AM] Manish Gedam: He ahe detaild but khup jast bharkacch watte clean nai watat
+[10/31/26, 11:37:46 AM] You: futuristic watate
+[10/31/26, 11:37:47 AM] Manish Gedam: Konala dili tr matter pahunch read nai krnar, aplyala simple pahjie jyat aplya services disle with images
+[10/31/26, 11:38:04 AM] You: 100%
+[10/31/26, 11:38:06 AM] Manish Gedam: Ho, but simple kru shkt asel tr karun pah
+[10/31/26, 11:38:33 AM] You: aadhi throughout work sobat krto
+[10/31/26, 11:39:07 AM] You: actually aaj last dat aahe accenture copilot cha udya parat 100% sathi reset houn jayil tokens
+[10/31/26, 11:39:10 AM] Manish Gedam: Tya hishobani hi better watat ahe, horrizanal scrol tile war product dakhvta yete
+[10/31/26, 11:39:12 AM] You: aata 40% baki aahe
+[10/31/26, 11:39:20 AM] Manish Gedam: Ok
+[10/31/26, 11:39:36 AM] Manish Gedam: Mag single page ch ahet ya tr banv multiple
+[10/31/26, 11:39:49 AM] You: ok
+[10/31/26, 11:39:52 AM] Manish Gedam: Ji output mdhe changli watli ti theu
+[10/31/26, 11:41:59 AM] You: ok
+[10/31/26, 11:42:02 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:05 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:32 AM] You: <image omitted>
+[10/31/26, 11:45:50 AM] You: single red theme for all jasta chan watate
+[10/31/26, 12:09:39 PM] Manish Gedam: Nai red red watel, light kar or elese different color tiles
+[10/31/26, 12:09:56 PM] Manish Gedam: Krun pah will see final output kontt best watel te theu
+[10/31/26, 12:10:45 PM] You: different color wale pn takle aahe vr
+[10/31/26, 3:55:54 PM] You: @Manish Gedam  sir updated site hosted at please review 
+
+https://poc.sgsoftech.in/
+[10/31/26, 3:56:08 PM] You: <document omitted>
+[10/31/26, 4:01:47 PM] Manish Gedam: Mast watat ahe, iquiry wal pan karun ghe implement
+[10/31/26, 4:02:01 PM] Manish Gedam: Email ale pahije koni inquiry raise keli tr
+[10/31/26, 4:02:49 PM] Sachin Gotmare: Email chi setting iis-deployment.md file madhe aahe
+[10/31/26, 4:03:10 PM] Sachin Gotmare: https://www.facebook.com/share/r/1BoRjLfKam/?mibextid=wwXIfr
+[10/31/26, 4:03:38 PM] Sachin Gotmare: Ya real chya skills and tya purna website cha mix reference waprun banavli
+[10/31/26, 4:03:55 PM] You: <video omitted>
+[10/31/26, 4:05:17 PM] Manish Gedam: He use kel ka?
+[10/31/26, 4:05:56 PM] Sachin Gotmare: Ho tya skills installed kelya copilot madhe
+[10/31/26, 4:07:06 PM] Manish Gedam: Sahi ahe, but tyani tr claud mhntl ahe n
+[10/31/26, 4:08:01 PM] Sachin Gotmare: Copilot madhe srvyanchech agent ahe
+[10/31/26, 4:08:17 PM] Sachin Gotmare: <image omitted>
+[10/31/26, 4:08:19 PM] Sachin Gotmare: <image omitted>
+[10/31/26, 4:23:33 PM] You: sir tumhi iis madhe POC  website chi  location baghun respective website cms sobat integrate karun ghyal aani POC madhe below path set karun takal
+
+"E:\Project's\Demo-Websites-Figma\HIMS"
+[11/1/26, 2:50:10 AM] Sachin Gotmare: Let me know once done
+[11/1/26, 2:50:27 AM] Sachin Gotmare: Trying to create and deploy one android app
+[11/1/26, 2:50:34 AM] Sachin Gotmare: Garage manager
+[11/1/26, 2:58:05 AM] You: Gheu ka server???
+[11/1/26, 3:05:47 AM] Manish Gedam: Ho, im done
+[11/1/26, 3:05:57 AM] You: ok
+[11/1/26, 3:07:15 AM] Manish Gedam: Added new features
+Account inactive
+Voucher series in admin panel (now we can crete multiple series for all transactional entry pages)
+[11/1/26, 3:07:48 AM] You: okay
+[11/1/26, 3:15:42 AM] Sachin Gotmare: <image omitted> How we can decide here for which company this series will take
+[11/1/26, 3:15:43 AM] Sachin Gotmare: ??
+[11/1/26, 3:15:43 AM] Sachin Gotmare: <image omitted> How we can decide here for which company this series will take
+[11/1/26, 9:01:37 AM] Manish Gedam: Manually select karavi lagel while opening patient entry
+[11/1/26, 9:02:15 AM] Manish Gedam: Aproach change kela ahe me, company madhe nai rahnar series
+[11/1/26, 9:45:29 AM] Sachin Gotmare: Ok
+[11/1/26, 10:25:31 AM] You: sir website integration nahi zala kay???
+[11/1/26, 10:26:15 AM] You: here is the user guide "E:\Project's\mlab-web-guide"
+[11/1/26, 10:41:38 AM] Manish Gedam: Not yet
+[11/1/26, 10:45:38 AM] You: mlab web requirements:
+1. login report showing blank
+[11/1/26, 2:00:22 PM] You: mlab web requirement:
+1. organization admin should able to change his/her password
+[11/1/26, 2:00:35 PM] You: <image omitted>
+[11/1/26, 2:00:44 PM] You: GUNJANADMIN
+gunjanorg
+Admin@123
+[11/1/26, 7:47:10 PM] You: <document omitted>
+[11/1/26, 7:50:56 PM] You: This message was deleted by admin Manish Gedam
+[11/1/26, 7:52:47 PM] You: <document omitted>
+[11/1/26, 7:56:59 PM] You: manish2030@gmail.com
+
+Admin@123
+[11/1/26, 8:01:01 PM] You: Qwerty=-09876543
+[11/1/26, 8:35:14 PM] Manish Gedam: This also invalid password
+[11/1/26, 8:35:54 PM] You: Ok, let it be for now
+[11/1/26, 9:39:18 PM] Manish Gedam: <image omitted> Added help and dark/light icon
+[11/1/26, 9:40:07 PM] Manish Gedam: Dark mode, SGSoftech branding and help implemented and few esthetics changes
+[11/1/26, 9:40:22 PM] Sachin Gotmare: Sahi
+[11/1/26, 9:40:36 PM] Sachin Gotmare: Website pn link krun dya
+[11/1/26, 9:40:50 PM] Manish Gedam: Ok
+[11/1/26, 9:42:10 PM] Manish Gedam: Manually test krun ghe dark mode and help section saglya pages war font vagire readable ahe ka tr
+[11/1/26, 9:42:31 PM] Sachin Gotmare: Sure
+[11/1/26, 9:42:55 PM] Manish Gedam: Mala tr mazya laptop war dark mode eye pleasant watto compared to white, tu pah kasa watto
+[11/1/26, 9:44:01 PM] Sachin Gotmare: Mi srvech apps like teams vs code n outlook aws portal dark mdhe use krto
+[11/1/26, 11:13:55 PM] Sachin Gotmare: website olch old hot aahe
+[11/1/26, 11:56:38 PM] Manish Gedam: ?
+[11/2/26, 8:07:17 AM] Sachin Gotmare: website oldch load hot ahe
+[11/2/26, 8:57:55 AM] Manish Gedam: Cache clear kar, bcoz me check kel hott server var changes disat hote local host through ani mazyakde pan open keli tr changes disat ahe
+[11/2/26, 9:02:12 AM] Sachin Gotmare: nahi sir oldch load aahe
+[11/2/26, 9:02:15 AM] Sachin Gotmare: mobile madhe
+[11/2/26, 9:03:15 AM] Manish Gedam: Mazya mobile madhe updated disat ahe, ekda network change kr or else cache clean kr
+[11/2/26, 9:06:12 AM] Sachin Gotmare: <image omitted>
+[11/2/26, 9:06:15 AM] Sachin Gotmare: <image omitted>
+[11/2/26, 9:06:20 AM] Sachin Gotmare: laptop madhe check krto
+[11/2/26, 9:06:42 AM] Manish Gedam: Cms update nai keli😀
+[11/2/26, 9:07:12 AM] Sachin Gotmare: hmmm
+[11/2/26, 9:07:21 AM] Sachin Gotmare: mg konti update keli?
+[11/2/26, 9:07:24 AM] Manish Gedam: I was talking abt mlabweb
+[11/2/26, 9:07:48 AM] Manish Gedam: This is mlabweb
+[11/2/26, 9:07:50 AM] Sachin Gotmare: 😓
+[11/2/26, 9:08:03 AM] Manish Gedam: Aaj krto
+[11/2/26, 9:08:08 AM] Sachin Gotmare: ok
+[11/2/26, 10:39:24 AM] You: <image omitted> jabardast disat aahe dark background 😍
+[11/2/26, 11:10:52 AM] Manish Gedam: Ho
+[11/2/26, 12:06:46 PM] You: @Manish Gedam generate license for SAI SCAN & DIAGNOSTIC CENTRE PVT. LTD. Web.
+
+Dr.Mohit and Sushmita mam sobat bolalo they are very happy with new mlab web and want to try it. and asked me to share rates.
+[11/2/26, 12:16:14 PM] Manish Gedam: Done 3 months, tyanna sagle future plans sangitle n like mobile app and online orders
+[11/2/26, 12:27:21 PM] You: ajun ek call ghycha aahe
+[11/2/26, 12:49:38 PM] You: mlab web requirements:
+
+1. update test search criteria in pt entry
+2. organization admin should able to change his/her password
+3. update reporting in organization error
+4. there is no data available in software when new lab is created
+5. case sensitive user name in report filter
+[11/2/26, 1:33:41 PM] You: <document omitted>
+[11/2/26, 1:57:03 PM] You: <document omitted>
+[11/2/26, 2:14:30 PM] You: sharing one more zip for website, which having everything
+[11/2/26, 2:24:00 PM] Manish Gedam: Cms is deployed
+[11/2/26, 2:54:40 PM] You: <image omitted> email working
+[11/2/26, 3:30:06 PM] Manish Gedam: Good.. subject line needs to be modify include name of person
+[11/2/26, 3:30:19 PM] Manish Gedam: Ill make that change
+[11/2/26, 3:31:32 PM] Sachin Gotmare: ok, m update gmail inbox list, all unwanted emails will go to respective folders and email from sales@sgsoftech.in will stay in inbox with important tag
+[11/2/26, 3:40:59 PM] You: let me know once you fix subject line then I'll add email filter accordingly
+[11/2/26, 4:01:33 PM] You: review below message once
+[11/2/26, 4:03:05 PM] You: Dear Sai Scan Team,
+
+As discussed, your existing MLab-Desktop Software license is scheduled to expire on 01/04/2027.
+
+To continue using MLab-Web, a commercial license will need to be generated. Please find the commercial pricing details below:
+
+💻 MLab-Web – Commercial Pricing
+
+▪️ One-Time Software Cost: ₹40,000/-
+▪️ Annual Maintenance (AMC): ₹15,000/- per year
+▪️ Included Users: 10 Users
+▪️ Additional Users: ₹1,000/- per additional user
+
+🌐 Key Benefits of MLab-Web Commercial Version
+
+▪️ Access the software across multiple locations and counters under your organization.
+▪️ Centralized data management across all locations.
+▪️ Guaranteed and accurate data migration from MLab-Desktop to MLab-Web, ensuring the transfer of your existing data.
+
+📊 Online Software (MLab-Web) – Advantages
+
+✅ Accessible from anywhere through any internet-connected device.
+✅ Centralized data access for multiple locations and counters.
+✅ No software installation required on individual computers; simply access it through a web browser.
+✅ Centralized software updates, maintenance and deployment.
+✅ Convenient remote monitoring and management.
+✅ Flexible and scalable for future business expansion.
+✅ All locations work on the same centralized database, reducing data duplication and synchronization issues.
+
+⚠️ Desktop / Offline Software – Disadvantages
+
+▪️ Generally restricted to local computers or networks unless additional remote-access arrangements are configured.
+▪️ Difficult to access and manage data across multiple locations.
+▪️ Data synchronization between different branches can be challenging.
+▪️ Software updates and maintenance may need to be performed separately on individual computers.
+▪️ Remote monitoring and management are less convenient.
+▪️ Hardware failure or local server issues can affect software availability.
+▪️ Expanding operations across multiple locations may require additional infrastructure and configuration.
+
+Kindly confirm whether you would like to proceed with the MLab-Web commercial version so that we can initiate the licensing and necessary data migration process.
+
+Thank you!
+
+SG Softech
+[11/3/26, 1:08:56 AM] Sachin Gotmare: can we send this to  sai scan👆🏻
+[11/3/26, 1:22:01 AM] Manish Gedam: Ho
+[11/3/26, 5:28:58 PM] You: <image omitted> change validity to 8.10.26
+[11/3/26, 10:51:02 PM] You: Mlab Web Requirements:
+1. Lab logo configuration in report view via Lab UI
+2. Report template content management style, size etc via UI
+3. user guide should work in all languages
+4. subscription configuration management via Master login
