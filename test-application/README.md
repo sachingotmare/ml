@@ -20,7 +20,7 @@ Portable UI test app for running live smoke/regression flows against MLab.
 - `credentials.json` - auto-created after **Save Config**
 
 ## Run on any Windows PC
-1. Install Python 3.10+.
+1. Install Python 3.15+.
 2. Copy this folder to target PC.
 3. Double-click `run.bat`.
 4. Enter URL/Lab/User/Password if needed.

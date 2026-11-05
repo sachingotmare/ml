@@ -23,7 +23,7 @@ Dark-themed desktop backup utility for PostgreSQL, inspired by SQL Backup Master
 
 ## Requirements
 
-- Python 3.10+
+- Python 3.15+
 - PostgreSQL client tools (`pg_dump`) installed
 - `psycopg2-binary`
 - Google Drive API + OneDrive API dependencies (see `requirements.txt`)

@@ -25,7 +25,7 @@ Based on the logic from `fix_identity_server.sql`.
 
 ## Requirements
 
-- Python 3.9+
+- Python 3.15+
 - `psycopg2-binary`
 
 ```bash
