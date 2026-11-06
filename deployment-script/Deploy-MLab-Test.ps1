@@ -259,6 +259,9 @@ try {
         Wait-IisState -ObjectType AppPool -Name $appPoolName -ExpectedState Stopped
     }
 
+    Write-Host 'Waiting 5 seconds for IIS worker processes to release publish files'
+    Start-Sleep -Seconds 5
+
     Write-Host 'Removing replaceable content from the live publish folder'
     foreach ($item in Get-ChildItem -LiteralPath $livePublishPath -Force) {
         $keepItem = $false
