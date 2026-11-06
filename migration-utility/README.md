@@ -10,7 +10,7 @@ GUI tool to migrate data from **SQL Server 2008 R2 (NIDANNEW)** to **PostgreSQL 
 python migration_tool.py
 ```
 
-Requires Python 3.10+. Install dependencies once:
+Requires Python 3.15+. Install dependencies once:
 
 ```
 pip install pyodbc psycopg2-binary

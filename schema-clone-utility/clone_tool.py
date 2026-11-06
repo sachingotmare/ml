@@ -208,7 +208,7 @@ def run_clone(
         # ── Block 1: Drop ───────────────────────────────────────────────────
         if "drop" in steps:
             if cancel_evt.is_set():
-                return
+                return False
             log("── Block 1 — Drop all tables in target schema", "HEAD")
             t0 = time.time()
             dst_cur.execute(_sql_drop_tables(target_schema))
@@ -221,7 +221,7 @@ def run_clone(
         # ── Block 2: Clone ──────────────────────────────────────────────────
         if "clone" in steps:
             if cancel_evt.is_set():
-                return
+                return False
             log(f"── Block 2 — Clone  '{source_schema}'  →  '{target_schema}'", "HEAD")
             t0 = time.time()
             dst_cur.execute(_sql_clone_tables(source_schema, target_schema))
@@ -234,7 +234,7 @@ def run_clone(
         # ── Block 3: Sync sequences ─────────────────────────────────────────
         if "sync" in steps:
             if cancel_evt.is_set():
-                return
+                return False
             log("── Block 3 — Sync IDENTITY / serial sequences", "HEAD")
             t0 = time.time()
             dst_cur.execute(_sql_sync_sequences(target_schema))
@@ -247,7 +247,7 @@ def run_clone(
         # ── Block 4: Verify ─────────────────────────────────────────────────
         if "verify" in steps:
             if cancel_evt.is_set():
-                return
+                return False
             log("── Block 4 — Verify row counts", "HEAD")
             dst_cur.execute(_sql_verify(target_schema))
             rows = dst_cur.fetchall()
@@ -274,7 +274,7 @@ def run_clone(
         if src_conn:
             try: src_conn.close()
             except Exception: pass
-        return ok
+    return ok
 
 
 # ─── GUI helpers ──────────────────────────────────────────────────────────────

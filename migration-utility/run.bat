@@ -10,7 +10,7 @@ echo.
 where python >nul 2>&1
 if errorlevel 1 (
     echo ERROR: Python not found in PATH.
-    echo Please install Python 3.9+ from https://www.python.org/downloads/
+    echo Please install Python 3.15+ from https://www.python.org/downloads/
     echo Make sure to check "Add Python to PATH" during install.
     pause
     exit /b 1
